@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+	<Color><ID>B_01</ID><Data>262626</Data></Color>
+	<Color><ID>B_02</ID><Data>404040</Data></Color>
+	<Color><ID>B_03</ID><Data>999999</Data></Color>
+	<Color><ID>B_04</ID><Data>bfbfbf</Data></Color>
+	<Color><ID>B_05</ID><Data>dfdfdf</Data></Color>
+	<Color><ID>B_06</ID><Data>737373</Data></Color>
+	<Color><ID>B_08</ID><Data>808080</Data></Color>
+	
+	<Color><ID>W</ID><Data>ffffff</Data></Color>
+	
+	<Color><ID>MT_01</ID><Data>06ACBE</Data></Color>
+	<Color><ID>MT_02</ID><Data>00A1B3</Data></Color>
+	
+	<Color><ID>RO_01</ID><Data>e6624f</Data></Color>
+	<Color><ID>BR_01</ID><Data>4d3636</Data></Color>
+	<Color><ID>BR_02</ID><Data>6f5959</Data></Color>
+	<Color><ID>YB_01</ID><Data>FFEA40</Data></Color>
+	<Color><ID>YB_02</ID><Data>998f32</Data></Color>
+	<Color><ID>YB_03</ID><Data>FFF173</Data></Color>
+	<Color><ID>YB_04</ID><Data>FFF9C7</Data></Color>
+  
+	<Color><ID>BR_01_disa</ID><Data>d5c981</Data></Color>
+
+	<Color><ID>LINE_01</ID><Data>e0e0e0</Data></Color>
+	<Color><ID>LINE_02</ID><Data>e6e6e6</Data></Color>
+	<Color><ID>LINE_03</ID><Data>777777</Data></Color>
+  
+	<Color><ID>GRAY_01</ID><Data>f5f5f5</Data></Color>
+
+	<Color><ID>BG_02</ID><Data>fcfcfc</Data></Color>
+
+  	<Color><ID>OPCOLOR_01</ID><Data>ff63c3</Data></Color>
+	<Color><ID>OPCOLOR_02</ID><Data>4a90e2</Data></Color>
+
+	<Color><ID>EXCEL_CELL_LINE</ID><Data>CED6E7</Data></Color>
+
+	<!-- (주의) AlphaColor는 2016년 6차 Text와 Button의 Text 색상에만 적용가능하고 나머지 위젯에서는 문제를 야기할 수 있음 -->
+	<!-- (주의) 2017년 1차 TD와 Table 배경색에 적용 추가
+	<!-- ######(Color값)+##(Alpha값 : 1~255 (숫자가 작을 수록 투명)) -->
+
+	<AlphaColor><ID>B_01_A030</ID><Data>2626264C</Data></AlphaColor>
+	<AlphaColor><ID>B_01_A040</ID><Data>26262666</Data></AlphaColor>
+	<AlphaColor><ID>B_01_A050</ID><Data>26262632</Data></AlphaColor>
+	<AlphaColor><ID>B_01_A077</ID><Data>2626264D</Data></AlphaColor>
+	<AlphaColor><ID>B_01_A110</ID><Data>2626266E</Data></AlphaColor>
+	<AlphaColor><ID>B_01_A128</ID><Data>26262680</Data></AlphaColor>
+	<AlphaColor><ID>B_01_A178</ID><Data>262626B2</Data></AlphaColor>
+	<AlphaColor><ID>B_01_A190</ID><Data>262626BE</Data></AlphaColor>
+
+	<AlphaColor><ID>B_02_A120</ID><Data>40404078</Data></AlphaColor>
+	<AlphaColor><ID>B_02_A150</ID><Data>40404096</Data></AlphaColor>
+	<AlphaColor><ID>B_02_A230</ID><Data>404040E6</Data></AlphaColor>
+
+	<AlphaColor><ID>B_03_A110</ID><Data>9999996E</Data></AlphaColor>
+	<AlphaColor><ID>B_03_A230</ID><Data>999999E6</Data></AlphaColor>
+
+	<AlphaColor><ID>B_04_A190</ID><Data>bfbfbfBE</Data></AlphaColor>
+
+	<AlphaColor><ID>B_05_A190</ID><Data>dfdfdfBE</Data></AlphaColor>
+
+	<AlphaColor><ID>B_06_A150</ID><Data>73737396</Data></AlphaColor>
+	<AlphaColor><ID>B_06_A190</ID><Data>737373BE</Data></AlphaColor>
+	<AlphaColor><ID>B_06_A230</ID><Data>737373E6</Data></AlphaColor>
+	
+	<AlphaColor><ID>B_08_A050</ID><Data>80808032</Data></AlphaColor>
+
+	<AlphaColor><ID>W_A050</ID><Data>ffffff32</Data></AlphaColor>
+	<AlphaColor><ID>W_A100</ID><Data>ffffff64</Data></AlphaColor>
+	<AlphaColor><ID>W_A190</ID><Data>ffffffBE</Data></AlphaColor>
+	<AlphaColor><ID>W_A230</ID><Data>ffffffE6</Data></AlphaColor>
+	<AlphaColor><ID>W_A242</ID><Data>fffffff2</Data></AlphaColor>
+</Items>	

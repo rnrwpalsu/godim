@@ -1,0 +1,654 @@
+{
+	"folder_history":
+	[
+		"/C/godim/work"
+	],
+	"last_version": 3126,
+	"last_window_id": 3,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 31.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"빈칸"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"g",
+						"getElementById"
+					],
+					[
+						"re",
+						"result"
+					],
+					[
+						"en",
+						"endValue"
+					],
+					[
+						"b",
+						"beginValue"
+					],
+					[
+						"v",
+						"value"
+					],
+					[
+						"in",
+						"input\tTag"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/C/godim/Sublime Text Build 3126 x64/Data/Packages/User/nodejs.sumlime-build.sublime-build",
+					"settings":
+					{
+						"buffer_size": 57,
+						"encoding": "UTF-8",
+						"line_ending": "Windows",
+						"name": "untitled.sublime-build"
+					}
+				},
+				{
+					"file": "/C/godim/work/server1/mongo1/ex01.js",
+					"settings":
+					{
+						"buffer_size": 318,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "Package Control Messages\n========================\n\nSFTP\n----\n\n  Thanks for installing Sublime SFTP! Below are some quick notes to get you\n  started with the plugin. Please see https://wbond.net/sublime_packages/sftp for\n  the full documentation.\n  \n  \n  There are two major modes of operation:\n  1. Mapping a local folder to a remote folder\n  2. Working off of a server\n  \n  \n  Mapping a Local Folder to a Remote Folder\n  ----\n  \n  To map a local folder to a remote folder, right-click on it in the side bar\n  and select the SFTP/SFTP > Map to Remote... You will enter your connection\n  parameters and a new file will be created named sftp-config.json.\n  \n  Once this file has been saved, all files in that folder and all subfolders\n  will have various operations available via the side bar context menu, editor\n  context menu and command palette.\n  \n  \n  Working off of a Server\n  ----\n  \n  To work off of a server, use the File menu and select SFTP/FTP > Setup Server...\n  You will enter your connection parameters and options then save the file with\n  the name you want to give the connection.\n  \n  Once the server config is saved, you will be automatically connected to the\n  server and you can browse and perform actions via the quick panel.\n  \n  Unfortunely due to limitations of the Sublime Text API, it is not possible\n  to present the remote filesystem in the side bar. There are, however, key\n  bindings for connecting to servers to help reduce the amount of time remote\n  file operations take.\n  \n  \n  Support\n  ----\n  \n  To learn more about the features and settings, please visit\n  https://wbond.net/sublime_packages/sftp.\n  \n  If you are having trouble, please visit\n  https://wbond.net/sublime_packages/sftp/support. The support page includes\n  instructions for capturing a debug log that will be useful if you believe\n  you are experiencing a bug.\n",
+					"settings":
+					{
+						"buffer_size": 1864,
+						"line_ending": "Windows",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
+					}
+				},
+				{
+					"file": "/C/godim/work/server1/ex1/sftp-config.json",
+					"settings":
+					{
+						"buffer_size": 1412,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/godim/work/server1/ex1/views/loginform.ejs",
+					"settings":
+					{
+						"buffer_size": 641,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/godim/work/server1/ex1/routes/index.js",
+					"settings":
+					{
+						"buffer_size": 561,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"last_filter": "Package Control: ",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: sftp",
+						"Package Control: Satisfy Dependencies"
+					]
+				],
+				"width": 400.0
+			},
+			"console":
+			{
+				"height": 181.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/C/godim/work",
+				"/C/godim/work/jQuery",
+				"/C/godim/work/server1",
+				"/C/godim/work/server1/ex1",
+				"/C/godim/work/server1/ex1/routes",
+				"/C/godim/work/server1/ex1/views",
+				"/C/godim/work/server1/guestbook/routes",
+				"/C/godim/work/server1/guestbook/test",
+				"/C/godim/work/server1/mongo1"
+			],
+			"file_history":
+			[
+				"/C/godim/work/jQuery/jq08.html",
+				"/C/godim/work/index.html",
+				"/C/godim/work/jQuery/login.html",
+				"/C/godim/work/server1/guestbook/test/test2.js",
+				"/C/godim/work/server1/guestbook/test/test1.js",
+				"/C/godim/work/jQuery/jq01.html",
+				"/C/godim/work/jQuery/todo_js.html",
+				"/C/godim/work/apply_call.js",
+				"/C/godim/work/ex21.html",
+				"/C/godim/work/ex20.html",
+				"/C/godim/work/ex19.html",
+				"/C/godim/work/ex18.html",
+				"/C/godim/work/obj1.js",
+				"/C/godim/work/ex17.html",
+				"/C/godim/work/ex16.html",
+				"/C/godim/work/ex15.html",
+				"/C/godim/work/map_reduce.js",
+				"/C/godim/work/ex14.html",
+				"/C/godim/work/ex13.html",
+				"/C/godim/work/ex12.html",
+				"/C/godim/work/ex11.html",
+				"/C/godim/work/lodash1.html",
+				"/C/godim/work/ex10.html",
+				"/C/godim/work/ex08.html",
+				"/C/godim/work/ex09.html",
+				"/C/godim/work/lotto3.js",
+				"/C/godim/work/ex05.html",
+				"/C/godim/work/hello.html",
+				"/C/godim/work/lotto2.js",
+				"/C/godim/work/lotto1.js",
+				"/C/godim/work/sum100b.js",
+				"/C/godim/work/sum100.js",
+				"/C/godim/work/ex07.html",
+				"/C/godim/work/ex06.html",
+				"/C/godim/work/ex03.html"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"}"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "C:\\godim\\work"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 4,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/C/godim/Sublime Text Build 3126 x64/Data/Packages/User/nodejs.sumlime-build.sublime-build",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 57,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										54,
+										30
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/godim/work/server1/mongo1/ex01.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 318,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1864,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1864,
+										1864
+									]
+								],
+								"settings":
+								{
+									"auto_indent": false,
+									"incomplete_sync": null,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/C/godim/work/server1/ex1/sftp-config.json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1412,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										37,
+										37
+									]
+								],
+								"settings":
+								{
+									"incomplete_sync": null,
+									"remote_loading": false,
+									"synced": false,
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 138.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/C/godim/work/server1/ex1/views/loginform.ejs",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 641,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										387,
+										388
+									]
+								],
+								"settings":
+								{
+									"incomplete_sync": null,
+									"remote_loading": false,
+									"synced": false,
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/C/godim/work/server1/ex1/routes/index.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 561,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"incomplete_sync": null,
+									"remote_loading": false,
+									"synced": false,
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 148.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.sftp":
+			{
+				"height": 148.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-32000,-32000,-1,-1,599,957,61,1613",
+			"project": "",
+			"replace":
+			{
+				"height": 72.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 248.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

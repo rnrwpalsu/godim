@@ -1,0 +1,1774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+
+	<String><ID>IDS_APP_10001</ID><Data>KakaoTalk</Data></String>
+	<String><ID>IDS_APP_10002</ID><Data>Kakao Plus Calendar</Data></String>
+
+	<String><ID>IDS_RESOURCE_100001</ID><Data>\font_en.xml</Data></String>
+	<String><ID>IDS_RESOURCE_100002</ID><Data>password_finding_help_en.png</Data></String>
+	<String><ID>IDS_RESOURCE_100003</ID><Data>img_excel_preview_en.png</Data></String>
+	
+	<String><ID>IDS_STRING_100001</ID><Data>January</Data></String>
+	<String><ID>IDS_STRING_100002</ID><Data>February</Data></String>
+	<String><ID>IDS_STRING_100003</ID><Data>March</Data></String>
+	<String><ID>IDS_STRING_100004</ID><Data>April</Data></String>
+	<String><ID>IDS_STRING_100005</ID><Data>May</Data></String>
+	<String><ID>IDS_STRING_100006</ID><Data>June</Data></String>
+	<String><ID>IDS_STRING_100007</ID><Data>July</Data></String>
+	<String><ID>IDS_STRING_100008</ID><Data>August</Data></String>
+	<String><ID>IDS_STRING_100009</ID><Data>September</Data></String>
+	<String><ID>IDS_STRING_100010</ID><Data>October</Data></String>
+	<String><ID>IDS_STRING_100011</ID><Data>November</Data></String>
+	<String><ID>IDS_STRING_100012</ID><Data>December</Data></String>
+	
+	<!-- System Message -->
+	<String><ID>IDS_SYSTEM_100001</ID><Data>This system is not supported.&#10;Please contact Customer Service.</Data></String>
+	<String><ID>IDS_SYSTEM_100002</ID><Data>The recovery process will begin because KakaoTalk file has been damaged.&#10;Press “OK” to restart KakaoTalk.</Data></String>
+	<String><ID>IDS_SYSTEM_100003</ID><Data>Recovery Failed.&#10;Please uninstall KakaoTalk and install the latest version.</Data></String>
+	<String><ID>IDS_SYSTEM_100004</ID><Data>A new update is available.&#10;Do you want to update to the latest version? </Data></String>
+	<String><ID>IDS_SYSTEM_100005</ID><Data>An error has occurred while updating.</Data></String>
+	<String><ID>IDS_SYSTEM_100006</ID><Data>Failed to initialize GDI+.</Data></String>
+	<String><ID>IDS_SYSTEM_100007</ID><Data>Failed to load Resource Manager. </Data></String>
+	<String><ID>IDS_SYSTEM_100008</ID><Data>Failed to load Emoticon Manager. </Data></String>
+	<String><ID>IDS_SYSTEM_100009</ID><Data>OK</Data></String>
+	<String><ID>IDS_SYSTEM_100010</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_SYSTEM_100011</ID><Data>Close</Data></String>
+	<String><ID>IDS_SYSTEM_100013</ID><Data>Failed to complete your request.&#10;&#10;This may be a temporary error. Please try again later. </Data></String>
+	<String><ID>IDS_SYSTEM_100014</ID><Data>NOTE</Data></String>
+	<String><ID>IDS_SYSTEM_100015</ID><Data>A new version is available.</Data></String>
+	<String><ID>IDS_SYSTEM_100016</ID><Data>Your KakaoTalk account has been temporarily disabled according to our Service Policy. Please contact us at http://www.kakao.com/talk/en/contact for any inquiries.</Data></String>
+	<String><ID>IDS_SYSTEM_100017</ID><Data>OK</Data></String>
+	<String><ID>IDS_SYSTEM_100018</ID><Data>NO</Data></String>
+	<String><ID>IDS_SYSTEM_100019</ID><Data>KakaoTalk file has been damaged.&#10;Please delete KakaoTalk and install the latest version. </Data></String>
+	<String><ID>IDS_SYSTEM_100020</ID><Data>Maintenance Notice</Data></String>
+	<String><ID>IDS_SYSTEM_100021</ID><Data>Update is required.</Data></String>
+	<String><ID>IDS_SYSTEM_100022</ID><Data>Update to the latest version when restarted</Data></String>
+	<String><ID>IDS_SYSTEM_100023</ID><Data>In additon to chat windows, font sizes for all other windows&#10;can now be increased.&#10;To maintain previously set font sizes, the application must be restarted.&#10;&#10;Do you wish to close and restart the application?</Data></String>
+	<String><ID>IDS_SYSTEM_100024</ID><Data>Expanded Option to Change Font Sizes</Data></String>
+	<String><ID>IDS_SYSTEM_100025</ID><Data>KakaoTalk is currently running.</Data></String>
+	<String><ID>IDS_SYSTEM_100026</ID><Data>Double-click the icon to open the program.</Data></String>
+	<String><ID>IDS_SYSTEM_100027</ID><Data>Failed to load file.&#10;Please try again.</Data></String>
+	<String><ID>IDS_SYSTEM_100028</ID><Data>Failed to change folder.&#10;Please try again.</Data></String>
+	<String><ID>IDS_SYSTEM_100029</ID><Data>Cannot use this network.&#10;Please check your network connection and try again.</Data></String>
+	
+	<!-- PrivacyPolicy -->
+	<String><ID>IDS_PRIVACY_100001</ID><Data>KakaoTalk</Data></String>
+	<String><ID>IDS_PRIVACY_100002</ID><Data>Please read thoroughly and press 'Agree'</Data></String>
+	<String><ID>IDS_PRIVACY_100003</ID><Data>Agree</Data></String>
+	<String><ID>IDS_PRIVACY_100004</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_PRIVACY_100005</ID><Data>KAKAO Privacy Policy</Data></String>
+
+	<!-- Login View -->
+	<String><ID>IDS_LOGIN_100001</ID><Data>Launch when Windows starts</Data></String>
+	<String><ID>IDS_LOGIN_100002</ID><Data>Find Password</Data></String>
+	<String><ID>IDS_LOGIN_100003</ID><Data>Kakao Account (E-mail)</Data></String>
+	<String><ID>IDS_LOGIN_100004</ID><Data>Password</Data></String>
+	<String><ID>IDS_LOGIN_100005</ID><Data>An error has occurred. </Data></String>
+	<String><ID>IDS_LOGIN_100006</ID><Data>Kakao Account</Data></String>
+	<String><ID>IDS_LOGIN_100007</ID><Data>Log in </Data></String>
+	<String><ID>IDS_LOGIN_100008</ID><Data>Logging in...</Data></String>
+	<String><ID>IDS_LOGIN_100009</ID><Data>A Kakao account is an e-mail address you registered when signing up for KakaoTalk on your mobile device.&#10;Please check your Kakao Account in “More” from KakaoTalk on your mobile device.</Data></String>
+	<String><ID>IDS_LOGIN_100010</ID><Data>Log out</Data></String>
+	<String><ID>IDS_LOGIN_100011</ID><Data>Close</Data></String>
+	<String><ID>IDS_LOGIN_100012</ID><Data>You are currently logged in on another PC.</Data></String>
+	<String><ID>IDS_LOGIN_100013</ID><Data>You will be forced to log out from another PC.&#10;Do you want to log in on this PC?</Data></String>
+	<String><ID>IDS_LOGIN_100014</ID><Data>You are logged out. </Data></String>
+	<String><ID>IDS_LOGIN_100015</ID><Data>You will be forced to log out due to the reasons below.</Data></String>
+	<String><ID>IDS_LOGIN_100016</ID><Data>Remote log-out from mobile</Data></String>
+	<String><ID>IDS_LOGIN_100017</ID><Data>Log in on another PC</Data></String>
+	<String><ID>IDS_LOGIN_100018</ID><Data>Unregister from KakaoTalk</Data></String>
+	<String><ID>IDS_LOGIN_100019</ID><Data>Delete Kakao Account/Change password</Data></String>
+	<String><ID>IDS_LOGIN_100020</ID><Data>Change Password</Data></String>
+	<String><ID>IDS_LOGIN_100021</ID><Data>To reset your password,&#10;go to “More” >  “My Profile” > “Kakao Account ”in KakaoTalk Mobile.</Data></String> 
+	<String><ID>IDS_LOGIN_100022</ID><Data>Check your e-mail address and password again.</Data></String>
+	<String><ID>IDS_LOGIN_100023</ID><Data>This e-mail is not registered as a Kakao account or the password is incorrect. (Please check your Kakao Account in “More” from KakaoTalk on your mobile.)</Data></String>
+	<String><ID>IDS_LOGIN_100024</ID><Data>Failed to log in. </Data></String>
+	<String><ID>IDS_LOGIN_100025</ID><Data>Cannot connect to KakaoTalk server.&#10;This may have been caused by unstable network connection or internet service you are using.&#10;Check your internet connection and try again.</Data></String>
+	<String><ID>IDS_LOGIN_100026</ID><Data>Please update your KakaoTalk on your mobile to the latest version to use the PC version.</Data></String>
+	<String><ID>IDS_LOGIN_100027</ID><Data>You have been remotely logged out of KakaoTalk from your mobile device.</Data></String>
+	<String><ID>IDS_LOGIN_100028</ID><Data>You will be logged out since you just logged in on another PC. </Data></String>
+	<String><ID>IDS_LOGIN_100029</ID><Data>You will be logged out since you unregistered from KakaoTalk on your mobile. </Data></String>
+	<String><ID>IDS_LOGIN_100030</ID><Data>You will be logged out since you deregistered your PC on your mobile.</Data></String>
+	<String><ID>IDS_LOGIN_100031</ID><Data>Sorry, the PC version is only available on iOS, Android and Windows phones.</Data></String> 
+	<String><ID>IDS_LOGIN_100032</ID><Data>Cannot connect to KakaoTalk server.&#10;This may have been caused by unstable user network&#10;or the use of KakaoTalk may have been blocked by a firewall.&#10;If this error is repeated, please contact the Network Manager.</Data></String>
+	<String><ID>IDS_LOGIN_100033</ID><Data>This account is not registered in KakaoTalk on your mobile. &#10; Go to “More” > “Kakao Account” on your mobile &#10;to complete the login process. </Data></String>
+	<String><ID>IDS_LOGIN_100034</ID><Data>Your KakaoTalk account has been temporarily disabled according to our Service Policy. &#10;Please contact us at http://www.kakao.com/talk/en/contact for any inquiries.</Data></String>
+	<String><ID>IDS_LOGIN_100035</ID><Data>KakaoTalk</Data></String>
+	<String><ID>IDS_LOGIN_100036</ID><Data>Cannot connect to KakaoTalk server.&#10;This may have been caused by unstable user network or&#10;KakaoTalk may have been blocked by a firewall.&#10;If this error is repeated, please contact the Network Manager.</Data></String>
+	<String><ID>IDS_LOGIN_100038</ID><Data>Your KakaoTalk account has been temporarily disabled according to our Service Policy. Please contact us at http://www.kakao.com/talk/en/contact for any inquiries.</Data></String>
+	<String><ID>IDS_LOGIN_100039</ID><Data>Your PC went into sleep mode and you have been logged out. </Data></String>
+	<String><ID>IDS_LOGIN_100040</ID><Data>"There is not enough space on your hard drive.&#10;KakaoTalk requires at least 50MB of free disk space. "</Data></String>
+	<String><ID>IDS_LOGIN_100041</ID><Data>You have been logged out of KakaoTalk because your Kakao Account password has been changed.</Data></String>
+	<String><ID>IDS_LOGIN_100042</ID><Data>Automatically log in and lock</Data></String>
+	<String><ID>IDS_LOGIN_100043</ID><Data>You will be automatically logged in and locked without entering your passcode.</Data></String>
+	<String><ID>IDS_LOGIN_100044</ID><Data>Auto-login failed. Please try again.</Data></String>
+	<String><ID>IDS_LOGIN_100045</ID><Data>What Is Kakao account?</Data></String>
+	<String><ID>IDS_LOGIN_100046</ID><Data>Check your Kakao Account from your mobile.</Data></String>
+	<String><ID>IDS_LOGIN_100047</ID><Data>Reset Password</Data></String>
+	<String><ID>IDS_LOGIN_100048</ID><Data>On your mobile device,&#10;go to More > Settings > Kakao Account&#10;and change your account password.</Data></String>
+	<String><ID>IDS_LOGIN_100049</ID><Data>What is a Kakao Account?</Data></String>
+	<String><ID>IDS_LOGIN_100050</ID><Data>A Kakao Account is an email address you registered&#10;when signing up for KakaoTalk on your mobile device.&#10;&#10;On your mobile, go to More > Settings > Kakao Account&#10;to check your Kakao Account.</Data></String>
+	<String><ID>IDS_LOGIN_100051</ID><Data>Unable to connect to the proxy server.&#10;There may be a problem with your proxy server&#10; or your firewall settings are blocking your web access.&#10;Please check your proxy settings and try again.</Data></String>
+	<String><ID>IDS_LOGIN_100052</ID><Data>You have been logged out of KakaoTalk&#10;because your verification information has been changed.</Data></String>
+	<String><ID>IDS_LOGIN_100053</ID><Data>Verification information has expired.&#10;Re-verification is required to continue using KakaoTalk.</Data></String>
+	
+	<!-- PasscodeDlg View -->
+	<String><ID>IDS_PASSCODE_100001</ID><Data>Are you using&#10;your own PC?</Data></String>
+	<String><ID>IDS_PASSCODE_100002</ID><Data>A registration code will be sent to KakaoTalk on your mobile.</Data></String>
+	<String><ID>IDS_PASSCODE_100003</ID><Data>Register my PC</Data></String>
+	<String><ID>IDS_PASSCODE_100004</ID><Data>Are you using&#10;a public PC?</Data></String>
+	<String><ID>IDS_PASSCODE_100005</ID><Data>One-time registration</Data></String>
+	<String><ID>IDS_PASSCODE_100006</ID><Data>One-time registration</Data></String>
+	<String><ID>IDS_PASSCODE_100007</ID><Data>Register my PC</Data></String>
+	<String><ID>IDS_PASSCODE_100008</ID><Data>A registration code has been sent&#10;to KakaoTalk on your mobile.</Data></String>
+	<String><ID>IDS_PASSCODE_100009</ID><Data>Resend</Data></String>
+	<String><ID>IDS_PASSCODE_100010</ID><Data>Incorrect registration code.&#10;Please enter again. </Data></String>
+	<String><ID>IDS_PASSCODE_100011</ID><Data>5 PCs have already been registered.</Data></String>
+	<String><ID>IDS_PASSCODE_100012</ID><Data>Confirm</Data></String>
+	<String><ID>IDS_PASSCODE_100013</ID><Data>Please enter a 4-digit registration code.</Data></String>
+	<String><ID>IDS_PASSCODE_100014</ID><Data>A registration code has been sent again.</Data></String>
+	<String><ID>IDS_PASSCODE_100015</ID><Data>Failed to resend a registration code. </Data></String>
+	<String><ID>IDS_PASSCODE_100016</ID><Data>Registration Code</Data></String>
+	<String><ID>IDS_PASSCODE_100017</ID><Data>PC Registration</Data></String>
+	<String><ID>IDS_PASSCODE_100018</ID><Data>PC registration is required&#10;only the first time. </Data></String>
+	<String><ID>IDS_PASSCODE_100019</ID><Data>Re-registration is required after&#10;log-out for security reasons.</Data></String>
+	<String><ID>IDS_PASSCODE_100020</ID><Data>The registration code has expired.&#10;Please resend the registration code.</Data></String>
+	<String><ID>IDS_PASSCODE_100021</ID><Data>You can only register up to 5 PCs.&#10;Please deregister one of your current PCs first.</Data></String>
+	<String><ID>IDS_PASSCODE_100022</ID><Data>&#10;How to deregister on PC</Data></String>
+	<String><ID>IDS_PASSCODE_100023</ID><Data>Log in to the desktop you wish to deregister,&#10;go to More > Settings > General and click [Deregister Desktop].</Data></String>
+	<String><ID>IDS_PASSCODE_100024</ID><Data>&#10;How to deregister on your mobile device</Data></String>
+	<String><ID>IDS_PASSCODE_100025</ID><Data>On your mobile device, go to More > Settings > KakaoTalk Desktop and tap [Deregister Desktop].</Data></String>
+	<String><ID>IDS_PASSCODE_100026</ID><Data>Welcome!</Data></String>
+	<String><ID>IDS_PASSCODE_100027</ID><Data>Please choose from the followings to register your desktop.</Data></String>
+	<String><ID>IDS_PASSCODE_100028</ID><Data>Enter the registration code below.</Data></String>
+	<String><ID>IDS_PASSCODE_100029</ID><Data>Please check your registration code sent to your mobile.</Data></String>
+	<String><ID>IDS_PASSCODE_100030</ID><Data>Haven't received a registration code?</Data></String>
+	
+	<!-- PasscodeDlg New View -->
+	<String><ID>IDS_PASSCODE_NEW_100001</ID><Data>Go to KakaoTalk for mobile 'More > Settings&#10;> KakaoTalk Desktop' to check your verification code.</Data></String>
+	<String><ID>IDS_PASSCODE_NEW_100002</ID><Data>The code will not be delivered&#10;via KakaoTalk message.</Data></String>
+	<String><ID>IDS_PASSCODE_NEW_100003</ID><Data>resend a registration code.</Data></String>
+	<String><ID>IDS_PASSCODE_NEW_100004</ID><Data>Please complete your desktop registration in __TIME__ minutes.</Data></String>
+	<String><ID>IDS_PASSCODE_NEW_100005</ID><Data>You have the registration code has expired.&#10;Please send a new registration code. </Data></String>
+	
+	<!-- Version View -->
+	<String><ID>IDS_VERSION_100001</ID><Data>Open Source License</Data></String>
+	<String><ID>IDS_VERSION_100002</ID><Data>Current version</Data></String>
+	<String><ID>IDS_VERSION_100003</ID><Data>License.txt</Data></String>
+	<String><ID>IDS_VERSION_100004</ID><Data>Cannot open this file.</Data></String>
+	<String><ID>IDS_VERSION_100005</ID><Data>Latest version</Data></String>
+	<String><ID>IDS_VERSION_100006</ID><Data>Update</Data></String>
+	<String><ID>IDS_VERSION_100007</ID><Data>Checking an update status ...</Data></String>
+	<String><ID>IDS_VERSION_100008</ID><Data>Updating...</Data></String>
+	<String><ID>IDS_VERSION_100009</ID><Data>An error has occurred.</Data></String>
+	<String><ID>IDS_VERSION_100010</ID><Data>This is the latest version.</Data></String>
+	<String><ID>IDS_VERSION_100011</ID><Data>Please check an update status.</Data></String>
+	<String><ID>IDS_VERSION_100012</ID><Data>Update is required. </Data></String>
+	<String><ID>IDS_VERSION_100013</ID><Data>A new version is available.&#10;Restart KakaoTalk to apply the new version. </Data></String>
+	<String><ID>IDS_VERSION_100014</ID><Data>Apply the latest version</Data></String>
+
+	<!-- Tray Menu -->
+	<String><ID>IDS_TRAYMENU_100001</ID><Data>Open</Data></String>
+	<String><ID>IDS_TRAYMENU_100002</ID><Data>About KakaoTalk</Data></String>
+	<String><ID>IDS_TRAYMENU_100003</ID><Data>Log in</Data></String>
+	<String><ID>IDS_TRAYMENU_100004</ID><Data>Log out</Data></String>
+	<String><ID>IDS_TRAYMENU_100005</ID><Data>Quit</Data></String>
+	<String><ID>IDS_TRAYMENU_100006</ID><Data>Update</Data></String>
+	<String><ID>IDS_TRAYMENU_100007</ID><Data>Lock</Data></String>
+	
+	<!-- CFriendProfileDlg View -->
+	<String><ID>IDS_PROFILE_100001</ID><Data>1:1 Chat</Data></String>
+	<String><ID>IDS_PROFILE_100002</ID><Data>Favorites</Data></String>
+	<String><ID>IDS_PROFILE_100003</ID><Data>Group Chats</Data></String>
+	<String><ID>IDS_PROFILE_100004</ID><Data>Invalid user. Unable to load mini-profile.</Data></String>
+	<String><ID>IDS_PROFILE_100005</ID><Data>Cannot change status message.</Data></String>
+	<String><ID>IDS_PROFILE_100006</ID><Data>Add friend</Data></String>
+	<String><ID>IDS_PROFILE_100007</ID><Data>_NUMBER_/20</Data></String>
+	<String><ID>IDS_PROFILE_100008</ID><Data>_NUMBER_/60</Data></String>
+	<String><ID>IDS_PROFILE_100009</ID><Data>This file format is not supported.</Data></String>
+	<String><ID>IDS_PROFILE_100010</ID><Data>This file exceeds the 9MB limit. </Data></String>
+	<String><ID>IDS_PROFILE_100011</ID><Data>Failed to complete your request.&#10;&#10;This may be a temporary error. Please try again later.</Data></String>
+	<String><ID>IDS_PROFILE_100012</ID><Data>JPG, BMP or PNG format only.&#10;(up to 9MB)</Data></String>
+	<String><ID>IDS_PROFILE_100013</ID><Data>Edit Profile</Data></String>
+	<String><ID>IDS_PROFILE_100014</ID><Data>OK</Data></String>
+	<String><ID>IDS_PROFILE_100015</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_PROFILE_100016</ID><Data>Select File </Data></String>
+	<String><ID>IDS_PROFILE_100017</ID><Data>Edit</Data></String>
+	<String><ID>IDS_PROFILE_100018</ID><Data>ID</Data></String>
+	<String><ID>IDS_PROFILE_100019</ID><Data>Create ID</Data></String>
+	<String><ID>IDS_PROFILE_100020</ID><Data>You can find&#10;your friends by ID.</Data></String>
+	<String><ID>IDS_PROFILE_100021</ID><Data>Allow others to search by your ID.</Data></String>
+	<String><ID>IDS_PROFILE_100022</ID><Data>Make My ID Searchable</Data></String>
+	<String><ID>IDS_PROFILE_100023</ID><Data>Chat Room Name</Data></String>
+	<String><ID>IDS_PROFILE_100024</ID><Data>Edit Profile</Data></String>
+	<String><ID>IDS_PROFILE_100025</ID><Data>Could not change the search option.</Data></String>
+	<String><ID>IDS_PROFILE_100026</ID><Data>Edit Profile</Data></String>
+	<String><ID>IDS_PROFILE_100027</ID><Data>KakaoStory</Data></String>
+	<String><ID>IDS_PROFILE_100028</ID><Data>Block</Data></String>
+	<String><ID>IDS_PROFILE_100029</ID><Data>Unblock</Data></String>
+	<String><ID>IDS_PROFILE_100030</ID><Data>Upload failed due to a request time-out.</Data></String>
+	<String><ID>IDS_PROFILE_100031</ID><Data>Add Photo</Data></String>
+	<String><ID>IDS_PROFILE_100032</ID><Data>Default Background</Data></String>
+	<String><ID>IDS_PROFILE_100033</ID><Data>Edit Profile</Data></String>
+	<String><ID>IDS_PROFILE_100034</ID><Data>Open</Data></String>
+	<String><ID>IDS_PROFILE_100035</ID><Data>Done</Data></String>
+	<String><ID>IDS_PROFILE_100036</ID><Data>Failed</Data></String>
+	<String><ID>IDS_PROFILE_100037</ID><Data>Block</Data></String>
+	<String><ID>IDS_PROFILE_100038</ID><Data>Report</Data></String>
+	<String><ID>IDS_PROFILE_100039</ID><Data>Are you sure you want to block this user?&#10;The user will not be able to rejoin this chatroom.</Data></String>
+	<String><ID>IDS_PROFILE_100040</ID><Data>Report</Data></String>
+	<String><ID>IDS_PROFILE_100041</ID><Data>You will not be able to chat&#10;with the user with this link.&#10;&#10;Your recent chat history&#10;will be delivered to the Kakao Team.</Data></String>
+	<String><ID>IDS_PROFILE_100042</ID><Data>Agree</Data></String>
+	<String><ID>IDS_PROFILE_100043</ID><Data>Unable to report the user.&#10;Please try again later. </Data></String>
+	<String><ID>IDS_PROFILE_100044</ID><Data>Unable to block or remove user&#10;from the chatroom.&#10;Please try again later. </Data></String>
+	<String><ID>IDS_PROFILE_100045</ID><Data>Remove</Data></String>
+	<String><ID>IDS_PROFILE_100046</ID><Data>My Chatroom</Data></String>
+	<String><ID>IDS_PROFILE_100047</ID><Data>Your Kakao Account is not linked to this service. Please link your Kakao Account on your mobile and try again. </Data></String>
+	<String><ID>IDS_PROFILE_100048</ID><Data>Are you sure you want to remove this user from the chatroom?&#10;&#10;The user will not be able to rejoin this chatroom. </Data></String>
+	
+	<!-- Main Contact View -->
+	<String><ID>IDS_CONTACT_100001</ID><Data>Favorites</Data></String>
+	<String><ID>IDS_CONTACT_100002</ID><Data>Friends</Data></String>
+	<String><ID>IDS_CONTACT_100003</ID><Data></Data></String>
+	<String><ID>IDS_CONTACT_100004</ID><Data>My Profile</Data></String>
+	<String><ID>IDS_CONTACT_100005</ID><Data>Search name</Data></String>
+	<String><ID>IDS_CONTACT_100006</ID><Data>Chat</Data></String>
+	<String><ID>IDS_CONTACT_100007</ID><Data>Add to Favorites</Data></String>
+	<String><ID>IDS_CONTACT_100008</ID><Data>View mini profile</Data></String>
+	<String><ID>IDS_CONTACT_100009</ID><Data>Remove from Favorites</Data></String>
+	<String><ID>IDS_CONTACT_100010</ID><Data>Seeing names different from mobile?</Data></String>
+	<String><ID>IDS_CONTACT_100011</ID><Data>From KakaoTalk on your mobile device, go to 'More-Settings-Manage Friends' and activate 'Match Names'. Names of your friends on PC and mobile will appear the same once you log in again.</Data></String>
+	<String><ID>IDS_CONTACT_100012</ID><Data>Do not show on the list</Data></String>
+	<String><ID>IDS_CONTACT_100013</ID><Data>Click here if the names are not matching.</Data></String>
+	<String><ID>IDS_CONTACT_100014</ID><Data>Search friends</Data></String>
+	<String><ID>IDS_CONTACT_100015</ID><Data>Find friends by KakaoTalk ID.</Data></String>
+	<String><ID>IDS_CONTACT_100016</ID><Data>Hide</Data></String>
+	<String><ID>IDS_CONTACT_100017</ID><Data>Block</Data></String>
+	<String><ID>IDS_CONTACT_100018</ID><Data>You can bring your hidden friends back to the friends list&#10;or block them in Settings > Friends > Hidden Friends.&#10;&#10;(If you no longer wish to receive any messages&#10;from your hidden friends, block them in Hidden Friends.)</Data></String>
+	<String><ID>IDS_CONTACT_100019</ID><Data>You will no longer receive any messages from this friend,&#10;nor will he/she appear in your friends list.&#10;&#10;(Blocked friends will not be notified that they have been blocked.)</Data></String>
+	<String><ID>IDS_CONTACT_100020</ID><Data>New Friend</Data></String>
+	<String><ID>IDS_CONTACT_100021</ID><Data>Float</Data></String>
+	<String><ID>IDS_CONTACT_100022</ID><Data>Unfloat</Data></String>
+	<String><ID>IDS_CONTACT_100023</ID><Data>(Invited)</Data></String>
+	<String><ID>IDS_CONTACT_100024</ID><Data>Voice Call</Data></String>
+	<String><ID>IDS_CONTACT_100025</ID><Data>Group Call</Data></String>
+	<String><ID>IDS_CONTACT_100026</ID><Data>Are you sure you want to block this friend?</Data></String>
+	<String><ID>IDS_CONTACT_100027</ID><Data>Delete</Data></String>
+	<String><ID>IDS_CONTACT_100028</ID><Data>Unknown </Data></String>
+	<String><ID>IDS_CONTACT_100029</ID><Data>My chatroom</Data></String>
+	<String><ID>IDS_CONTACT_100030</ID><Data>Create groups</Data></String>
+	<String><ID>IDS_CONTACT_100031</ID><Data>Add to existing groups</Data></String>
+
+	<!-- Contact Group 친구그룹핑 -->
+	<String><ID>IDS_CONTACTGROUP_100001</ID><Data>Create groups</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100002</ID><Data>Groups</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100003</ID><Data>Add to existing groups</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100004</ID><Data>Select Friends</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100005</ID><Data>Group Members</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100006</ID><Data>Enter a group name</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100007</ID><Data>Group Name</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100008</ID><Data>Settings</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100009</ID><Data>Delete</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100010</ID><Data>Remove from this group</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100011</ID><Data>You can create up to 100 groups.</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100012</ID><Data>Do you want to delete __GROUPNAME__? </Data></String>
+	<String><ID>IDS_CONTACTGROUP_100013</ID><Data>The group was deleted successfully.</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100014</ID><Data>The group was created successfully.</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100015</ID><Data>Some friends could not be verified.&#10;Go to Settings > Friends and tap Sync Friends List.  </Data></String>
+	<String><ID>IDS_CONTACTGROUP_100016</ID><Data>No friends added yet.</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100017</ID><Data>This group name already exists.</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100018</ID><Data>Add Friends</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100019</ID><Data>_NUMBER_/50</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100020</ID><Data>Edit</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100021</ID><Data>"__USERNAME__" is already in the group.</Data></String>
+	<String><ID>IDS_CONTACTGROUP_100022</ID><Data>"__USERNAME__" friends have been added to __GROUPNAME__</Data></String>
+	
+	<!-- Main ChatRoomList View -->
+	<String><ID>IDS_CHATROOMLIST_100001</ID><Data>_TIME_ AM</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100002</ID><Data>_TIME_ PM</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100003</ID><Data>Yesterday</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100004</ID><Data>Open Chat Room</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100005</ID><Data>Leave Chat Room</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100006</ID><Data>Add to Favorites</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100007</ID><Data>Chat with  your friends.</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100008</ID><Data>Share photos/videos with your friends.</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100009</ID><Data>Chat Now</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100010</ID><Data>Turn off alert</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100011</ID><Data>Turn on alert</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100012</ID><Data>)</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100013</ID><Data>_MM_. _DD_. _YY_</Data></String> 
+	<String><ID>IDS_CHATROOMLIST_100014</ID><Data>Remove from Favorites</Data></String> 
+	<String><ID>IDS_CHATROOMLIST_100015</ID><Data>New Message</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100016</ID><Data>KakaoTalk</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100017</ID><Data>Float</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100018</ID><Data>Unfloat</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100019</ID><Data>Search chatrooms, participants</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100020</ID><Data>Enter Chatroom</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100021</ID><Data>Delete Open Chat</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100022</ID><Data>If you leave this chatroom,&#10;your chat history will be deleted and the chatroom will be removed&#10;from KakaoTalk on your mobile.</Data></String>
+	<!--<String><ID>IDS_CHATROOMLIST_100023</ID><Data>If you exit, this chatroom and message history will be deleted&#10;and any file transfer/free call in progress will be cancelled.</Data></String>-->
+	<String><ID>IDS_CHATROOMLIST_100024</ID><Data>Are you sure you want to DELETE Link and All Chatrooms?</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100025</ID><Data>Unable to delete the chatroom.</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100026</ID><Data>No open chatrooms yet.</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100027</ID><Data>You must delete the open chat link in order to leave.&#10;Please Go to the Settings menu at the top&#10;to delete the link.</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100028</ID><Data>Are you sure you want to DELETE Link and All Chatrooms?</Data></String>
+	<String><ID>IDS_CHATROOMLIST_100029</ID><Data>If you delete, all chatrooms with this link will&#10;be permanently deleted and the link will no longer be valid.&#10;Please note that deleted data cannot be restored. </Data></String>
+	<String><ID>IDS_CHATROOMLIST_100030</ID><Data>Open Chat</Data></String>
+	
+	<!-- Setting View -->
+	<String><ID>IDS_SETTING_100001</ID><Data>Settings</Data></String>
+	<String><ID>IDS_SETTING_100002</ID><Data>Alerts</Data></String>
+	<String><ID>IDS_SETTING_100003</ID><Data>Alert Sound</Data></String>
+	<String><ID>IDS_SETTING_100004</ID><Data>Pop-up Alert</Data></String>
+	<String><ID>IDS_SETTING_100005</ID><Data>Alert Sound</Data></String>
+	<String><ID>IDS_SETTING_100006</ID><Data>Play</Data></String>
+	<String><ID>IDS_SETTING_100007</ID><Data>Pop-up Duration</Data></String>
+	<String><ID>IDS_SETTING_100008</ID><Data>sec</Data></String>
+	<String><ID>IDS_SETTING_100009</ID><Data>Background</Data></String>
+	<String><ID>IDS_SETTING_100010</ID><Data>Edit</Data></String>
+	<String><ID>IDS_SETTING_100011</ID><Data>PC Registration</Data></String>
+	<String><ID>IDS_SETTING_100012</ID><Data>What is “Deregister PC”?</Data></String>
+	<String><ID>IDS_SETTING_100013</ID><Data>Launch when Windows starts</Data></String>
+	<String><ID>IDS_SETTING_100014</ID><Data>Shortcuts</Data></String>
+	<String><ID>IDS_SETTING_100015</ID><Data>Shortcuts for PC version</Data></String>
+	<String><ID>IDS_SETTING_100016</ID><Data>System Settings</Data></String>
+	<String><ID>IDS_SETTING_100017</ID><Data>My Profile</Data></String>
+	<String><ID>IDS_SETTING_100018</ID><Data>New chat</Data></String>
+	<String><ID>IDS_SETTING_100019</ID><Data>Settings</Data></String>
+	<String><ID>IDS_SETTING_100020</ID><Data>Item Store</Data></String>
+	<String><ID>IDS_SETTING_100021</ID><Data>Help</Data></String>
+	<String><ID>IDS_SETTING_100022</ID><Data>Log out</Data></String>
+	<String><ID>IDS_SETTING_100023</ID><Data>Do you want to deregister your current PC?&#10;(You will be logged out once you deregister.)</Data></String>
+	<String><ID>IDS_SETTING_100024</ID><Data>You will be required to register all of your PCs&#10;to use KakaoTalk more safely.&#10;&#10;If you do not wish to use the PC version of KakaoTalk anymore&#10;or if you suspect that someone is using your PC version fraudulently,&#10;please deregister your PC.</Data></String>
+	<String><ID>IDS_SETTING_100025</ID><Data>Your current PC has been deregistered.</Data></String>
+	<String><ID>IDS_SETTING_100026</ID><Data>Deregister PC</Data></String>
+	<String><ID>IDS_SETTING_100028</ID><Data>min</Data></String>
+	<String><ID>IDS_SETTING_100031</ID><Data>Alert Settings</Data></String>
+	<String><ID>IDS_SETTING_100032</ID><Data>Receive alerts on PC</Data></String>
+	<String><ID>IDS_SETTING_100033</ID><Data>Alert Sounds</Data></String>
+	<String><ID>IDS_SETTING_100034</ID><Data>Volume</Data></String>
+	<String><ID>IDS_SETTING_100035</ID><Data>Pop-up Settings</Data></String>
+	<String><ID>IDS_SETTING_100036</ID><Data>Mobile Alert Settings</Data></String>
+	<String><ID>IDS_SETTING_100037</ID><Data>Send a mobile notification if inactive for</Data></String>
+	<String><ID>IDS_SETTING_100038</ID><Data>Show for</Data></String>
+	<String><ID>IDS_SETTING_100039</ID><Data>Opacity</Data></String>
+	<String><ID>IDS_SETTING_100040</ID><Data>Start automatically</Data></String>
+	<String><ID>IDS_SETTING_100047</ID><Data>Style</Data></String>
+	<String><ID>IDS_SETTING_100048</ID><Data>Default</Data></String>
+	<String><ID>IDS_SETTING_100049</ID><Data>Excel style</Data></String>
+	<String><ID>IDS_SETTING_100050</ID><Data>Auto-login</Data></String>
+	<String><ID>IDS_SETTING_100051</ID><Data>Automatically log in and lock</Data></String>
+	<String><ID>IDS_SETTING_100052</ID><Data>Show</Data></String>
+	<String><ID>IDS_SETTING_100053</ID><Data>KakaoTalk Downloads</Data></String>
+	<String><ID>IDS_SETTING_100054</ID><Data>All chatrooms will be closed before applying the new settings.&#10;Do you want to continue?</Data></String>
+	<String><ID>IDS_SETTING_100055</ID><Data>Font</Data></String>
+	<String><ID>IDS_SETTING_100056</ID><Data>Font</Data></String>
+	<String><ID>IDS_SETTING_100057</ID><Data>Size</Data></String>
+	<String><ID>IDS_SETTING_100058</ID><Data>Download to</Data></String>
+	<String><ID>IDS_SETTING_100059</ID><Data>Browse</Data></String>
+	<String><ID>IDS_SETTING_100060</ID><Data>Open Folder</Data></String>
+	<String><ID>IDS_SETTING_100061</ID><Data>Select a destination folder.</Data></String>
+	<String><ID>IDS_SETTING_100062</ID><Data>You cannot change the background&#10;if the Excel style is applied.</Data></String>
+	<String><ID>IDS_SETTING_100063</ID><Data>Drag the slider to adjust the opacity for all chatrooms.</Data></String>
+	<String><ID>IDS_SETTING_100064</ID><Data>Confirm</Data></String>
+	<String><ID>IDS_SETTING_100065</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_SETTING_100066</ID><Data>Color</Data></String>
+	<String><ID>IDS_SETTING_100067</ID><Data>Choosing this background will apply it to all your chatrooms.&#10;Do you want to continue?</Data></String>
+	<String><ID>IDS_SETTING_100068</ID><Data>The background will be applied to all your chatrooms.</Data></String>
+	<String><ID>IDS_SETTING_100069</ID><Data>Color</Data></String>
+	<String><ID>IDS_SETTING_100070</ID><Data>Designs</Data></String>
+	<String><ID>IDS_SETTING_100071</ID><Data>Photo</Data></String>
+	<String><ID>IDS_SETTING_100072</ID><Data>Apply the selected background to</Data></String>
+	<String><ID>IDS_SETTING_100073</ID><Data>All Chatrooms</Data></String>
+	<String><ID>IDS_SETTING_100074</ID><Data>Apply</Data></String>
+	<String><ID>IDS_SETTING_100075</ID><Data>Download to</Data></String>
+	<String><ID>IDS_SETTING_100076</ID><Data>Browse</Data></String>
+	<String><ID>IDS_SETTING_100077</ID><Data>Delete all data upon unregistering</Data></String>
+	<String><ID>IDS_SETTING_100078</ID><Data>Chat Backup</Data></String>
+	
+	<!-- CAlarmSettingView View -->
+	<String><ID>IDS_ALARMSETTING_100001</ID><Data>Receive alerts</Data></String>
+	<String><ID>IDS_ALARMSETTING_100002</ID><Data>Notifications</Data></String>
+	<String><ID>IDS_ALARMSETTING_100003</ID><Data>Alert Sound</Data></String>
+	<String><ID>IDS_ALARMSETTING_100004</ID><Data>Volume</Data></String>
+	<String><ID>IDS_ALARMSETTING_100005</ID><Data>Show for</Data></String>
+	<String><ID>IDS_ALARMSETTING_100006</ID><Data>Show</Data></String>
+	<String><ID>IDS_ALARMSETTING_100007</ID><Data>Mobile Notification</Data></String>
+	<String><ID>IDS_ALARMSETTING_100008</ID><Data>Send a mobile notification if inactive for</Data></String>
+	<String><ID>IDS_ALARMSETTING_100009</ID><Data>sec</Data></String>
+	<String><ID>IDS_ALARMSETTING_100010</ID><Data>min</Data></String>
+	
+	<!-- CNetworkSettingView -->
+	<String><ID>IDS_ADVANCEDSETTING_100001</ID><Data>Proxy Settings</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100002</ID><Data>Use HTTP Proxy Server</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100003</ID><Data>Server</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100004</ID><Data>Port</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100005</ID><Data>Use Current Setting</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100006</ID><Data>Proxy server is not set in Internet Explorer.</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100007</ID><Data>If you are already using HTTP Proxy server in Internet Explorer, you can use the current setting.</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100008</ID><Data>Please log out and log in again to apply the setting.</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100009</ID><Data>Chat Backup</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100010</ID><Data>Chat Backup</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100011</ID><Data>* You can restore your backed up data only when you register your desktop device. Go to Settings > General and deregister your desktop device to re-register and restore your data.&#10;&#10;* You can restore your data within 14 days of the backup. The data will be permanently deleted after 14 days of the backup.&#10;&#10;* Only text messages will be backed up. Note that the following data will not be backed up: &#10; - Photos, videos and text messages over 1,000 characters&#10; - Text messages in secret chats and open chats</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100012</ID><Data>[Expired]</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100013</ID><Data>Backup Info</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100014</ID><Data>Last Backup</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100015</ID><Data>Expiry Date</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100016</ID><Data>Total Size</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100017</ID><Data>Delete</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100018</ID><Data>There is not enough space available.&#10;Please make space and try again.</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100019</ID><Data>You can securely back up your chat history to our cloud server.&#10;You can restore your backed up data only when you register a PC device.&#10;Only text messages will be backed up.</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100020</ID><Data>None</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100021</ID><Data>Overwrite Data</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100022</ID><Data>You have recently backed up your chat history.&#10;Are you sure you want to overwrite your existing data?</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100023</ID><Data>Failed to delete your backed up data.&#10;Please try again.</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100024</ID><Data>Delete Backup</Data></String>
+	<String><ID>IDS_ADVANCEDSETTING_100025</ID><Data>Are you sure you want to delete the backed up data from the cloud server?</Data></String>
+
+	<!-- dropdown Font Size -->
+	<String><ID>IDS_FONTSIZE_100001</ID><Data>Medium</Data></String>
+	<String><ID>IDS_FONTSIZE_100002</ID><Data>Large</Data></String>
+	<String><ID>IDS_FONTSIZE_100003</ID><Data>Extra Large</Data></String>
+	<String><ID>IDS_FONTSIZE_100004</ID><Data>Small</Data></String>
+	
+	<!-- dropdown alarm state-->
+	<String><ID>IDS_ALARMSTATE_100001</ID><Data>Sound</Data></String>
+	<String><ID>IDS_ALARMSTATE_100002</ID><Data>Pop-up</Data></String>
+	<String><ID>IDS_ALARMSTATE_100003</ID><Data>Sound + Pop-up</Data></String>
+	
+	<!-- dropdown alarm display type-->
+	<String><ID>IDS_ALARM_DISPLAY_TYPE_10001</ID><Data>Sender + Message</Data></String>
+	<String><ID>IDS_ALARM_DISPLAY_TYPE_10002</ID><Data>Sender</Data></String>
+	<String><ID>IDS_ALARM_DISPLAY_TYPE_10003</ID><Data>None</Data></String>
+	
+	<!-- tab_button settingView -->
+	<String><ID>IDS_SETTING_TAB_100001</ID><Data>Alerts</Data></String>
+	<String><ID>IDS_SETTING_TAB_100002</ID><Data>Chat Room</Data></String>
+	<String><ID>IDS_SETTING_TAB_100003</ID><Data>General</Data></String>
+	<String><ID>IDS_SETTING_TAB_100004</ID><Data>Friends</Data></String>
+	<String><ID>IDS_SETTING_TAB_100005</ID><Data>Free Call</Data></String>
+	<String><ID>IDS_SETTING_TAB_100006</ID><Data></Data></String>
+	<String><ID>IDS_SETTING_TAB_100007</ID><Data>Advanced</Data></String>
+	
+	<!-- CLaboratorySettingView -->
+	<String><ID>IDS_LABSETTINGVIEW_100001</ID><Data>이모티콘 설정</Data></String>
+	<String><ID>IDS_LABSETTINGVIEW_100002</ID><Data>이모티콘 즐겨찾기</Data></String>
+	<String><ID>IDS_LABSETTINGVIEW_100003</ID><Data>키워드 알림</Data></String>
+	
+	<!-- HotkeyInfoDlg View -->
+	<String><ID>IDS_HOTKEY_100001</ID><Data>Shortcuts for PC version</Data></String>
+	<String><ID>IDS_HOTKEY_100002</ID><Data>Chatroom</Data></String>
+	<String><ID>IDS_HOTKEY_100003</ID><Data>Close chatroom</Data></String>
+	<String><ID>IDS_HOTKEY_100004</ID><Data>Send messages</Data></String>
+	<String><ID>IDS_HOTKEY_100005</ID><Data>Change lines</Data></String>
+	<String><ID>IDS_HOTKEY_100006</ID><Data>Invite</Data></String>
+	<String><ID>IDS_HOTKEY_100007</ID><Data>Save chat messages</Data></String>
+	<String><ID>IDS_HOTKEY_100008</ID><Data>Open emoticon window</Data></String>
+	<String><ID>IDS_HOTKEY_100009</ID><Data>Close emoticon window</Data></String>
+	<String><ID>IDS_HOTKEY_100010</ID><Data>Friends List</Data></String>
+	<String><ID>IDS_HOTKEY_100011</ID><Data>1:1 Chat</Data></String>
+	<String><ID>IDS_HOTKEY_100012</ID><Data>View profile</Data></String>
+	<String><ID>IDS_HOTKEY_100013</ID><Data>Close profile</Data></String>
+	<String><ID>IDS_HOTKEY_100014</ID><Data>Close profile picture</Data></String>
+	<String><ID>IDS_HOTKEY_100015</ID><Data>Chatroom List</Data></String>
+	<String><ID>IDS_HOTKEY_100016</ID><Data>Open Chat Room</Data></String>
+	<String><ID>IDS_HOTKEY_100017</ID><Data>Close Chat Room</Data></String>
+	<String><ID>IDS_HOTKEY_100018</ID><Data>Leave Chat Room</Data></String>
+	<String><ID>IDS_HOTKEY_100019</ID><Data>View group chat members</Data></String>
+	<String><ID>IDS_HOTKEY_100020</ID><Data>Undo</Data></String>
+	<String><ID>IDS_HOTKEY_100021</ID><Data>Shortcut key</Data></String>
+	<String><ID>IDS_HOTKEY_100022</ID><Data>New Chats</Data></String>
+	<String><ID>IDS_HOTKEY_100023</ID><Data>About KakaoTalk</Data></String>
+	<String><ID>IDS_HOTKEY_100024</ID><Data>Lock</Data></String>
+	<String><ID>IDS_HOTKEY_100025</ID><Data>Log out</Data></String>
+	<String><ID>IDS_HOTKEY_100026</ID><Data>Quit</Data></String>
+	<String><ID>IDS_HOTKEY_100027</ID><Data>Add Friend</Data></String>
+	<String><ID>IDS_HOTKEY_100028</ID><Data>Always on top</Data></String>
+	<String><ID>IDS_HOTKEY_100029</ID><Data>Turn off alert</Data></String>
+	<String><ID>IDS_HOTKEY_100030</ID><Data>Send File</Data></String>
+	<String><ID>IDS_HOTKEY_100031</ID><Data>Set background</Data></String>
+	<String><ID>IDS_HOTKEY_100032</ID><Data>Search Chats</Data></String>
+	<String><ID>IDS_HOTKEY_100033</ID><Data>Turn off alert</Data></String>
+
+	<!-- Chat Invite View -->
+	<String><ID>IDS_CHAT_INVITE_100001</ID><Data>Invite</Data></String>
+	<String><ID>IDS_CHAT_INVITE_100002</ID><Data>Search name</Data></String>
+	<String><ID>IDS_CHAT_INVITE_100003</ID><Data>Confirm</Data></String>
+	<String><ID>IDS_CHAT_INVITE_100004</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_CHAT_INVITE_100005</ID><Data>Invite</Data></String>
+	<String><ID>IDS_CHAT_INVITE_100006</ID><Data>Invite</Data></String>
+	<String><ID>IDS_CHAT_INVITE_100007</ID><Data>Invite _COUNTER_ friend(s)?</Data></String>
+	<String><ID>IDS_CHAT_INVITE_100008</ID><Data>You can invite up to _NUMBER_ friends.</Data></String>
+	<String><ID>IDS_CHAT_INVITE_100009</ID><Data>Up to 1,000 people can be invited&#10;to a group chatroom.</Data></String>
+	<String><ID>IDS_CHAT_INVITE_100010</ID><Data>Resend</Data></String>
+	<String><ID>IDS_CHAT_INVITE_100011</ID><Data>Delete</Data></String>
+	<String><ID>IDS_CHAT_INVITE_100012</ID><Data>Save</Data></String>
+	<String><ID>IDS_CHAT_INVITE_100013</ID><Data>Choose Friends</Data></String>	
+	<String><ID>IDS_CHAT_INVITE_100014</ID><Data>Choose Friends</Data></String>
+	<String><ID>IDS_CHAT_INVITE_100015</ID><Data>New Chatroom</Data></String>
+	
+	<!-- TIME-TYPE -->	
+	<String><ID>IDS_TIME_TYPE_100001</ID><Data></Data></String>
+	<String><ID>IDS_TIME_TYPE_100002</ID><Data></Data></String>
+	<String><ID>IDS_TIME_TYPE_100003</ID><Data></Data></String>
+	<String><ID>IDS_TIME_TYPE_100004</ID><Data>day</Data></String>
+	<String><ID>IDS_TIME_TYPE_100005</ID><Data>AM</Data></String>
+	<String><ID>IDS_TIME_TYPE_100006</ID><Data>PM</Data></String>
+	<String><ID>IDS_TIME_TYPE_100007</ID><Data>Monday</Data></String>
+	<String><ID>IDS_TIME_TYPE_100008</ID><Data>Tuesday</Data></String>
+	<String><ID>IDS_TIME_TYPE_100009</ID><Data>Wednesday</Data></String>
+	<String><ID>IDS_TIME_TYPE_100010</ID><Data>Thursday</Data></String>
+	<String><ID>IDS_TIME_TYPE_100011</ID><Data>Friday</Data></String>
+	<String><ID>IDS_TIME_TYPE_100012</ID><Data>Saturday</Data></String>
+	<String><ID>IDS_TIME_TYPE_100013</ID><Data>Sunday</Data></String>
+	
+	<!-- Chat View  -->
+	<String><ID>IDS_CHAT_100001</ID><Data>Emoticons</Data></String>
+	<String><ID>IDS_CHAT_100002</ID><Data>Send File</Data></String>
+	<String><ID>IDS_CHAT_100003</ID><Data>Send</Data></String>
+	<String><ID>IDS_CHAT_100004</ID><Data>Download</Data></String>
+	<String><ID>IDS_CHAT_100005</ID><Data>Always on top</Data></String>
+	<String><ID>IDS_CHAT_100006</ID><Data>Invite Friends</Data></String>
+	<String><ID>IDS_CHAT_100007</ID><Data>Chat Room Settings</Data></String>
+	<String><ID>IDS_CHAT_100008</ID><Data>Export Chats</Data></String>
+	<String><ID>IDS_CHAT_100009</ID><Data>Leave Chat Room</Data></String>
+	<String><ID>IDS_CHAT_100010</ID><Data>Are you sure you want to exit this chatroom?</Data></String>
+	<String><ID>IDS_CHAT_100011</ID><Data>No chat messages to save. </Data></String>
+	<String><ID>IDS_CHAT_100012</ID><Data>Failed to save chat messages.</Data></String>
+	<String><ID>IDS_CHAT_100013</ID><Data>Group Chat</Data></String>
+	<String><ID>IDS_CHAT_100014</ID><Data></Data></String>
+	<String><ID>IDS_CHAT_100015</ID><Data>You can send up to 100 files at once with&#10;Drag &amp; Drop.</Data></String>
+	<String><ID>IDS_CHAT_100016</ID><Data>Could not send the file(s) due to the following reason(s):</Data></String>
+	<String><ID>IDS_CHAT_100017</ID><Data>A file that is larger than 9MB or saved in a format other than&#10;BMP, JPG, JPEG and PNG cannot be sent.</Data></String>
+	<String><ID>IDS_CHAT_100018</ID><Data>You can only send up to 100 files at once.</Data></String>
+	<String><ID>IDS_CHAT_100019</ID><Data>Turn off alert</Data></String>
+	<String><ID>IDS_CHAT_100020</ID><Data>No Friends to chat</Data></String>
+	<String><ID>IDS_CHAT_100021</ID><Data>Do not ask again</Data></String>
+	<String><ID>IDS_CHAT_100022</ID><Data>Close</Data></String>
+	<String><ID>IDS_CHAT_100025</ID><Data>Check unread messages from mobile. All chat&#10;messages sent by your friend will be marked&#10;as read when you are using the PC version.</Data></String>
+	<String><ID>IDS_CHAT_100026</ID><Data>Continue Chat</Data></String>
+	<String><ID>IDS_CHAT_100027</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_CHAT_100028</ID><Data>You cannot send the same file repeatedly.&#10;Please try again later.</Data></String>
+	<String><ID>IDS_CHAT_100029</ID><Data>File</Data></String>
+	<String><ID>IDS_CHAT_100030</ID><Data>All Files</Data></String>
+	<String><ID>IDS_CHAT_100031</ID><Data>Please make sure that the file size does not exceed 300M and the file type is valid.</Data></String>
+	<String><ID>IDS_CHAT_100032</ID><Data>You cannot send a large number of messages in a short period of time. &#10;Please try again later. </Data></String>
+	<String><ID>IDS_CHAT_100033</ID><Data>Cannot open this file.</Data></String>
+	<String><ID>IDS_CHAT_100034</ID><Data>This file type is not supported. </Data></String>
+	<String><ID>IDS_CHAT_100035</ID><Data>This file size exceeds the limit of 300MB.</Data></String>
+	<String><ID>IDS_CHAT_100036</ID><Data>This file is empty.</Data></String>
+	<String><ID>IDS_CHAT_100037</ID><Data>You cannot send the same file repeatedly in a short period of time.</Data></String>
+	<String><ID>IDS_CHAT_100038</ID><Data>A file transfer is currently in progress.</Data></String>
+	<String><ID>IDS_CHAT_100039</ID><Data>If you close the window, the file transfer will be cancelled.&#10;Do you want to continue? </Data></String>
+	<String><ID>IDS_CHAT_100040</ID><Data>Image files</Data></String>
+	<String><ID>IDS_CHAT_100041</ID><Data>Video Files</Data></String>
+	<String><ID>IDS_CHAT_100042</ID><Data>Sound Files</Data></String>
+	<String><ID>IDS_CHAT_100043</ID><Data>Document Files</Data></String>
+	<String><ID>IDS_CHAT_100044</ID><Data>Compressed Files</Data></String>
+	<String><ID>IDS_CHAT_100045</ID><Data>All Supported Files</Data></String>
+	<String><ID>IDS_CHAT_100046</ID><Data>If you log out now, the file transfer will be cancelled.&#10;Do you want to continue?</Data></String>
+	<String><ID>IDS_CHAT_100047</ID><Data>You do not have permissions or the path is incorrect. &#10; Please select a different path.</Data></String>
+	<String><ID>IDS_CHAT_100048</ID><Data>This file cannot be saved because the path is too long. &#10; Please select a different path.</Data></String>
+	<String><ID>IDS_CHAT_100049</ID><Data>This file cannot be downloaded from the server due to a network problem. </Data></String>
+	<String><ID>IDS_CHAT_100050</ID><Data>This file cannot be saved because you do not have permissions or the path is incorrect. </Data></String>
+	<String><ID>IDS_CHAT_100051</ID><Data>This file cannot be saved because the path is too long. </Data></String>
+	<String><ID>IDS_CHAT_100052</ID><Data>File(s) to send:</Data></String>
+	<String><ID>IDS_CHAT_100053</ID><Data>Send File</Data></String>
+	<String><ID>IDS_CHAT_100054</ID><Data>If you exit, this chatroom and message history will be deleted&#10;and any file transfer/free call in progress will be cancelled.</Data></String>
+	<String><ID>IDS_CHAT_100055</ID><Data>You cannot chat with your friends due to an error in the chat log files.&#10;Please delete the application and install the latest version, or contact our Customer Service Center.</Data></String>
+	<String><ID>IDS_CHAT_100056</ID><Data>A message containing an emoticon will&#10;display up to 1,000 characters only.</Data></String>
+	<String><ID>IDS_CHAT_100057</ID><Data>Do you want to delete this message?</Data></String>
+	<String><ID>IDS_CHAT_100058</ID><Data>The message will be deleted only from your chatroom&#10;and will still be visible to your friend(s).</Data></String>
+	<String><ID>IDS_CHAT_100059</ID><Data>Are you sure you want to exit this chatroom?&#10;If you leave, all chat messages will be deleted &#10;and this chatroom will also be deleted from your KakaoTalk Mobile.&#10;Any file transfers or downloads in progress will be cancelled. </Data></String>
+	<String><ID>IDS_CHAT_100060</ID><Data>No shared photos.</Data></String>
+	<String><ID>IDS_CHAT_100061</ID><Data>Friends</Data></String>
+	<String><ID>IDS_CHAT_100062</ID><Data>Search Chats</Data></String>
+	<String><ID>IDS_CHAT_100063</ID><Data>Chat search open!</Data></String>
+	<String><ID>IDS_CHAT_100064</ID><Data>Loading your chats...</Data></String>
+	<String><ID>IDS_CHAT_100065</ID><Data>Please try again later.</Data></String>
+	<String><ID>IDS_CHAT_100066</ID><Data>"Could not load your chats from the server. Please try again later.&#10;If this continues to happen, please contact Kakao Customer Service."</Data></String>
+	<String><ID>IDS_CHAT_100067</ID><Data>If you exit, all chat messages will be deleted and the chatroom will also be deleted from your mobile.</Data></String>
+	<String><ID>IDS_CHAT_100068</ID><Data>You are unable to view messages for this period&#10;as you did not log in to KakaoTalk Desktop for 3 days.</Data></String>
+	<String><ID>IDS_CHAT_100069</ID><Data>Why can’t I check my messages from 3 days ago?</Data></String>
+	<String><ID>IDS_CHAT_100070</ID><Data>KakaoTalk temporarily stores messages on the server for users who cannot check the messages immediately. These messages will be stored on the server for 2-3 days and will then be deleted permanently from the server for your privacy. Therefore, if you do not log in to KakaoTalk Desktop for more than 3 days, you may not be able to check the messages you’ve received during that period.</Data></String>
+	<String><ID>IDS_CHAT_100071</ID><Data>What if I can’t log in to KakaoTalk Desktop frequently?</Data></String>
+	<String><ID>IDS_CHAT_100072</ID><Data>If you have not used KakaoTalk on your desktop frequently but you have been using KakaoTalk on your mobile, the messages you have missed will remain on your mobile.</Data></String>	
+	<String><ID>IDS_CHAT_100073</ID><Data>NOTE</Data></String>
+	<String><ID>IDS_CHAT_100074</ID><Data>Invalid directory.&#10;The file will be saved to a default directory.</Data></String>
+	<String><ID>IDS_CHAT_100075</ID><Data>Paste as image</Data></String>
+	<String><ID>IDS_CHAT_100076</ID><Data>Paste as text</Data></String>
+	<String><ID>IDS_CHAT_100077</ID><Data>Screen capture chats</Data></String>
+	<String><ID>IDS_CHAT_100078</ID><Data>with KakaoTalk Chats</Data></String>
+	<String><ID>IDS_CHAT_100079</ID><Data>Date Saved</Data></String>
+	<String><ID>IDS_CHAT_100080</ID><Data>Save</Data></String>
+	<String><ID>IDS_CHAT_100081</ID><Data>Copy</Data></String>
+	<String><ID>IDS_CHAT_100082</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_CHAT_100083</ID><Data>Click where you want to start capturing</Data></String>
+	<String><ID>IDS_CHAT_100084</ID><Data>Click where you want to end capturing</Data></String>
+	<String><ID>IDS_CHAT_100085</ID><Data>The selected area will be captured</Data></String>
+	<String><ID>IDS_CHAT_100086</ID><Data>Your captured chats were copied</Data></String>
+	<String><ID>IDS_CHAT_100087</ID><Data>You can paste (Ctrl+V) to&#10;other chatrooms or programs.</Data></String>
+	<String><ID>IDS_CHAT_100088</ID><Data>Exporting your chats...</Data></String>
+	<String><ID>IDS_CHAT_100089</ID><Data>Failed to save image.</Data></String>
+	<String><ID>IDS_CHAT_100090</ID><Data>Failed to save to clipboard. </Data></String>
+	<String><ID>IDS_CHAT_100091</ID><Data>Click here for more info on __KEYWORD__</Data></String>
+	<String><ID>IDS_CHAT_100092</ID><Data>Click here to open the link.</Data></String>
+	<String><ID>IDS_CHAT_100093</ID><Data>Preview not available.</Data></String>
+	<String><ID>IDS_CHAT_100094</ID><Data>Copy Link</Data></String>
+	<String><ID>IDS_CHAT_100095</ID><Data>Link copied.</Data></String>
+	<String><ID>IDS_CHAT_100096</ID><Data>The user is no longer available for chat.</Data></String>
+	<String><ID>IDS_CHAT_100097</ID><Data>Report</Data></String>
+	<String><ID>IDS_CHAT_100098</ID><Data>Unable to report the user.&#10;Please try again later. </Data></String>
+	<String><ID>IDS_CHAT_100099</ID><Data>This chatroom may have been deleted&#10;or is no longer available.</Data></String>
+	<String><ID>IDS_CHAT_100100</ID><Data>If you leave the chatroom,&#10;your chat history will be permanently deleted.&#10;The chatroom will also be deleted&#10;from your chatrooms list.&#10;&#10;If you block and leave,&#10;you can no longer chat with this user.</Data></String>
+	<String><ID>IDS_CHAT_100101</ID><Data>Block</Data></String>
+	<String><ID>IDS_CHAT_100102</ID><Data>Report &amp; Leave</Data></String>
+	<String><ID>IDS_CHAT_100103</ID><Data>You will not be able to chat&#10;with the user with this link.&#10;&#10;Your recent chat history&#10;will be delivered to the Kakao Team.</Data></String>
+	<String><ID>IDS_CHAT_100104</ID><Data>Are you sure you want to delete this chatroom?&#10;&#10;If you delete, the chatroom will be deleted&#10;and the link will no longer be valid.</Data></String>
+	<String><ID>IDS_CHAT_100105</ID><Data>Delete &amp; Leave</Data></String>
+	<String><ID>IDS_CHAT_100106</ID><Data>Unable to delete the link.&#10;Please try again later.</Data></String>
+	<String><ID>IDS_CHAT_100107</ID><Data>You will not be able to chat&#10;with the user with this link.&#10;&#10;Your recent chat history&#10;will be delivered to the Kakao Team.&#10;&#10;If you report and leave,&#10;your chat history will be permanently deleted&#10;and the chatroom will be deleted from your chatrooms list.</Data></String>
+	<String><ID>IDS_CHAT_100108</ID><Data>Are you sure you want to DELETE Link and All Chatrooms?</Data></String>
+	<String><ID>IDS_CHAT_100109</ID><Data>If you delete, all chatrooms with this link will&#10;be permanently deleted and the link will no longer be valid.&#10;Please note that deleted data cannot be restored. </Data></String>
+	<String><ID>IDS_CHAT_100110</ID><Data>Announcement pinned.&#10;Other participants will not be able to announce their message.</Data></String>
+	<String><ID>IDS_CHAT_100111</ID><Data>Announcement unpinned.</Data></String>
+	<String><ID>IDS_CHAT_100112</ID><Data>The host has pinned this announcement.</Data></String>
+	<String><ID>IDS_CHAT_100113</ID><Data>You can open up to 2 viewers at a time.</Data></String>
+	<String><ID>IDS_CHAT_100114</ID><Data>This message has expired.</Data></String>
+	<String><ID>IDS_CHAT_100115</ID><Data>Do you want to download your chat history?</Data></String>
+	<String><ID>IDS_CHAT_100116</ID><Data>Failed to download chat history.</Data></String>
+	<String><ID>IDS_CHAT_100117</ID><Data>Successfully downloaded.</Data></String>
+	<String><ID>IDS_CHAT_100118</ID><Data>Do you want to re-invite {name} to this chatroom?</Data></String>
+	
+	<!-- ChatRoomInfo -->
+	<String><ID>IDS_CHATROOM_INFO_100001</ID><Data>Chat Room Settings</Data></String>
+	<String><ID>IDS_CHATROOM_INFO_100002</ID><Data>Chat Room Name</Data></String>
+	<String><ID>IDS_CHATROOM_INFO_100003</ID><Data>Edit</Data></String>
+	<String><ID>IDS_CHATROOM_INFO_100004</ID><Data>Background</Data></String>
+	<String><ID>IDS_CHATROOM_INFO_100005</ID><Data>Color</Data></String>
+	<String><ID>IDS_CHATROOM_INFO_100006</ID><Data>Designs</Data></String>
+	<String><ID>IDS_CHATROOM_INFO_100007</ID><Data>Photo</Data></String>
+	<String><ID>IDS_CHATROOM_INFO_100008</ID><Data>Tile</Data></String>
+	<String><ID>IDS_CHATROOM_INFO_100009</ID><Data>Stretch</Data></String>
+	<String><ID>IDS_CHATROOM_INFO_100010</ID><Data>Confirm</Data></String>
+	<String><ID>IDS_CHATROOM_INFO_100011</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_CHATROOM_INFO_100012</ID><Data>_NUMBER_/50</Data></String>	
+	
+	<!-- ChatLog Buttons -->		
+	<String><ID>IDS_CHATLOG_BUTTON_100001</ID><Data>View previous chats</Data></String>
+	<String><ID>IDS_CHATLOG_BUTTON_100002</ID><Data>Alert off</Data></String>
+	<String><ID>IDS_CHATLOG_BUTTON_100003</ID><Data>Leave</Data></String>
+	<String><ID>IDS_CHATLOG_BUTTON_100004</ID><Data>Report Spam</Data></String>
+	<String><ID>IDS_CHATLOG_BUTTON_100005</ID><Data>Add</Data></String>
+	<String><ID>IDS_CHATLOG_BUTTON_100006</ID><Data>Block</Data></String>
+	<String><ID>IDS_CHATLOG_BUTTON_100007</ID><Data>Unblock</Data></String>
+	<String><ID>IDS_CHATLOG_BUTTON_100008</ID><Data>Turn on alert</Data></String>
+	
+	<!-- ChatLog -->
+	<String><ID>IDS_CHATLOG_100001</ID><Data></Data></String>
+	<String><ID>IDS_CHATLOG_100003</ID><Data></Data></String>
+	<String><ID>IDS_CHATLOG_100004</ID><Data></Data></String>
+	<String><ID>IDS_CHATLOG_100005</ID><Data></Data></String>
+	<String><ID>IDS_CHATLOG_100006</ID><Data></Data></String>
+	<String><ID>IDS_CHATLOG_100007</ID><Data>Invite again</Data></String>
+	<String><ID>IDS_CHATLOG_100008</ID><Data></Data></String>
+	<String><ID>IDS_CHATLOG_100009</ID><Data>Please check on your mobile.</Data></String>
+	<String><ID>IDS_CHATLOG_100010</ID><Data>Sending...</Data></String>
+	<String><ID>IDS_CHATLOG_100011</ID><Data>Failed to send</Data></String>
+	<String><ID>IDS_CHATLOG_100012</ID><Data>_USER_'s contact</Data></String>
+	<String><ID>IDS_CHATLOG_100013</ID><Data>requested&#10;a Group Call.</Data></String>
+	<String><ID>IDS_CHATLOG_100014</ID><Data>Calling…</Data></String>
+	<String><ID>IDS_CHATLOG_100015</ID><Data>Call cancelled</Data></String>
+	<String><ID>IDS_CHATLOG_100016</ID><Data>A new event has been added.</Data></String>
+	<String><ID>IDS_CHATLOG_100017</ID><Data>This type of message &#10;cannot be displayed on PC.</Data></String>
+	<String><ID>IDS_CHATLOG_100018</ID><Data>A user who is not your KakaoTalk friend has sent you a message. &#10;Please check from your mobile.</Data></String>
+	<String><ID>IDS_CHATLOG_100019</ID><Data>Do you want to cancel sending the message?</Data></String>
+	<String><ID>IDS_CHATLOG_100020</ID><Data>KakaoTalk</Data></String>
+	<String><ID>IDS_CHATLOG_100021</ID><Data>Failed to invite</Data></String>
+	<String><ID>IDS_CHATLOG_100022</ID><Data>Failed to send a message </Data></String>	
+	<String><ID>IDS_CHATLOG_100023</ID><Data>Please be aware that this user is not on your friends list.</Data></String>
+	<String><ID>IDS_CHATLOG_100024</ID><Data></Data></String>
+	<String><ID>IDS_CHATLOG_100025</ID><Data>View all </Data></String>
+	<String><ID>IDS_CHATLOG_100026</ID><Data>There are chat logs on mobile after logging out from PC. </Data></String>
+	<String><ID>IDS_CHATLOG_100027</ID><Data>_DAY_. _MM_ _DD_. _YY_ </Data></String>
+	<String><ID>IDS_CHATLOG_100028</ID><Data>A poll has been created.</Data></String>
+	<String><ID>IDS_CHATLOG_100029</ID><Data>A poll has been deleted. </Data></String>
+	<String><ID>IDS_CHATLOG_100030</ID><Data>Free call ended. </Data></String>
+	<String><ID>IDS_CHATLOG_100031</ID><Data>Group call ended. </Data></String>
+	<String><ID>IDS_CHATLOG_100032</ID><Data>This is a Free Call message.</Data></String>      
+	<String><ID>IDS_CHATLOG_100033</ID><Data>This is a KakaoLink message. </Data></String>      
+	<String><ID>IDS_CHATLOG_100034</ID><Data>The event has been modified.</Data></String>        
+	<String><ID>IDS_CHATLOG_100035</ID><Data>The event has been cancelled.</Data></String>      
+	<String><ID>IDS_CHATLOG_100036</ID><Data>The poll has been completed. </Data></String>      
+	<String><ID>IDS_CHATLOG_100037</ID><Data>The poll has been closed. </Data></String>
+	<String><ID>IDS_CHATLOG_100038</ID><Data>Call ended</Data></String>
+	<String><ID>IDS_CHATLOG_100039</ID><Data>Contacts</Data></String>  
+	<String><ID>IDS_CHATLOG_100040</ID><Data>Gift message</Data></String>
+	<String><ID>IDS_CHATLOG_100041</ID><Data>Location</Data></String>
+	<String><ID>IDS_CHATLOG_100042</ID><Data>Schedule</Data></String>
+	<String><ID>IDS_CHATLOG_100043</ID><Data>Vote</Data></String>
+	<String><ID>IDS_CHATLOG_100044</ID><Data>Photo</Data></String>	
+	<String><ID>IDS_CHATLOG_100045</ID><Data>videos</Data></String>
+	<String><ID>IDS_CHATLOG_100046</ID><Data>Voice Note</Data></String>
+	<String><ID>IDS_CHATLOG_100047</ID><Data>Run-time error</Data></String>
+	<String><ID>IDS_CHATLOG_100048</ID><Data>This file does not exist. Do you want to download again?</Data></String>
+	<String><ID>IDS_CHATLOG_100049</ID><Data>&#32;to you</Data></String>
+	<String><ID>IDS_CHATLOG_100050</ID><Data>The file does not exist in the path specified.</Data></String>
+	<String><ID>IDS_CHATLOG_100051</ID><Data>Check unread messages from mobile. All chat messages sent by your friend will be marked as read when you are using the PC version.</Data></String>
+	<String><ID>IDS_CHATLOG_100052</ID><Data>Bookmarked for unread messages.</Data></String>
+	<String><ID>IDS_CHATLOG_100053</ID><Data>you</Data></String>
+	<String><ID>IDS_CHATLOG_100054</ID><Data>This link has been sent by a user who is not on your friends list.&#10;Please be aware that you may be directed to a phishing site or a website that contains suggestive content,illegal advertising, or malicious codes. Add the user to as your friend to open the link.</Data></String>
+	<String><ID>IDS_CHATLOG_100055</ID><Data>This name already exists.</Data></String>
+	<String><ID>IDS_CHATLOG_100056</ID><Data>Resend</Data></String>
+	<String><ID>IDS_CHATLOG_100057</ID><Data>Delete</Data></String>
+	<String><ID>IDS_CHATLOG_100058</ID><Data>Cancel sending</Data></String>
+	<String><ID>IDS_CHATLOG_100059</ID><Data>This file is deleted or invalid.&#10;Please download it again.</Data></String>
+	<String><ID>IDS_CHATLOG_100060</ID><Data>This file has been sent by a user who is not on your friends list.&#10;Add this user to download the file.</Data></String>
+	<String><ID>IDS_CHATLOG_100061</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_CHATLOG_100062</ID><Data>Profile</Data></String>
+	<String><ID>IDS_CHATLOG_100063</ID><Data>Failed to load file.</Data></String>
+	<String><ID>IDS_CHATLOG_100064</ID><Data>You are invited by a user who is NOT your friend.</Data></String>
+	<String><ID>IDS_CHATLOG_100065</ID><Data>Click&#32;</Data></String>
+	<String><ID>IDS_CHATLOG_100066</ID><Data>here</Data></String>
+	<String><ID>IDS_CHATLOG_100067</ID><Data>KakaoStory</Data></String>
+	<String><ID>IDS_CHATLOG_100068</ID><Data>KakaoAgit</Data></String>
+	<String><ID>IDS_CHATLOG_100069</ID><Data>Open in Browser</Data></String>
+	<String><ID>IDS_CHATLOG_100070</ID><Data>KakaoTopic</Data></String>
+	<String><ID>IDS_CHATLOG_100072</ID><Data>You can only announce one message at a time. An announcement cannot be longer than 100 characters. Do you want to announce this message?</Data></String>
+	<String><ID>IDS_CHATLOG_100073</ID><Data>Open in Web</Data></String>
+	<String><ID>IDS_CHATLOG_100074</ID><Data>This link was sent by an unknown user.&#10;Are you sure you want to open it?</Data></String>
+	<String><ID>IDS_CHATLOG_100075</ID><Data>"NOTE&#10;This link has been reported by another user.&#10;Do you still want to open the link? "</Data></String>
+	<String><ID>IDS_CHATLOG_100077</ID><Data>This Open Chat is no longer available. </Data></String>
+	<String><ID>IDS_CHATLOG_100078</ID><Data>The user has been deleted.&#10;Tap Block if you no longer wish to receive messages from this user. </Data></String>
+	<String><ID>IDS_CHATLOG_100079</ID><Data></Data></String>
+	<String><ID>IDS_CHATLOG_100080</ID><Data>Link for this open chatroom has been deleted.&#10;You cannot rejoin this chatroom once you leave.</Data></String>
+	<String><ID>IDS_CHATLOG_100081</ID><Data>_NICKNAMES_'s verification information has been changed.</Data></String>
+	<String><ID>IDS_CHATLOG_100082</ID><Data>This link may not be safe.&#10;Are you sure you want to open it?</Data></String>
+	<String><ID>IDS_CHATLOG_100083</ID><Data>This file may not be safe.&#10;Are you sure you want to open it?</Data></String>
+	<String><ID>IDS_CHATLOG_100084</ID><Data>&#32;to report as spam.</Data></String>
+	<String><ID>IDS_CHATLOG_100085</ID><Data>표시할 수 없는 메시지입니다.</Data></String>
+	<String><ID>IDS_CHATLOG_100086</ID><Data>죄송합니다. 현재 지원되지 않는 기능이 포함된 메세지입니다.</Data></String>
+	<String><ID>IDS_CHATLOG_100087</ID><Data>자세히 보기</Data></String>
+	
+	<!-- ChatLogFeed -->
+	<String><ID>IDS_FEED_INVITE_100001</ID><Data></Data></String>
+	<String><ID>IDS_FEED_INVITE_100002</ID><Data>&#32;</Data></String>
+	<String><ID>IDS_FEED_INVITE_100003</ID><Data>,&#32;</Data></String>
+	<String><ID>IDS_FEED_INVITE_100004</ID><Data>.</Data></String>
+	<String><ID>IDS_FEED_INVITE_100005</ID><Data>invited&#32;</Data></String>
+	<String><ID>IDS_FEED_INVITE_100006</ID><Data>left.</Data></String>
+	<String><ID>IDS_FEED_INVITE_100007</ID><Data>_NICKNAMES_ joined this chatroom.</Data></String>
+	<String><ID>IDS_FEED_INVITE_100008</ID><Data>_NICKNAME_ left.</Data></String>
+	<String><ID>IDS_FEED_INVITE_100009</ID><Data>joined this chatroom.</Data></String>
+	<String><ID>IDS_FEED_INVITE_100010</ID><Data>&#32;has been removed from this chatroom.</Data></String>
+	
+	<!-- ChatLogFile전송-->
+	<String><ID>IDS_CHATLOG_FILE_100001</ID><Data>Valid until _DD_</Data></String>
+	<String><ID>IDS_CHATLOG_FILE_100002</ID><Data>Save</Data></String>
+	<String><ID>IDS_CHATLOG_FILE_100003</ID><Data>Save As...</Data></String>
+	<String><ID>IDS_CHATLOG_FILE_100004</ID><Data>Open</Data></String>
+	<String><ID>IDS_CHATLOG_FILE_100005</ID><Data>Open Folder</Data></String>
+	<String><ID>IDS_CHATLOG_FILE_100006</ID><Data>Uploading...</Data></String>
+	<String><ID>IDS_CHATLOG_FILE_100007</ID><Data>Downloading...</Data></String>
+	<String><ID>IDS_CHATLOG_FILE_100008</ID><Data>Failed to send</Data></String>
+	<String><ID>IDS_CHATLOG_FILE_100009</ID><Data>Failed to download</Data></String>
+	<String><ID>IDS_CHATLOG_FILE_100010</ID><Data>Pause</Data></String>
+	<String><ID>IDS_CHATLOG_FILE_100011</ID><Data>Resume</Data></String>
+	<String><ID>IDS_CHATLOG_FILE_100012</ID><Data>Expired</Data></String>
+	<String><ID>IDS_CHATLOG_FILE_100013</ID><Data>Saving...</Data></String>
+	
+	<!-- ChatLog Buttons -->
+	<String><ID>IDS_CHATLOG_SEARCH_100001</ID><Data>First search results.</Data></String>
+	<String><ID>IDS_CHATLOG_SEARCH_100002</ID><Data>Last search results.</Data></String>
+	<String><ID>IDS_CHATLOG_SEARCH_100003</ID><Data>No results.</Data></String>
+	<String><ID>IDS_CHATLOG_SEARCH_100004</ID><Data>You must enter at least 2 characters.</Data></String>
+	<String><ID>IDS_CHATLOG_SEARCH_100005</ID><Data>Search</Data></String>
+	
+	<!-- FileBox -->
+	<String><ID>IDS_FILEBOX_100001</ID><Data>File Box for KakaoTalk</Data></String>
+	<String><ID>IDS_FILEBOX_100002</ID><Data>_DD_days</Data></String>
+	<String><ID>IDS_FILEBOX_100003</ID><Data>Select a destination folder.</Data></String>
+	<String><ID>IDS_FILEBOX_100004</ID><Data>Refresh</Data></String>
+	<String><ID>IDS_FILEBOX_100005</ID><Data>Received</Data></String>
+	<String><ID>IDS_FILEBOX_100006</ID><Data>Sent</Data></String>
+	<String><ID>IDS_FILEBOX_100007</ID><Data>This file is deleted or invalid.&#10;Please download it again.</Data></String>
+	<String><ID>IDS_FILEBOX_100008</ID><Data>00:00:00</Data></String>
+	<String><ID>IDS_FILEBOX_100009</ID><Data>0KB/s</Data></String>
+	<String><ID>IDS_FILEBOX_100010</ID><Data>_DATE_ _TIME_</Data></String>
+	<String><ID>IDS_FILEBOX_100011</ID><Data>No Received Files.</Data></String>
+	<String><ID>IDS_FILEBOX_100012</ID><Data>No Sent Files.</Data></String>
+	<String><ID>IDS_FILEBOX_100013</ID><Data>Name</Data></String>
+	<String><ID>IDS_FILEBOX_100014</ID><Data>Size</Data></String>
+	<String><ID>IDS_FILEBOX_100015</ID><Data>From</Data></String>
+	<String><ID>IDS_FILEBOX_100016</ID><Data>Date</Data></String>
+	<String><ID>IDS_FILEBOX_100017</ID><Data>Expiry</Data></String>
+	<String><ID>IDS_FILEBOX_100018</ID><Data>Status</Data></String>
+	<String><ID>IDS_FILEBOX_100019</ID><Data>Save</Data></String>
+	<String><ID>IDS_FILEBOX_100020</ID><Data>Save As...</Data></String>
+	<String><ID>IDS_FILEBOX_100021</ID><Data>Open</Data></String>
+	<String><ID>IDS_FILEBOX_100022</ID><Data>Open Folder</Data></String>
+	<String><ID>IDS_FILEBOX_100023</ID><Data>Failed</Data></String>
+	<String><ID>IDS_FILEBOX_100024</ID><Data>Retry</Data></String>
+	<String><ID>IDS_FILEBOX_100025</ID><Data>Not a KakaoTalk friend.</Data></String>
+	<String><ID>IDS_FILEBOX_100026</ID><Data>You can share multimedia content&#10;(including photos, videos, voice notes, documents and compressed files)&#10;from KakaoTalk PC and download the files from the File Box for 2 weeks.</Data></String>
+	<String><ID>IDS_FILEBOX_100027</ID><Data>Open Folder</Data></String>
+	<String><ID>IDS_FILEBOX_100028</ID><Data>Expired files are not displayed. </Data></String>
+	<String><ID>IDS_FILEBOX_100029</ID><Data>No. of Files : </Data></String>
+	<String><ID>IDS_FILEBOX_100030</ID><Data>Time Left : </Data></String>
+	<String><ID>IDS_FILEBOX_100031</ID><Data>Transfer Rate : </Data></String>
+	<String><ID>IDS_FILEBOX_100032</ID><Data>Download to</Data></String>
+	<String><ID>IDS_FILEBOX_100033</ID><Data>Browse</Data></String>
+	<String><ID>IDS_FILEBOX_100034</ID><Data>Refreshed</Data></String>
+	<String><ID>IDS_FILEBOX_100035</ID><Data>_PER_%</Data></String>
+	<String><ID>IDS_FILEBOX_100036</ID><Data>Expired</Data></String>
+	<String><ID>IDS_FILEBOX_100037</ID><Data>You can only download files&#10;sent by a friend. Add this user&#10;to download the file.</Data></String>
+	<String><ID>IDS_FILEBOX_100038</ID><Data>You can only download up to _COUNT_ files at once.</Data></String>
+	<String><ID>IDS_FILEBOX_100039</ID><Data>Date</Data></String>
+	<String><ID>IDS_FILEBOX_100040</ID><Data>Expired</Data></String>
+	<String><ID>IDS_FILEBOX_100041</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_FILEBOX_100042</ID><Data>Pause</Data></String>
+	<String><ID>IDS_FILEBOX_100043</ID><Data>Resume</Data></String>
+	<String><ID>IDS_FILEBOX_100044</ID><Data>File Info</Data></String>
+	
+	<!-- ChatLogContextMenu -->
+	<String><ID>IDS_CHATLOG_CONTEXTMENU_100001</ID><Data>Select All&#09;Ctrl+A</Data></String>
+	<String><ID>IDS_CHATLOG_CONTEXTMENU_100002</ID><Data>Copy&#09;&#09;Ctrl+C</Data></String>
+	<String><ID>IDS_CHATLOG_CONTEXTMENU_100003</ID><Data>Forward</Data></String>
+	<String><ID>IDS_CHATLOG_CONTEXTMENU_100004</ID><Data>Delete</Data></String>
+	<String><ID>IDS_CHATLOG_CONTEXTMENU_100005</ID><Data>Announce</Data></String>
+	<String><ID>IDS_CHATLOG_CONTEXTMENU_100006</ID><Data>My chatroom</Data></String>
+	
+	<!-- RichEditCtrl -->
+	<String><ID>IDS_RICHEDITCTRL_100001</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_RICHEDITCTRL_100002</ID><Data>Cut&#09;&#09;Ctrl+X</Data></String>
+	<String><ID>IDS_RICHEDITCTRL_100003</ID><Data>Copy&#09;&#09;Ctrl+C</Data></String>
+	<String><ID>IDS_RICHEDITCTRL_100004</ID><Data>Paste&#09;&#09;Ctrl+V</Data></String>
+	<String><ID>IDS_RICHEDITCTRL_100005</ID><Data>Select All&#09;Ctrl+A</Data></String>
+
+	<!-- 메인화면 -->
+	<String><ID>IDS_ONLINE_100001</ID><Data>Friends</Data></String>
+	<String><ID>IDS_ONLINE_100002</ID><Data>Chats</Data></String>
+	<String><ID>IDS_ONLINE_100003</ID><Data>Settings</Data></String>
+	<String><ID>IDS_ONLINE_100004</ID><Data>More</Data></String>
+
+	<!-- MainPopupMenu -->
+	<String><ID>IDS_MAINPOPUPMENU_100001</ID><Data>Help</Data></String>
+	<String><ID>IDS_MAINPOPUPMENU_100002</ID><Data>About KakaoTalk</Data></String>
+	<String><ID>IDS_MAINPOPUPMENU_100003</ID><Data>Log out</Data></String>
+	<String><ID>IDS_MAINPOPUPMENU_100004</ID><Data>Quit</Data></String>
+	<String><ID>IDS_MAINPOPUPMENU_100005</ID><Data>New Chats</Data></String>
+	<String><ID>IDS_MAINPOPUPMENU_100006</ID><Data>Lock</Data></String>
+	<String><ID>IDS_MAINPOPUPMENU_100007</ID><Data>Add Friends</Data></String>
+	<String><ID>IDS_MAINPOPUPMENU_100008</ID><Data>Settings</Data></String>
+	<String><ID>IDS_MAINPOPUPMENU_100009</ID><Data>Open Chat</Data></String>
+	<String><ID>IDS_MAINPOPUPMENU_100010</ID><Data>Add Groups</Data></String>
+	
+	<!-- 채팅배경화면선택 -->
+	<String><ID>IDS_CHAT_BG_100001</ID><Data>Background settings</Data></String>
+	<String><ID>IDS_CHAT_BG_100002</ID><Data>Select background color</Data></String>
+	<String><ID>IDS_CHAT_BG_100003</ID><Data>Select background image</Data></String>
+	<String><ID>IDS_CHAT_BG_100004</ID><Data>Select file</Data></String>
+	<String><ID>IDS_CHAT_BG_100005</ID><Data>Set pattern : </Data></String>
+	<String><ID>IDS_CHAT_BG_100006</ID><Data>Tile</Data></String>
+	<String><ID>IDS_CHAT_BG_100007</ID><Data>Stretch</Data></String>
+	<String><ID>IDS_CHAT_BG_100008</ID><Data>Files exceeding 9MB or files in formats other than&#10;BMP, JPG, JPEG and PNG cannot be attached.</Data></String>
+	<String><ID>IDS_CHAT_BG_100009</ID><Data>This file does not exist. </Data></String>
+	<String><ID>IDS_CHAT_BG_100010</ID><Data>Apply to all chatrooms</Data></String>
+	<String><ID>IDS_CHAT_BG_100011</ID><Data>Apply selected background to all chatrooms.</Data></String>
+	<String><ID>IDS_CHAT_BG_100012</ID><Data>Failed to load.</Data></String>
+	<String><ID>IDS_CHAT_BG_100013</ID><Data>The background of all chatrooms will be changed.&#10;Do you want to continue?</Data></String>
+
+	<!-- 사운드파일명 -->
+	<String><ID>IDS_SOUND_100001</ID><Data>KaTalk</Data></String>
+	<String><ID>IDS_SOUND_100002</ID><Data>KakaoTalk</Data></String>
+	<String><ID>IDS_SOUND_100003</ID><Data>Ding Dong</Data></String>
+	<String><ID>IDS_SOUND_100004</ID><Data>Rain Drops</Data></String>
+	<String><ID>IDS_SOUND_100005</ID><Data>Pororong</Data></String>
+	<String><ID>IDS_SOUND_100006</ID><Data>GlassBead</Data></String>
+	<String><ID>IDS_SOUND_100007</ID><Data>New KaTalk</Data></String>
+	<String><ID>IDS_SOUND_100008</ID><Data>TriAngle</Data></String>
+	<String><ID>IDS_SOUND_100009</ID><Data>feat. Obama</Data></String>
+
+	<!-- EmoticonView -->
+	<String><ID>IDS_EMOTICON_100001</ID><Data>Recent Emoticon</Data></String>
+	<String><ID>IDS_EMOTICON_100002</ID><Data>Basic Emoticon</Data></String>
+	<String><ID>IDS_EMOTICON_100003</ID><Data>Kakao Friends</Data></String>
+	<String><ID>IDS_EMOTICON_100004</ID><Data>Muzi and Friends</Data></String>
+	<String><ID>IDS_EMOTICON_100005</ID><Data>Frodo and Friends</Data></String>
+	<String><ID>IDS_EMOTICON_100006</ID><Data>Piggy Bun's Daily Life</Data></String>
+	<String><ID>IDS_EMOTICON_100007</ID><Data>Hoi Hoi Pink Baby</Data></String>
+	<String><ID>IDS_EMOTICON_100008</ID><Data>Everyday with KakaoTalk</Data></String>
+	<String><ID>IDS_EMOTICON_100009</ID><Data>Favorites</Data></String>
+
+	<!-- CEmoticonTableView -->
+	<String><ID>IDS_EMOTICON_TABLEVIEW_100001</ID><Data>Add your emoticons to Favorites!</Data></String>
+
+	<!-- MobileAlarm Setting -->
+	<String><ID>IDS_MOBILE_ALARM_100001</ID><Data>Mobile Alert Setting</Data></String>
+	<String><ID>IDS_MOBILE_ALARM_100002</ID><Data>An alert will be sent to your mobile device when your PC is inactive for a time set here.</Data></String>
+	<String><ID>IDS_MOBILE_ALARM_100003</ID><Data>minutes</Data></String>
+	
+	<!-- Photo View -->
+	<String><ID>IDS_PHOTO_100001</ID><Data>Save</Data></String>
+	<String><ID>IDS_PHOTO_100002</ID><Data>Failed to save photos.</Data></String>
+	<String><ID>IDS_PHOTO_100003</ID><Data>KakaoTalk</Data></String>
+	<String><ID>IDS_PHOTO_100004</ID><Data>'s photo</Data></String>
+	<String><ID>IDS_PHOTO_100005</ID><Data>Loading…</Data></String>
+	<String><ID>IDS_PHOTO_100006</ID><Data>Failed to download image</Data></String>
+	<String><ID>IDS_PHOTO_100007</ID><Data>Copied to clipboard.</Data></String>
+	<String><ID>IDS_PHOTO_100008</ID><Data>Downloading selected images...</Data></String>
+	<String><ID>IDS_PHOTO_100009</ID><Data>Download complete.</Data></String>
+	<String><ID>IDS_PHOTO_100010</ID><Data>Album</Data></String>
+	<String><ID>IDS_PHOTO_100011</ID><Data>Selected</Data></String>
+	<String><ID>IDS_PHOTO_100012</ID><Data>Save Photo</Data></String>
+	<String><ID>IDS_PHOTO_100013</ID><Data>Original</Data></String>
+	<String><ID>IDS_PHOTO_100014</ID><Data>Scale to Fit</Data></String>
+	<String><ID>IDS_PHOTO_100015</ID><Data>Album</Data></String>
+	<String><ID>IDS_PHOTO_100016</ID><Data>Save</Data></String>
+	<String><ID>IDS_PHOTO_100017</ID><Data>File could not be loaded because the storage time limit has expired.</Data></String>
+	
+	<!-- Photo View ContextMenu-->
+	<String><ID>IDS_PHOTO_CONTEXTMENU_100001</ID><Data>Copy&#09;&#09;Ctrl+C</Data></String>
+	<String><ID>IDS_PHOTO_CONTEXTMENU_100002</ID><Data>Save</Data></String>
+	
+	<!-- Clipboardimage View -->
+	<String><ID>IDS_CLIPBOARDIMAGE_100001</ID><Data>Clipped Image</Data></String>
+	<String><ID>IDS_CLIPBOARDIMAGE_100002</ID><Data>Send</Data></String>
+	<String><ID>IDS_CLIPBOARDIMAGE_100003</ID><Data>Could not send the clipped image.</Data></String>
+	
+	<!-- CrashReport View -->
+	<String><ID>IDS_CRASH_100001</ID><Data>Successfully sent.</Data></String>
+	<String><ID>IDS_CRASH_100002</ID><Data>Failed to send. </Data></String>
+	
+	<!-- UpdateManager -->
+	<String><ID>IDS_UPDATEMANAGER_100001</ID><Data>An error has occurred while applying the new version.(1)&#10;Please uninstall KakaoTalk and install again later.</Data></String>
+	<String><ID>IDS_UPDATEMANAGER_100002</ID><Data>An error has occurred while applying the new version.(2)&#10;Please uninstall KakaoTalk and install again later.</Data></String>
+	<String><ID>IDS_UPDATEMANAGER_100003</ID><Data>An error has occured while checking for an update.&#10;Update server cannot be connected.&#10;This may be caused by unstable user network or internet connection.&#10;Please check your internet connection and log in again.</Data></String>
+	<String><ID>IDS_UPDATEMANAGER_100004</ID><Data>KakaoTalk Update</Data></String>
+	<String><ID>IDS_UPDATEMANAGER_100005</ID><Data>Up to date.</Data></String>
+	<String><ID>IDS_UPDATEMANAGER_100006</ID><Data>Download Complete.</Data></String>
+	<String><ID>IDS_UPDATEMANAGER_100007</ID><Data>Checking for an update...</Data></String>
+	<String><ID>IDS_UPDATEMANAGER_100008</ID><Data>Updating...</Data></String>
+	<String><ID>IDS_UPDATEMANAGER_100009</ID><Data>Updates</Data></String>
+	<String><ID>IDS_UPDATEMANAGER_100010</ID><Data>What’s Changed</Data></String>
+	<String><ID>IDS_UPDATEMANAGER_100011</ID><Data>What's New </Data></String>
+	<String><ID>IDS_UPDATEMANAGER_100012</ID><Data>Previous Updates </Data></String>
+	
+	<!-- CrashReport Dialog -->
+	<String><ID>IDS_CRASHREPORT_100001</ID><Data>Report Error </Data></String>
+	<String><ID>IDS_CRASHREPORT_100002</ID><Data>Shutting down KakaoTalk&#10;due to an unknown error</Data></String>
+	<String><ID>IDS_CRASHREPORT_100003</ID><Data>We apologize for any inconvenience.</Data></String>
+	<String><ID>IDS_CRASHREPORT_100004</ID><Data>We apologize for any inconvenience&#10;Please click [Send Error Report] to tell us about the problem.&#10;Your report will help us improve KakaoTalk.&#10;We will treat your report as confidential and anonymous.</Data></String>
+	<String><ID>IDS_CRASHREPORT_100005</ID><Data>Restart KakaoTalk </Data></String>
+	<String><ID>IDS_CRASHREPORT_100006</ID><Data>Report Error</Data></String>
+	<String><ID>IDS_CRASHREPORT_100007</ID><Data>Cancel </Data></String>
+	
+	<!-- SpamReport Dialog -->
+	<String><ID>IDS_SPAMREPORT_100001</ID><Data>KakaoTalk will block this user and Kakao Team&#10;will review the contents of this chat.&#10;&#10;Please note that this chatroom and your chat history will be deleted.</Data></String>
+	<String><ID>IDS_SPAMREPORT_100003</ID><Data>Agree</Data></String>
+	<String><ID>IDS_SPAMREPORT_100004</ID><Data>Are you sure you want to report this user as spam?</Data></String>
+	<String><ID>IDS_SPAMREPORT_100005</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_SPAMREPORT_100006</ID><Data>Reported</Data></String>
+	<String><ID>IDS_SPAMREPORT_100007</ID><Data>The user has been blocked and reported.</Data></String>
+	<String><ID>IDS_SPAMREPORT_100008</ID><Data>This user is currently blocked. Messages cannot be sent to blocked friends.</Data></String>
+	<String><ID>IDS_SPAMREPORT_100009</ID><Data>KakaoTalk will block the user who invited you to the chatroom&#10;and all messages will be reviewed by the Kakao Team.&#10;&#10;Please note that this chatroom and your chat history will be deleted.</Data></String>
+	<String><ID>IDS_SPAMREPORT_100010</ID><Data>&#10;NOTE: False reports can be penalized. </Data></String>
+
+
+	<!-- CPasscodeEmailDlg Dialog -->
+	<String><ID>IDS_PASSCODE_EMAIL_100001</ID><Data>Verify Kakao Account</Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100002</ID><Data>Your e-mail address (Kakao account) must be verified before using the PC version.&#10;Your Kakao account can be changed from your mobile.</Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100003</ID><Data>Send Verification code</Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100004</ID><Data>A verification code will be sent to the e-mail address registered as your Kakao account.</Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100005</ID><Data>Verification Code </Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100006</ID><Data>Verify and continue</Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100007</ID><Data>Verify by email</Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100008</ID><Data>Failed to send a verification code to the e-mail registered as your Kakao account.</Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100009</ID><Data>A verification code has been sent again to&#10;your e-mail registered as your Kakao account.</Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100010</ID><Data>Please complete the verification process. </Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100011</ID><Data>Kakao Account : </Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100012</ID><Data>Tip! If your Kakao account is not correct, go to “More” > “Kakao Account” on your mobile to change your e-mail address and log in on your PC again.</Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100013</ID><Data>Send Registration Code to Kakao Account Email</Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100014</ID><Data>A verification code has been sent to the e-mail&#10;registered as your Kakao account.&#10;Please check and enter the verification code.</Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100015</ID><Data>Enter the 8-digit verification code. </Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100016</ID><Data>Failed to verify your Kakao account.</Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100017</ID><Data>Cannot connect to KakaoTalk server. This may have been caused by unstable network connection or internet service you are using. Check your internet connection and try again.</Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100018</ID><Data>The verification code has expired. Please resend the verification code. </Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100019</ID><Data>Invalid verification code. Please enter again. </Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100020</ID><Data>Failed to verify your Kakao account.</Data></String>
+	<String><ID>IDS_PASSCODE_EMAIL_100021</ID><Data>Verify your Kakao Account and register&#10;your desktop to use KakaoTalk for&#10;Windows.</Data></String>
+	
+	<!-- MoreView -->
+	<String><ID>IDS_MOREVIEW_100001</ID><Data>My Profile </Data></String>
+	<String><ID>IDS_MOREVIEW_100002</ID><Data>Notices</Data></String>
+	<String><ID>IDS_MOREVIEW_100003</ID><Data>Version Info</Data></String>
+	<String><ID>IDS_MOREVIEW_100004</ID><Data>Settings</Data></String>
+	<String><ID>IDS_MOREVIEW_100005</ID><Data>Shortcuts</Data></String>
+	<String><ID>IDS_MOREVIEW_100006</ID><Data>Help</Data></String>
+	<String><ID>IDS_MOREVIEW_100007</ID><Data>Plus Calendar</Data></String>
+	<String><ID>IDS_MOREVIEW_100008</ID><Data>File Box </Data></String>
+	<String><ID>IDS_MOREVIEW_100009</ID><Data>KakaoStory</Data></String>
+	<String><ID>IDS_MOREVIEW_100010</ID><Data>Account</Data></String>
+	<String><ID>IDS_MOREVIEW_100011</ID><Data>Create ID</Data></String>
+	<String><ID>IDS_MOREVIEW_100012</ID><Data>KakaoStory</Data></String>
+	<String><ID>IDS_MOREVIEW_100013</ID><Data>Games</Data></String>
+	
+	<!-- ChatRoom Notice -->
+	<String><ID>IDS_CHATROOM_NOTICE_100001</ID><Data>Don’t Show Again</Data></String>
+	<String><ID>IDS_CHATROOM_NOTICE_100002</ID><Data>Hide</Data></String>
+  	<String><ID>IDS_CHATROOM_NOTICE_100003</ID><Data>Post</Data></String>
+  	<String><ID>IDS_CHATROOM_NOTICE_100004</ID><Data>Pin</Data></String>
+  	<String><ID>IDS_CHATROOM_NOTICE_100005</ID><Data>Unpin</Data></String>
+  	<String><ID>IDS_CHATROOM_NOTICE_100006</ID><Data>A photo has been posted.</Data></String>
+  	<String><ID>IDS_CHATROOM_NOTICE_100007</ID><Data>A video has been posted.</Data></String>
+  	<String><ID>IDS_CHATROOM_NOTICE_100008</ID><Data>A file has been posted.</Data></String>
+  	<String><ID>IDS_CHATROOM_NOTICE_100009</ID><Data>(Emoticon)</Data></String>
+
+	<!-- CLockmodeView -->
+	<String><ID>IDS_LOCKMODEVIEW_100001</ID><Data>Your KakaoTalk PC is locked</Data></String>
+	<String><ID>IDS_LOCKMODEVIEW_100002</ID><Data>Your KakaoTalk PC is currently locked.&#10;Please enter your password to unlock your KakaoTalk PC. </Data></String>
+	<String><ID>IDS_LOCKMODEVIEW_100003</ID><Data>The password you entered is incorrect.&#10;Please try again.</Data></String>
+	<String><ID>IDS_LOCKMODEVIEW_100004</ID><Data>OK</Data></String>
+	<String><ID>IDS_LOCKMODEVIEW_100005</ID><Data>You will be logged out as you have reached&#10;the maximum number of failed login attempts.</Data></String>
+	<String><ID>IDS_LOCKMODEVIEW_100006</ID><Data>Password</Data></String>
+	<String><ID>IDS_LOCKMODEVIEW_100007</ID><Data>Switch Accounts</Data></String>
+
+	<!-- CAddFriendDlg -->
+	<String><ID>IDS_ADDFRIENDDLG_100001</ID><Data>Add Friends</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100002</ID><Data>Find Friends by ID</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100003</ID><Data>Search</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100004</ID><Data>Add your friends by KakaoTalk ID</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100005</ID><Data>You can find a friend by ID&#10;if he/she has a KakaoTalk ID&#10;that is searchable.</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100006</ID><Data>Add Friend</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100007</ID><Data>This ID does not exist or&#10;is non-searchable.</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100008</ID><Data>1:1 Chat</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100009</ID><Data>'__USER__'have not been found.</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100010</ID><Data>'__USER__'&#10;have not been found.</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100011</ID><Data>Add by Contacts</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100012</ID><Data>ID Search</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100013</ID><Data>You can add friends&#10;by their phone number.</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100014</ID><Data>Enter a name</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100015</ID><Data>Enter a phone number</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100016</ID><Data>Do not include "-"</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100017</ID><Data>The phone number you entered belongs to you.</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100018</ID><Data>The user is already on your friends list. </Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100019</ID><Data>Invalid phone number. Please enter a different number. </Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100020</ID><Data>Country Code</Data></String>
+	<String><ID>IDS_ADDFRIENDDLG_100021</ID><Data>Enter the name and phone number&#10;of a friend you wish to add. </Data></String>
+
+	<!-- CFriendSettingView -->
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100001</ID><Data>Unhide</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100002</ID><Data>Block</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100003</ID><Data>Unblock</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100004</ID><Data>Sync Friends List</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100005</ID><Data>KakaoTalk PC will sync your friends list with your mobile device.</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100006</ID><Data>Last Sync</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100007</ID><Data>Hidden Friends</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100008</ID><Data>You have no hidden friends.</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100009</ID><Data>Blocked Friends</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100010</ID><Data>You have no blocked friends. </Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100011</ID><Data>Could not unhide this friend.</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100012</ID><Data>Could not block this friend.</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100013</ID><Data>Are you sure you want to block this friend?&#10;You will no longer receive any messages from this friend, nor will he/she appear in your friends list.&#10;&#10;(Blocked friends will not be notified that they have been blocked.)</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100014</ID><Data>Could not unblock this friend.</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100015</ID><Data>This friend is now unblocked.&#10;Do you want to reinstate this  friend to your friends list now?</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100016</ID><Data>This friend is now blocked.</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100017</ID><Data>This user is now on your friends list.</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100018</ID><Data>Could not add this user to your friends list.</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100019</ID><Data>This friend is now unhidden.</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100020</ID><Data>Successfully synced your friends list.</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100021</ID><Data>Please try again in __SECOND__ seconds.</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100022</ID><Data>(Unknown)</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100023</ID><Data>Sync Friends List</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100024</ID><Data>Manage Friends</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100025</ID><Data>"Are you sure you want to delete this user?&#10;Even if you delete, you may still receive messages from the user."</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100026</ID><Data>The user has been deleted.</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100027</ID><Data>The user could not be deleted at this time.</Data></String>
+	<String><ID>IDS_FRIENDMNGRLSTCTRL_100028</ID><Data>Delete</Data></String>
+	
+	<!-- CVoiceTalkSettingView -->
+	<String><ID>IDS_VT_SETTINGVIEW_100001</ID><Data>Speaker</Data></String>
+	<String><ID>IDS_VT_SETTINGVIEW_100002</ID><Data>Device</Data></String>
+	<String><ID>IDS_VT_SETTINGVIEW_100003</ID><Data>Default Speaker</Data></String>
+	<String><ID>IDS_VT_SETTINGVIEW_100004</ID><Data>Test</Data></String>
+	<String><ID>IDS_VT_SETTINGVIEW_100005</ID><Data>Volume</Data></String>
+	<String><ID>IDS_VT_SETTINGVIEW_100006</ID><Data>Microphone</Data></String>
+	<String><ID>IDS_VT_SETTINGVIEW_100007</ID><Data>Default Microphone</Data></String>
+	<String><ID>IDS_VT_SETTINGVIEW_100008</ID><Data>Input Level</Data></String>
+	<String><ID>IDS_VT_SETTINGVIEW_100009</ID><Data>Camera</Data></String>
+	<String><ID>IDS_VT_SETTINGVIEW_100010</ID><Data>Browse</Data></String>
+	<String><ID>IDS_VT_SETTINGVIEW_100011</ID><Data>Face Tracker</Data></String>
+	<String><ID>IDS_VT_SETTINGVIEW_100012</ID><Data>Automatically detect and track your face to stay in screen. </Data></String>
+	<String><ID>IDS_VT_SETTINGVIEW_100013</ID><Data>Default Camera</Data></String>
+	<String><ID>IDS_VT_SETTINGVIEW_100014</ID><Data>Connect a camera&#10;to your computer.</Data></String>
+	<String><ID>IDS_VT_SETTINGVIEW_100015</ID><Data>Apply</Data></String>
+	
+	<!-- CSystemSettingView -->
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100001</ID><Data>Start automatically</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100002</ID><Data>Start KakaoTalk on system startup</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100003</ID><Data>Automatically log in and lock</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100004</ID><Data>Download to</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100005</ID><Data>Browse</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100006</ID><Data>Deregister Desktop</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100007</ID><Data>You can reregister your desktop if you change your desktop device or if you&#10;suspect that someone is using your KakaoTalk Desktop without your consent.</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100008</ID><Data>Select a destination folder.</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100009</ID><Data>Do you want to deregister your current desktop device?&#10;(You will be logged out once you deregister.)</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100010</ID><Data>Magnifier and Font</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100011</ID><Data>Magnifier</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100012</ID><Data>Font</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100013</ID><Data>Privacy</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100014</ID><Data>Automatically lock if inactive for</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100015</ID><Data>Basic View setting</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100016</ID><Data>To apply the selected View setting, the application must be restarted.&#10;Do you wish to close and restart the application?</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100017</ID><Data>min</Data></String>
+	<String><ID>IDS_SYSTEMSETTINGVIEW_100018</ID><Data>To apply the selected font, the application must be restarted.&#10;Do you wish to close and restart the application?</Data></String>
+	
+	<!-- CChatLogForward -->
+	<String><ID>IDS_CHATLOGFORWARD_100001</ID><Data>Select</Data></String>
+	<String><ID>IDS_CHATLOGFORWARD_100002</ID><Data>Search name</Data></String>
+	<String><ID>IDS_CHATLOGFORWARD_100003</ID><Data>OK</Data></String>
+	<String><ID>IDS_CHATLOGFORWARD_100004</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_CHATLOGFORWARD_100005</ID><Data>NOTE</Data></String>
+	<String><ID>IDS_CHATLOGFORWARD_100006</ID><Data>You can send the same message individually to as many as 10 friends.&#10;Please select an option.</Data></String>
+	<String><ID>IDS_CHATLOGFORWARD_100007</ID><Data>1:1 Chat</Data></String>
+	<String><ID>IDS_CHATLOGFORWARD_100008</ID><Data>Group Chat</Data></String>
+	<String><ID>IDS_CHATLOGFORWARD_100009</ID><Data>Invite _COUNTER_ friend(s)?</Data></String>
+	<String><ID>IDS_CHATLOGFORWARD_100010</ID><Data>Please download the file and try again.</Data></String>
+	<String><ID>IDS_CHATLOGFORWARD_100011</ID><Data>Choose Friends </Data></String>
+	<String><ID>IDS_CHATLOGFORWARD_100012</ID><Data>You can send the same message individually up to 10 friends at a time.</Data></String>
+
+	<!-- CSendCardDlg -->
+	<String><ID>IDS_SENDCARD_100001</ID><Data>메시지를 입력해주세요.</Data></String>
+	<String><ID>IDS_SENDCARD_100002</ID><Data>전송</Data></String>
+	<String><ID>IDS_SENDCARD_100003</ID><Data>입력 가능한 메시지 범위를 초과하였습니다.</Data></String>
+	<String><ID>IDS_SENDCARD_100004</ID><Data>글자수를 줄이거나 폰트 크기를 조정해주세요.</Data></String>
+	<String><ID>IDS_SENDCARD_100005</ID><Data>카드에 어울리는 멋진 글꼴을 소개합니다.</Data></String>
+	<String><ID>IDS_SENDCARD_100006</ID><Data>디자인에 최적화된 아래 글꼴을&#10;설치하시고 더 예쁜 카드를 만들어 보세요.</Data></String>
+	<String><ID>IDS_SENDCARD_100007</ID><Data>한나체 (우아한형제들)</Data></String>
+	<String><ID>IDS_SENDCARD_100008</ID><Data>주아체 (우아한형제들)</Data></String>
+	<String><ID>IDS_SENDCARD_100009</ID><Data>나눔 손글씨 펜체 (네이버)</Data></String>
+	<String><ID>IDS_SENDCARD_100010</ID><Data>글꼴 설치하기</Data></String>
+	<String><ID>IDS_SENDCARD_100011</ID><Data>나중에 하기</Data></String>
+	<String><ID>IDS_SENDCARD_100012</ID><Data>미설치</Data></String>
+	<String><ID>IDS_SENDCARD_100013</ID><Data>사진을 첨부해주세요.</Data></String>
+	<String><ID>IDS_SENDCARD_100014</ID><Data>보내는 사람</Data></String>
+	<String><ID>IDS_SENDCARD_100015</ID><Data>취소</Data></String>
+	<String><ID>IDS_SENDCARD_100016</ID><Data>일시적으로 네트워크 상태가 좋지 않아 카드를 불러오지 못했습니다.&#10;잠시후 다시 시도하세요.</Data></String>
+	
+	<!-- CRegisterKakaoTalkIdDlg -->
+	<String><ID>IDS_REGISTERKAKAOTALKID_100001</ID><Data>Choose your KakaoTalk ID</Data></String>
+	<String><ID>IDS_REGISTERKAKAOTALKID_100002</ID><Data>Use a combination of 4-15 letters</Data></String>
+	<String><ID>IDS_REGISTERKAKAOTALKID_100003</ID><Data>This ID is already in use or not valid.</Data></String>
+	<String><ID>IDS_REGISTERKAKAOTALKID_100004</ID><Data>Please enter an ID.</Data></String>
+	<String><ID>IDS_REGISTERKAKAOTALKID_100005</ID><Data>OK</Data></String>
+	<String><ID>IDS_REGISTERKAKAOTALKID_100006</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_REGISTERKAKAOTALKID_100007</ID><Data>Do you want to use&#10;__ID__ as your ID?</Data></String>
+	<String><ID>IDS_REGISTERKAKAOTALKID_100008</ID><Data>Failed to complete your request.&#10;&#10;This may be a temporary error. Please try again later.</Data></String>
+	<String><ID>IDS_REGISTERKAKAOTALKID_100009</ID><Data>Could not create your ID. &#10; Please try again.</Data></String>
+	<String><ID>IDS_REGISTERKAKAOTALKID_100010</ID><Data>This ID contains invalid characters.</Data></String>
+	<String><ID>IDS_REGISTERKAKAOTALKID_100011</ID><Data>_NUMBER_/15</Data></String>
+	<String><ID>IDS_REGISTERKAKAOTALKID_100012</ID><Data> You will not be able to change your ID later.</Data></String>
+
+	<!-- MyProfileEditDlg  -->
+	<String><ID>IDS_PROFILEEDIT_100001</ID><Data>Enter your name.</Data></String>
+	
+	<!-- VOICE_TALK -->
+	<String><ID>IDS_VOICETALK_100001</ID><Data>Default Microphone</Data></String>
+	<String><ID>IDS_VOICETALK_100002</ID><Data>Default Speaker</Data></String>
+	<String><ID>IDS_VOICETALK_100003</ID><Data>Failed to request __TYPE__&#10;due to an unexpected error.&#10;Please try again later.</Data></String>
+	<String><ID>IDS_VOICETALK_100004</ID><Data>You are currently on a __TYPE__.</Data></String>
+	<String><ID>IDS_VOICETALK_100005</ID><Data>__TYPE__ will end if you log out.&#10;Do you want to continue?</Data></String>
+	<String><ID>IDS_VOICETALK_100006</ID><Data>__TYPE__ will end if you close this window.&#10;Do you want to continue?</Data></String>
+	<String><ID>IDS_VOICETALK_100008</ID><Data>Connecting</Data></String>
+	<String><ID>IDS_VOICETALK_100009</ID><Data>Incoming Call</Data></String>
+	<String><ID>IDS_VOICETALK_100010</ID><Data>Calling…</Data></String>
+	<String><ID>IDS_VOICETALK_100011</ID><Data>Let's Group Call!</Data></String>
+	<String><ID>IDS_VOICETALK_100012</ID><Data>Call ended</Data></String>
+	<String><ID>IDS_VOICETALK_100013</ID><Data>No Answer</Data></String>
+	<String><ID>IDS_VOICETALK_100014</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_VOICETALK_100015</ID><Data>The call has been disconnected.</Data></String>
+	<String><ID>IDS_VOICETALK_100017</ID><Data>This message is not supported.&#10;Please check on your mobile. </Data></String>
+	<String><ID>IDS_VOICETALK_100018</ID><Data>Members</Data></String>
+	<String><ID>IDS_VOICETALK_100019</ID><Data>Voice Call</Data></String>
+	<String><ID>IDS_VOICETALK_100020</ID><Data>Group Call</Data></String>
+	<String><ID>IDS_VOICETALK_100021</ID><Data>__TYPE__ feature is not available&#10;on your friend's device.</Data></String>
+	<String><ID>IDS_VOICETALK_100022</ID><Data>Your friend needs to update KakaoTalk&#10;to the latest version&#10;in order to have a __TYPE__ with you.</Data></String>
+	<String><ID>IDS_VOICETALK_100023</ID><Data>Could not connect your call due to an unexpected error.&#10;Please try again later.</Data></String>
+	<String><ID>IDS_VOICETALK_100024</ID><Data>Connecting has failed.</Data></String>
+	<String><ID>IDS_VOICETALK_100025</ID><Data>You cannot request __TYPE__ while on a __TYPE__.&#10;Please end the call and try again later.</Data></String>
+    <String><ID>IDS_VOICETALK_100028</ID><Data>You cannot request __TYPE__&#10;while on a call.&#10;Please end the call and try again later.</Data></String>
+	<String><ID>IDS_VOICETALK_100029</ID><Data>You cannot play ringtone preview while on a call.</Data></String>
+	<String><ID>IDS_VOICETALK_100035</ID><Data>Select Friends</Data></String>
+	<String><ID>IDS_VOICETALK_100036</ID><Data>You can select up to 4 friends.</Data></String>
+	<String><ID>IDS_VOICETALK_100037</ID><Data>You cannot make a __TYPE__ to a user who is not your friend.</Data></String>
+	<String><ID>IDS_VOICETALK_100040</ID><Data>Please check if your microphone&#10;or speaker is connected properly.</Data></String>
+	<String><ID>IDS_VOICETALK_100041</ID><Data>Could not connect your call&#10;due to an audio problem.</Data></String>
+	<String><ID>IDS_VOICETALK_100042</ID><Data>You can only select up to 4 friends.</Data></String>
+	<String><ID>IDS_VOICETALK_100043</ID><Data>The __TYPE__ has been disconnected&#10;due to a temporary network problem.&#10;Please try again later.</Data></String>
+	<String><ID>IDS_VOICETALK_100044</ID><Data>Your friend deactivated __TYPE__ service.</Data></String>
+	<String><ID>IDS_VOICETALK_100045</ID><Data>Do you want to make a __TYPE__ request to __NAME__?</Data></String>
+	<String><ID>IDS_VOICETALK_100046</ID><Data>The __TYPE__ has been disconnected&#10;from your friend's device.</Data></String>
+	<String><ID>IDS_VOICETALK_100047</ID><Data>__NAME__has blocked all incoming calls.</Data></String>
+	<String><ID>IDS_VOICETALK_100048</ID><Data>__NAME__is using a version that does not support a free call/group call.</Data></String>
+	<String><ID>IDS_VOICETALK_100049</ID><Data>__NAME__’s device does not support the free call or group call features.</Data></String>
+	<!--<String><ID>IDS_VOICETALK_100050</ID><Data>Free call is not available.  Please check if you have a sound card installed or if your speaker/microphone is connected properly.</Data></String>-->
+	<String><ID>IDS_VOICETALK_100051</ID><Data>The service is currently under maintenance.&#10;We apologize for the inconvenience.&#10;Please try again later.</Data></String>
+	<String><ID>IDS_VOICETALK_100052</ID><Data>This user is no longer a KakaoTalk user.&#10;You cannot make a free call&#10;to non-KakoTalk users.</Data></String>
+	<String><ID>IDS_VOICETALK_100053</ID><Data>This user is on your blocked friends list.&#10;You can't send __TYPE__ to blocked friends.</Data></String>
+	<String><ID>IDS_VOICETALK_100054</ID><Data>__NAME__is on your blocked friends list.</Data></String>
+	<String><ID>IDS_VOICETALK_100055</ID><Data>You are currently on a __TYPE__.&#10;Please check on your mobile. </Data></String>
+	<!--<String><ID>IDS_VOICETALK_100056</ID><Data>This user is no longer a KakaoTalk user.&#10;You cannot make a free call to non-KakaoTalk users.</Data></String>-->
+	<String><ID>IDS_VOICETALK_100057</ID><Data>You have no friends who can join Group Call.</Data></String>
+	<String><ID>IDS_VOICETALK_100058</ID><Data>__NAME__is not on your Friends list.</Data></String>
+	<String><ID>IDS_VOICETALK_100059</ID><Data>__NAME__is on the Blocked list.</Data></String>
+	<String><ID>IDS_VOICETALK_100060</ID><Data>Your microphone is not connected.</Data></String>
+	<String><ID>IDS_VOICETALK_100061</ID><Data>Your speaker is not connected.</Data></String>
+	<String><ID>IDS_VOICETALK_100062</ID><Data>Your microphone and speaker&#10;are not connected.</Data></String>
+	<String><ID>IDS_VOICETALK_100063</ID><Data>Missed Call</Data></String>
+	<String><ID>IDS_VOICETALK_100064</ID><Data>Video Calling...</Data></String>
+	<String><ID>IDS_VOICETALK_100065</ID><Data>Please check on your mobile. </Data></String>
+	<String><ID>IDS_VOICETALK_100066</ID><Data>This message is not supported.</Data></String>
+	
+	<String><ID>IDS_VOICETALK_100067</ID><Data>Invite Friends</Data></String>
+	<String><ID>IDS_VOICETALK_100068</ID><Data>Do you want to invite __NAMES__ to join the group call?&#10;They will also be invited to the group chat.</Data></String>
+	<String><ID>IDS_VOICETALK_100069</ID><Data>Unable to invite friend(s) to a group call due to the following reason.</Data></String>
+	<String><ID>IDS_VOICETALK_100070</ID><Data>__NAME__ is using a version that doesn't support this feature.</Data></String>
+	<String><ID>IDS_VOICETALK_100071</ID><Data>__NAME__ is using a device that doesn't support this feature.</Data></String>
+	<String><ID>IDS_VOICETALK_100072</ID><Data>__NAME__ is on your Blocked Friends list.</Data></String>
+	<String><ID>IDS_VOICETALK_100073</ID><Data>__NAME__ is no longer a KakaoTalk user.</Data></String>
+	<String><ID>IDS_VOICETALK_100074</ID><Data>__NAME__ has deactivated the Free Call feature.</Data></String>
+	<String><ID>IDS_VOICETALK_100075</ID><Data>Up to 5 people can join a group call.</Data></String>
+	<String><ID>IDS_VOICETALK_100076</ID><Data>__NAMES__ joined the group call.</Data></String>
+	<String><ID>IDS_VOICETALK_100077</ID><Data>The call has been switched to group call.</Data></String>
+	<String><ID>IDS_VOICETALK_100078</ID><Data>The line is busy.</Data></String>
+	<String><ID>IDS_VOICETALK_100079</ID><Data>You are not invited to join this group call.</Data></String>
+	<String><ID>IDS_VOICETALK_100080</ID><Data>You are invited to join a group call.</Data></String>
+	
+	<!-- CFaceTalkDlg -->
+	<String><ID>IDS_VOICETALK_100081</ID><Data>Default Camera</Data></String>
+	<String><ID>IDS_VOICETALK_100082</ID><Data>Connecting</Data></String>
+	<String><ID>IDS_VOICETALK_100083</ID><Data>Video call with __USER__</Data></String>
+	<!--<String><ID>IDS_VOICETALK_100084</ID><Data>상대방이 카메라를 껐습니다.</Data></String>-->
+	<!--<String><ID>IDS_VOICETALK_100085</ID><Data>카메라를 껐습니다.</Data></String>-->
+	<String><ID>IDS_VOICETALK_100086</ID><Data>Unstable network connection.</Data></String>
+	<String><ID>IDS_VOICETALK_100087</ID><Data>Incoming Call</Data></String>
+	<String><ID>IDS_VOICETALK_100088</ID><Data>Unable to make a call because your camera is not available.</Data></String>
+	<String><ID>IDS_VOICETALK_100089</ID><Data>An unexpected error has occurred.&#10;Please try again later.</Data></String>
+	<!--<String><ID>IDS_VOICETALK_100090</ID><Data>Your call has been disconnected due to an unstable network connection.&#10;Please try again.</Data></String>-->
+	<String><ID>IDS_VOICETALK_100091</ID><Data>Unable to make a call because your camera is not connected.</Data></String>
+	<String><ID>IDS_VOICETALK_100092</ID><Data>Video Call</Data></String>
+	<String><ID>IDS_VOICETALK_100093</ID><Data>Free Call</Data></String>
+	<String><ID>IDS_VOICETALK_100094</ID><Data>Do you want to close this window?&#10;Your call will be disconnected.</Data></String>
+	<String><ID>IDS_VOICETALK_100095</ID><Data>Your microphone and speaker&#10;are not connected.</Data></String>
+	
+	<!-- CVoiceTalkWizardDlg -->
+	<String><ID>IDS_VT_WIZARDVIEW_100001</ID><Data>Free Call Wizard</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100002</ID><Data>The wizard will make sure that the speaker is working properly to use the free call feature.&#10;Please click the Test button below.</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100003</ID><Data>Device</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100004</ID><Data>Default Speaker</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100005</ID><Data>Test</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100006</ID><Data>Volume</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100007</ID><Data>Next</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100008</ID><Data>Please speak into the microphone. If the input level does not move, please choose another device.</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100009</ID><Data>Default Microphone</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100010</ID><Data>Input Level</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100011</ID><Data>Done</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100012</ID><Data>Back</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100013</ID><Data>Select a different camera if you are unable&#10;to see the screen properly.</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100014</ID><Data>Face Tracker</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100015</ID><Data>Automatically detect and track your face&#10;to stay in screen.</Data></String>
+	<String><ID>IDS_VT_WIZARDVIEW_100016</ID><Data>Video Call Wizard</Data></String>
+	
+	<!-- CAdTodaysView -->
+	<String><ID>IDS_AD_TODAYSVIEW_100001</ID><Data>Message sent to your mobile.</Data></String>
+
+	<!-- Tooltip -->
+	<String><ID>IDS_TT_MAXIMIZE</ID><Data>Maximize</Data></String>
+	<String><ID>IDS_TT_RESTORE</ID><Data>Restore</Data></String>
+	<String><ID>IDS_TT_MINIMIZE</ID><Data>Minimize</Data></String>
+	<String><ID>IDS_TT_CLOSE</ID><Data>Close</Data></String>
+	<String><ID>IDS_TT_FRIENDS</ID><Data>Friends</Data></String>
+	<String><ID>IDS_TT_CHATTING</ID><Data>Chats</Data></String>
+	<String><ID>IDS_TT_MORE</ID><Data>More</Data></String>
+	<String><ID>IDS_TT_ALARM</ID><Data>Alerts</Data></String>
+	<String><ID>IDS_TT_MENU</ID><Data>Menu</Data></String>
+	<String><ID>IDS_TT_STORY</ID><Data>Go Kakao Story</Data></String>
+	<String><ID>IDS_TT_SEARCH</ID><Data>Search</Data></String>
+	<String><ID>IDS_TT_FACE_TALK</ID><Data>Video Call</Data></String>
+
+	<String><ID>IDS_TT_CHAT_MEMBER</ID><Data>Chat members</Data></String>
+	<String><ID>IDS_TT_EMOTICON</ID><Data>Emoticons</Data></String>
+	<String><ID>IDS_TT_SEND_FILE</ID><Data>Send File</Data></String>
+	<String><ID>IDS_TT_SEND_PHOTO</ID><Data>Send Photo</Data></String>
+	<String><ID>IDS_TT_VOICE_TALK</ID><Data>Voice Call</Data></String>
+	<String><ID>IDS_TT_SET_OPACITY</ID><Data>Opacity</Data></String>
+	
+	<String><ID>IDS_TT_SEARCH_DOWN</ID><Data>Down</Data></String>
+	<String><ID>IDS_TT_SEARCH_UP</ID><Data>Up</Data></String>
+	
+	<String><ID>IDS_TT_PREV</ID><Data>Prev</Data></String>
+	<String><ID>IDS_TT_NEXT</ID><Data>Next</Data></String>
+	<String><ID>IDS_TT_ALBUM</ID><Data>Album</Data></String>
+	<String><ID>IDS_TT_ZOOM_IN</ID><Data>Zoom in</Data></String>
+	<String><ID>IDS_TT_ZOOM_OUT</ID><Data>Zoom out</Data></String>
+	<String><ID>IDS_TT_ACTUAL_SIZE</ID><Data>Actual Size</Data></String>
+	<String><ID>IDS_TT_FIT_TO_WINDOW</ID><Data>Fit to window</Data></String>
+	<String><ID>IDS_TT_ROTATE</ID><Data>Rotate</Data></String>
+	<String><ID>IDS_TT_SAVE_TO_FILE</ID><Data>Save to file</Data></String>
+	
+	<String><ID>IDS_TT_EMOTICON_SETTING</ID><Data>Emoticon Settings (F8)</Data></String>
+	
+	<String><ID>IDS_TT_FILE_BOX</ID><Data>File Box</Data></String>
+	<String><ID>IDS_TT_CHATVIEW_MENU_ALBUM</ID><Data>Album</Data></String>
+	
+	<!-- AccText -->
+	<String><ID>IDS_AT_CHATROOM_SETTINGVIEW_EXCEL_STYLE_CHECK_BUTTON</ID><Data>Select Excel style </Data></String>
+	<String><ID>IDS_AT_CHATROOM_SETTINGVIEW_COLOR_BACKGROUND_CHECK_BUTTON</ID><Data>Select background color </Data></String>
+	<String><ID>IDS_AT_CHATROOM_SETTINGVIEW_ILLUST_BACKGROUND_CHECK_BUTTON</ID><Data>Select background design </Data></String>
+	<String><ID>IDS_AT_CHATROOM_SETTINGVIEW_PHOTO_BACKGROUND_CHECK_BUTTON</ID><Data>Select background image </Data></String>
+	
+	<String><ID>IDS_AT_BUTTON_CHECK</ID><Data>Select </Data></String>
+	<String><ID>IDS_AT_BUTTON_UNCHECK</ID><Data>Deselect </Data></String>
+		
+	<String><ID>IDS_AT_PROFILE_EDIT_NAME</ID><Data>Edit name </Data></String>
+	<String><ID>IDS_AT_PROFILE_EDIT_STATUSMSG</ID><Data>Edit status message </Data></String>
+	
+	<String><ID>IDS_AT_PCAuthentication_Title</ID><Data>Register your PC </Data></String>
+	<String><ID>IDS_AT_MINIPROFILE_TILE</ID><Data>Mini-profile </Data></String>
+	<String><ID>IDS_AT_CHATROOM_LISTITEM_MSG_COUNT</ID><Data>New message </Data></String>
+		
+	<!-- CEmoticonSettingView -->
+	<String><ID>IDS_EMOTICON_SETTINGVIEW_100001</ID><Data>Emoticons</Data></String>
+	<String><ID>IDS_EMOTICON_SETTINGVIEW_100002</ID><Data>OK</Data></String>
+	<String><ID>IDS_EMOTICON_SETTINGVIEW_100003</ID><Data>Cancel</Data></String>
+
+	<!-- COpenChatHomeDlg -->
+	<String><ID>IDS_OPENCHATHOMEDLG_100001</ID><Data>Open Chat Home</Data></String>
+	<String><ID>IDS_OPENCHATHOMEDLG_100002</ID><Data>My Open Chat</Data></String>
+	<String><ID>IDS_OPENCHATHOMEDLG_100003</ID><Data>_NUMBER_ </Data></String>
+	<String><ID>IDS_OPENCHATHOMEDLG_100004</ID><Data>/ 10</Data></String>
+	<String><ID>IDS_OPENCHATHOMEDLG_100005</ID><Data>Join Open Chat</Data></String>
+	<String><ID>IDS_OPENCHATHOMEDLG_100006</ID><Data>Enter a link.</Data></String>
+	<String><ID>IDS_OPENCHATHOMEDLG_100007</ID><Data>Join</Data></String>
+	<String><ID>IDS_OPENCHATHOMEDLG_100008</ID><Data>Invalid URL.&#10;Please try again.</Data></String>
+	<String><ID>IDS_OPENCHATHOMEDLG_100009</ID><Data>Open Chat is not available.&#10;Please uninstall KakaoTalk and reinstall it&#10;or contact our Customer Service for assistance.</Data></String>
+
+	<!-- COpenChatCreateDlg -->
+	<String><ID>IDS_OPENCHATCREATEDLG_100001</ID><Data>Create Open Chat</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100002</ID><Data>Enter a chatroom name.</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100003</ID><Data>Profile</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100004</ID><Data>KakaoTalk</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100005</ID><Data>Kakao Friends</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100006</ID><Data>Edit</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100007</ID><Data>Chatroom</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100008</ID><Data>1:1 Chat</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100009</ID><Data>Group Chat</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100010</ID><Data>OK</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100011</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100012</ID><Data>Select a chat type for this chatroom.</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100013</ID><Data>Unable to create an open chatroom.&#10;Please try again later.</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100014</ID><Data>_NUMBER_/30</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100015</ID><Data>Open Chat is not available.&#10;Please uninstall KakaoTalk and reinstall it or&#10;contact our Customer Service for assistance.</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100016</ID><Data>This file format is not supported.</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100017</ID><Data>This file exceeds the 9MB limit. </Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100018</ID><Data>Failed to complete your request.&#10;&#10;This may be a temporary error. Please try again later.</Data></String>
+
+	<String><ID>IDS_OPENCHATCREATEDLG_100019</ID><Data>Advanced Settings</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100020</ID><Data>Allow KakaoTalk Profile Only</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100021</ID><Data>Participants may only use their KakaoTalk profile to join the chat. Once the link is created, this setting cannot be changed.</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100022</ID><Data>Allow others to search your chatroom by name and tags. </Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100023</ID><Data>Chatroom Search</Data></String>
+	<String><ID>IDS_OPENCHATCREATEDLG_100024</ID><Data>Enable Public Search</Data></String>
+	
+	<!-- COpenProfileEditDlg -->
+	<String><ID>IDS_OPENCHATPROFILEEDITDLG_100001</ID><Data>Profile</Data></String>
+	<String><ID>IDS_OPENCHATPROFILEEDITDLG_100002</ID><Data>KakaoTalk</Data></String>
+	<String><ID>IDS_OPENCHATPROFILEEDITDLG_100003</ID><Data>Kakao Friends</Data></String>
+	<String><ID>IDS_OPENCHATPROFILEEDITDLG_100004</ID><Data>Enter a name.</Data></String>
+	<String><ID>IDS_OPENCHATPROFILEEDITDLG_100006</ID><Data>OK</Data></String>
+	<String><ID>IDS_OPENCHATPROFILEEDITDLG_100007</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_OPENCHATPROFILEEDITDLG_100008</ID><Data>_NUMBER_/20</Data></String>
+	<String><ID>IDS_OPENCHATPROFILEEDITDLG_100009</ID><Data>You can only use your KakaoTalk profile in this chatroom.</Data></String>
+	<String><ID>IDS_OPENCHATPROFILEEDITDLG_100010</ID><Data>This user has been blocked. </Data></String>
+
+	<!-- COpenChatSettingDlg -->
+	<String><ID>IDS_OPENCHATSETTINGDLG_100001</ID><Data>Open Chatroom Settings</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100002</ID><Data>Chatroom Cover &amp; Name</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100003</ID><Data>Profile</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100004</ID><Data>KakaoTalk</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100005</ID><Data>Kakao Friends</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100006</ID><Data>Edit</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100008</ID><Data>Allow New Participants</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100009</ID><Data>Max Number&#10;of Chats</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100010</ID><Data>Delete Link</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100011</ID><Data>If you delete, all chatrooms with this link will&#10;be permanently deleted and the link will no longer be valid.&#10;Please note that deleted data cannot be restored. </Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100012</ID><Data>Delete Link &amp; All Chatrooms</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100013</ID><Data>OK</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100014</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100015</ID><Data>Enter a chatroom name.</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100016</ID><Data>Edit</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100017</ID><Data>_NUMBER_/30</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100018</ID><Data>participants</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100019</ID><Data>chatrooms</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100020</ID><Data>Max Number&#10;of Participants</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100021</ID><Data>Delete Open Chat</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100022</ID><Data>Are you sure you want to delete this chatroom?&#10;&#10;If you delete, the chatroom will be deleted&#10;and the link will no longer be valid.</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100023</ID><Data>Unable to delete the chatroom.&#10;Please try again later.</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100024</ID><Data>Enter a chatroom name.</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100025</ID><Data>Unable to load the open chatroom information.&#10;Please try again later.</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100026</ID><Data>This file format is not supported.</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100027</ID><Data>This file exceeds the 9MB limit. </Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100028</ID><Data>Failed to complete your request.&#10;&#10;This may be a temporary error. Please try again later.</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100029</ID><Data>Are you sure you want to DELETE Link and All Chatrooms?</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100030</ID><Data>If you delete, all chatrooms with this link will&#10;be permanently deleted and the link will no longer be valid.&#10;Please note that deleted data cannot be restored.</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100031</ID><Data>Open chatroom setting has been updated&#10;from another device.</Data></String>
+
+	<String><ID>IDS_OPENCHATSETTINGDLG_100032</ID><Data>Allowed Profile</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100033</ID><Data>KakaoTalk Profile</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100034</ID><Data>_NUMBER_/80</Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100035</ID><Data>Use tags (#) to describe your chatroom. </Data></String>
+	<String><ID>IDS_OPENCHATSETTINGDLG_100036</ID><Data>Enable Public Search</Data></String>
+	
+  <!-- COpenChatSettingView -->
+    <String><ID>IDS_OPENCHATSETTINGVIEW_100001</ID><Data>Open Chatroom Settings</Data></String>
+    <String><ID>IDS_OPENCHATSETTINGVIEW_100002</ID><Data>Chatroom</Data></String>
+    <String><ID>IDS_OPENCHATSETTINGVIEW_100003</ID><Data>Profile</Data></String>
+    <String><ID>IDS_OPENCHATSETTINGVIEW_100004</ID><Data>Chatroom Code</Data></String>
+    <String><ID>IDS_OPENCHATSETTINGVIEW_100005</ID><Data>Enable Chatroom Code</Data></String>
+    <String><ID>IDS_OPENCHATSETTINGVIEW_100006</ID><Data>All participants must enter a chatroom code to join this chatroom. </Data></String>
+    <String><ID>IDS_OPENCHATSETTINGVIEW_100007</ID><Data>4-8 letters/numbers </Data></String>
+	  <String><ID>IDS_OPENCHATSETTINGVIEW_100008</ID><Data>_NUMBER_/8</Data></String>
+	  <String><ID>IDS_OPENCHATSETTINGVIEW_100009</ID><Data>The code you entered is incorrect.&#10;Enter 4-8 letters and numbers.</Data></String>
+    <String><ID>IDS_OPENCHATSETTINGVIEW_100010</ID><Data>This chatroom allows participants to use their KakaoTalk profile only.</Data></String>
+    <String><ID>IDS_OPENCHATSETTINGVIEW_100011</ID><Data>Please enter the chatroom code.</Data></String>
+  
+  <!-- -->
+    <String><ID>IDS_OPENCHATPASSCODE_DLG_100001</ID><Data>This chatroom requires a chatroom code.</Data></String>
+    <String><ID>IDS_OPENCHATPASSCODE_DLG_100002</ID><Data>The code you entered is incorrect.&#10;Please try again.</Data></String>
+    <String><ID>IDS_OPENCHATPASSCODE_DLG_100003</ID><Data>Your request timed out.&#10;Please go back to the link to join the chatroom.</Data></String>
+    <String><ID>IDS_OPENCHATPASSCODE_DLG_100004</ID><Data>Chatroom Code</Data></String>
+    <String><ID>IDS_OPENCHATPASSCODE_DLG_100005</ID><Data>This chatroom may have been deleted&#10;or is no longer available. </Data></String>
+  
+  
+	<!-- COpenChatListDlg -->
+	<String><ID>IDS_OPENCHATLISTDLG_100001</ID><Data>My Open Chatrooms</Data></String>
+	<String><ID>IDS_OPENCHATLISTDLG_100002</ID><Data>Copy</Data></String>
+	<String><ID>IDS_OPENCHATLISTDLG_100003</ID><Data>Share your open chatroom link and start a chat!</Data></String>
+	<String><ID>IDS_OPENCHATLISTDLG_100004</ID><Data>You can start multiple one-on-one chats.</Data></String>
+	<String><ID>IDS_OPENCHATLISTDLG_100005</ID><Data>Link copied.</Data></String>
+	<String><ID>IDS_OPENCHATLISTDLG_100006</ID><Data>You can start multiple group chats.</Data></String>
+	<String><ID>IDS_OPENCHATLISTDLG_100007</ID><Data>Maximum number of chatrooms reached.&#10;Reset the number or remove a chatroom.</Data></String>
+	<String><ID>IDS_OPENCHATLISTDLG_100008</ID><Data>Maximum number of participants reached.&#10;Reset the number or remove a participant.</Data></String>
+	<String><ID>IDS_OPENCHATLISTDLG_100009</ID><Data>You will be temporarily banned from this chatroom because you have been blocked by other users.</Data></String>
+	
+	<!-- COpenChatDoor-->
+	<String><ID>IDS_OPENCHATDOORVIEW_100001</ID><Data>Join 1:1 Chat</Data></String>
+	<String><ID>IDS_OPENCHATDOORVIEW_100002</ID><Data>Join Group Chat</Data></String>
+	<String><ID>IDS_OPENCHATDOORVIEW_100003</ID><Data>__TYPE__ ∙ __COUNT__</Data></String>
+	<String><ID>IDS_OPENCHATDOORVIEW_100004</ID><Data>1:1 Chat</Data></String>
+	<String><ID>IDS_OPENCHATDOORVIEW_100005</ID><Data>Group Chat</Data></String>
+
+	<!-- CRestoreDlg -->
+	<String><ID>IDS_RESTOREDLG_100001</ID><Data>Verification Complete</Data></String>
+	<String><ID>IDS_RESTOREDLG_100002</ID><Data>If you have previously backed up your chat history,&#10;you can restore it now.</Data></String>
+	<String><ID>IDS_RESTOREDLG_100003</ID><Data>Get Started</Data></String>
+	<String><ID>IDS_RESTOREDLG_100004</ID><Data>Restore Chat History</Data></String>
+	<String><ID>IDS_RESTOREDLG_100005</ID><Data>There is additional chat data remaining on your PC.&#10;Do you want to leave your old data and continue restoring with the data you have recently backed up? </Data></String>
+	<String><ID>IDS_RESTOREDLG_100006</ID><Data>Could not create a temporary file to restore your chat history.</Data></String>
+	<String><ID>IDS_RESTOREDLG_100007</ID><Data>Backed up data available in the cloud</Data></String>
+	<String><ID>IDS_RESTOREDLG_100008</ID><Data>KakaoTalk PC</Data></String>
+	
+	<!-- CBackupMsgBox -->
+	<String><ID>IDS_BACKUPMSGBOX_100001</ID><Data>Set Password</Data></String>
+	<String><ID>IDS_BACKUPMSGBOX_100002</ID><Data>Enter Password</Data></String>
+	<String><ID>IDS_BACKUPMSGBOX_100003</ID><Data>Re-enter Password</Data></String>
+	<String><ID>IDS_BACKUPMSGBOX_100004</ID><Data>Set up a password to protect your backed up data.&#10;&#10;You will not be able to restore your chat history if you forget your password.</Data></String>
+	<String><ID>IDS_BACKUPMSGBOX_100005</ID><Data>Start</Data></String>
+	<String><ID>IDS_BACKUPMSGBOX_100006</ID><Data>Please select a folder to continue.</Data></String>
+	<String><ID>IDS_BACKUPMSGBOX_100007</ID><Data>0%</Data></String>
+	<String><ID>IDS_BACKUPMSGBOX_100008</ID><Data>Backing up...</Data></String>
+	<String><ID>IDS_BACKUPMSGBOX_100009</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_BACKUPMSGBOX_100010</ID><Data>OK</Data></String>
+	<String><ID>IDS_BACKUPMSGBOX_100011</ID><Data>Backup Complete</Data></String>
+	<String><ID>IDS_BACKUPMSGBOX_100012</ID><Data>You have insufficient storage in your device to back up your chat history.</Data></String>
+	<String><ID>IDS_BACKUPMSGBOX_100013</ID><Data>Failed to back up your chat history.&#10;Please try again.</Data></String>
+	<String><ID>IDS_BACKUPMSGBOX_100014</ID><Data>Enter Password (4-16 characters)</Data></String>
+	
+	<!-- CRestoreMsgBox -->
+	<String><ID>IDS_RESTOREMSGBOX_100001</ID><Data>Restore Chat History</Data></String>
+	<String><ID>IDS_RESTOREMSGBOX_100002</ID><Data>Restore</Data></String>
+	<String><ID>IDS_RESTOREMSGBOX_100003</ID><Data>Enter the password you set for backing up your chat history.&#10;&#10;If you have forgotten your password or the recovery period has expired, you will not be able to restore your chat history.</Data></String>
+	<String><ID>IDS_RESTOREMSGBOX_100004</ID><Data>Please select a file to continue.</Data></String>
+	<String><ID>IDS_RESTOREMSGBOX_100005</ID><Data>0%</Data></String>
+	<String><ID>IDS_RESTOREMSGBOX_100006</ID><Data>Restoring...</Data></String>
+	<String><ID>IDS_RESTOREMSGBOX_100007</ID><Data>Restore Complete</Data></String>
+	<String><ID>IDS_RESTOREMSGBOX_100008</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_RESTOREMSGBOX_100009</ID><Data>OK</Data></String>
+	<String><ID>IDS_RESTOREMSGBOX_100010</ID><Data>You must register your PC in order to restore your chat history.&#10;Do you want to return to your friends list without restoring your chat history?</Data></String>
+	<String><ID>IDS_RESTOREMSGBOX_100011</ID><Data>Your chat history could not be restored because your password is incorrect or the backed up data may have been damaged.</Data></String>
+	<String><ID>IDS_RESTOREMSGBOX_100012</ID><Data>Your recovery period has expired.</Data></String>
+	<String><ID>IDS_RESTOREMSGBOX_100013</ID><Data>Failed to restore your chat history.</Data></String>
+	<String><ID>IDS_RESTOREMSGBOX_100014</ID><Data>Your computer does not have enough stsorage space available.</Data></String>
+
+	<!-- COpenProfileDlg -->
+	<String><ID>IDS_OPENPROFILEDLG_100001</ID><Data>1:1 Open Chat</Data></String>
+	<String><ID>IDS_OPENPROFILEDLG_100002</ID><Data>Group Open Chat</Data></String>
+	<String><ID>IDS_OPENPROFILEDLG_100003</ID><Data>Edit</Data></String>
+	
+	<!-- CPreChatRoomInfoView, ChatFloatingView -->
+	<String><ID>IDS_GROUPCHATINFOSETTING_100001</ID><Data>A group chatroom will be created with the above picture and name.&#10;Set up a profile for this chatroom before you start a chat with your friends.</Data></String>
+	<String><ID>IDS_GROUPCHATINFOSETTING_100002</ID><Data>Group Chat Settings</Data></String>
+	<String><ID>IDS_GROUPCHATINFOSETTING_100003</ID><Data>The profile you set before the chat will appear on your friends' chatrooms.</Data></String>
+	<String><ID>IDS_GROUPCHATINFOSETTING_100004</ID><Data>Welcome to _LINKNAME_</Data></String>
+	<String><ID>IDS_GROUPCHATINFOSETTING_100005</ID><Data>The user is no longer available for chat.</Data></String>
+
+	<!-- CKakaoTalkDlg -->
+	<String><ID>IDS_KAKAOTALKDLG_100001</ID><Data>Invalid URL</Data></String>
+
+	<!-- COpenChatItemView -->
+	<String><ID>IDS_OPENCHATITEMVIEW_100001</ID><Data>Create your own open chat link or&#10;enter an open chat link to start a chat. </Data></String>
+	<String><ID>IDS_OPENCHATITEMVIEW_100002</ID><Data>open chat guide</Data></String>
+
+	<!-- CChatRoomFloatingMenuView -->
+	<String><ID>IDS_CHATROOMFLOATING_MENUVIEW_100001</ID><Data>Open Chat</Data></String>
+	<String><ID>IDS_CHATROOMFLOATING_MENUVIEW_100002</ID><Data>Regular Chat</Data></String>
+
+	<!-- COpenChatGuideView -->
+	<String><ID>IDS_OPENCHATGUIDE_VIEW_100001</ID><Data>Open Chat Guide</Data></String>
+	<String><ID>IDS_OPENCHATGUIDE_VIEW_100002</ID><Data>Previous</Data></String>
+	<String><ID>IDS_OPENCHATGUIDE_VIEW_100003</ID><Data>Next</Data></String>
+
+	<!-- SharpSearchContent_Vclip -->
+	<String><ID>IDS_SHARPSEARCH_CHATLOG_100001</ID><Data>LIVE</Data></String>
+	
+	<!-- CRichEditCtrlForLengthtMsgView -->
+	<String><ID>IDS_RICHEDITCTRL_FOR_LENGTHY_MSG_VIEW_100001</ID><Data>Select All&#09;Ctrl+A</Data></String>
+	<String><ID>IDS_RICHEDITCTRL_FOR_LENGTHY_MSG_VIEW_100002</ID><Data>Copy&#09;&#09;Ctrl+C</Data></String>
+	
+	<!-- ChatLogExportMsgBox -->
+	<String><ID>IDS_CHATLOG_EXPORT_MSGBOX_100001</ID><Data>Export Chats</Data></String>
+	<String><ID>IDS_CHATLOG_EXPORT_MSGBOX_100002</ID><Data>Exporting your chats...</Data></String>
+	<String><ID>IDS_CHATLOG_EXPORT_MSGBOX_100003</ID><Data>Completed</Data></String>
+	<String><ID>IDS_CHATLOG_EXPORT_MSGBOX_100004</ID><Data>0%</Data></String>
+	<String><ID>IDS_CHATLOG_EXPORT_MSGBOX_100005</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_CHATLOG_EXPORT_MSGBOX_100006</ID><Data>OK</Data></String>
+	<String><ID>IDS_CHATLOG_EXPORT_MSGBOX_100007</ID><Data>Open Folder</Data></String>
+	
+	<!-- CDlgTimeMachine -->
+	<String><ID>IDS_TIME_MACHINE_DLG_100001</ID><Data>TimeMachine</Data></String>
+	
+	<String><ID>IDS_TIME_MACHINE_DLG_100002</ID><Data>M</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100003</ID><Data>T</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100004</ID><Data>W</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100005</ID><Data>T</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100006</ID><Data>F</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100007</ID><Data>S</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100008</ID><Data>S</Data></String>	
+	
+	<String><ID>IDS_TIME_MACHINE_DLG_100009</ID><Data>Jan</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100010</ID><Data>Feb</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100011</ID><Data>Mar</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100012</ID><Data>Apr</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100013</ID><Data>May</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100014</ID><Data>Jun</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100015</ID><Data>Jul</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100016</ID><Data>Aug</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100017</ID><Data>Sep</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100018</ID><Data>Oct</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100019</ID><Data>Nov</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100020</ID><Data>Dec</Data></String>
+	
+	<String><ID>IDS_TIME_MACHINE_DLG_100021</ID><Data> </Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100022</ID><Data> </Data></String>
+	
+	<String><ID>IDS_TIME_MACHINE_DLG_100023</ID><Data>Last Message</Data></String>
+	<String><ID>IDS_TIME_MACHINE_DLG_100024</ID><Data>No messages available for the date you have selected.</Data></String>
+	
+	<!-- CBackupProgressWnd -->
+	<String><ID>IDS_BACKUPPROGRESSWND_100001</ID><Data>Extracting data...</Data></String>
+	<String><ID>IDS_BACKUPPROGRESSWND_100002</ID><Data>Uploading to cloud...</Data></String>
+	<String><ID>IDS_BACKUPPROGRESSWND_100003</ID><Data>Encrypting data...</Data></String>
+	<String><ID>IDS_BACKUPPROGRESSWND_100004</ID><Data>Verifying data integrity....</Data></String>
+	<String><ID>IDS_BACKUPPROGRESSWND_100005</ID><Data>0%</Data></String>	
+	<String><ID>IDS_BACKUPPROGRESSWND_100006</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_BACKUPPROGRESSWND_100007</ID><Data>OK</Data></String>
+	<String><ID>IDS_BACKUPPROGRESSWND_100008</ID><Data>Your chat history is being backed up.</Data></String>
+	<String><ID>IDS_BACKUPPROGRESSWND_100009</ID><Data>Do not close the program while backup is in progress.</Data></String>
+	<String><ID>IDS_BACKUPPROGRESSWND_100010</ID><Data>Only text messages will be backed up.</Data></String>
+	<String><ID>IDS_BACKUPPROGRESSWND_100011</ID><Data>Messages you have sent and received on your mobile will not be&#10;backed up if you haven't checked them for 2-3 days on your PC.</Data></String>
+	<String><ID>IDS_BACKUPPROGRESSWND_100012</ID><Data>Restore your backup when you re-register a desktop device.</Data></String>
+	<String><ID>IDS_BACKUPPROGRESSWND_100013</ID><Data>You'll see a restore page when you deregister and re-register&#10;a desktop device. Go to More > Settings > General to deregister a PC.</Data></String>
+	<String><ID>IDS_BACKUPPROGRESSWND_100014</ID><Data>Chat Backup</Data></String>			
+	
+	<!-- CBackupDeleteMsgBox -->
+	<String><ID>IDS_BACKUPDELETEMSGBOX_100001</ID><Data>Enter Password</Data></String>
+	<String><ID>IDS_BACKUPDELETEMSGBOX_100002</ID><Data>Enter the password you set for backing up your chat history.</Data></String>
+	
+		<!-- BackupRestoreErrorMsg -->
+	<String><ID>IDS_BACKUPRESTORE_ERROR_100001</ID><Data>Failed to back up your chat history. Please try again.</Data></String>
+	<String><ID>IDS_BACKUPRESTORE_ERROR_100002</ID><Data>An error has occurred while encrypting your data. Please try again.</Data></String>
+	<String><ID>IDS_BACKUPRESTORE_ERROR_100003</ID><Data>Failed to send your backed up data to our cloud server.&#10;Please check your network connection and try again.</Data></String>
+	<String><ID>IDS_BACKUPRESTORE_ERROR_100004</ID><Data>The password you entered is incorrect. Please try again.</Data></String>
+	<String><ID>IDS_BACKUPRESTORE_ERROR_100005</ID><Data>An error has occurred. Please check your network connection and try again.</Data></String>
+	<String><ID>IDS_BACKUPRESTORE_ERROR_100006</ID><Data>Failed to restore your chat history. Please try again.</Data></String>
+	<String><ID>IDS_BACKUPRESTORE_ERROR_100007</ID><Data>An error has occurred while decrypting your data. Please try again.</Data></String>
+	<String><ID>IDS_BACKUPRESTORE_ERROR_100008</ID><Data>Your backed up data has been corrupted and cannot be restored. </Data></String>
+	<String><ID>IDS_BACKUPRESTORE_ERROR_100009</ID><Data>Your backed up data has been corrupted and cannot be restored. </Data></String>
+	<String><ID>IDS_BACKUPRESTORE_ERROR_100010</ID><Data>Your backed up data has been expired.&#10;Please note that you can only restore your data within 14 days of the backup.</Data></String>
+	<String><ID>IDS_BACKUPRESTORE_ERROR_100011</ID><Data>Stop Restoring</Data></String>
+	<String><ID>IDS_BACKUPRESTORE_ERROR_100012</ID><Data>Your chat history is being backed up.&#10;Are you sure you want to stop backing up and start over?</Data></String>
+	
+	 <!-- ChatLogMoim-->
+	<String><ID>IDS_CHATLOG_MOIM_100001</ID><Data>View Post</Data></String>
+	<String><ID>IDS_CHATLOG_MOIM_100002</ID><Data>View Event</Data></String>
+	<String><ID>IDS_CHATLOG_MOIM_100003</ID><Data>RSVP</Data></String>
+	<String><ID>IDS_CHATLOG_MOIM_100004</ID><Data>Vote Now</Data></String>
+	<String><ID>IDS_CHATLOG_MOIM_100005</ID><Data>View Results</Data></String>
+	<String><ID>IDS_CHATLOG_MOIM_100006</ID><Data>Post has been set as an announcement.</Data></String>
+	<String><ID>IDS_CHATLOG_MOIM_100007</ID><Data>__USERNAME__'s post has been set as an announcement.</Data></String>
+	<String><ID>IDS_CHATLOG_MOIM_100008</ID><Data>Post has been shared.</Data></String>
+	<String><ID>IDS_CHATLOG_MOIM_100009</ID><Data>__USERNAME__'s post has been shared.</Data></String>
+	<String><ID>IDS_CHATLOG_MOIM_100010</ID><Data>Event has been changed.</Data></String>
+	<String><ID>IDS_CHATLOG_MOIM_100011</ID><Data>Event has been cancelled.</Data></String>
+	<String><ID>IDS_CHATLOG_MOIM_100012</ID><Data>Event has been deleted.</Data></String>
+	<String><ID>IDS_CHATLOG_MOIM_100013</ID><Data>There is an event in __DURATION__. </Data></String>
+	<String><ID>IDS_CHATLOG_MOIM_100014</ID><Data>Poll has been closed.</Data></String>
+  <String><ID>IDS_CHATLOG_MOIM_100015</ID><Data>Poll has been cancelled.</Data></String>
+  <String><ID>IDS_CHATLOG_MOIM_100016</ID><Data>min(s)</Data></String>
+  <String><ID>IDS_CHATLOG_MOIM_100017</ID><Data>hour(s)</Data></String>
+  <String><ID>IDS_CHATLOG_MOIM_100018</ID><Data>day(s)</Data></String>
+  <String><ID>IDS_CHATLOG_MOIM_100019</ID><Data>Q.</Data></String>
+  <String><ID>IDS_CHATLOG_MOIM_100020</ID><Data>Top</Data></String>
+  <String><ID>IDS_CHATLOG_MOIM_100021</ID><Data>__FILENAME__ and __N__ more file(s)</Data></String>
+  <String><ID>IDS_CHATLOG_MOIM_100022</ID><Data>_MM_ _DD_. _YY_ _TT_</Data></String>
+  <String><ID>IDS_CHATLOG_MOIM_100023</ID><Data>sec</Data></String>
+	
+	<!-- CMoimContentView -->
+	<String><ID>IDS_MOIM_POLL_100001</ID><Data>Vote</Data></String>
+	<String><ID>IDS_MOIM_POLL_100002</ID><Data>Vote Again</Data></String>
+	<String><ID>IDS_MOIM_POLL_100004</ID><Data>voted</Data></String>
+	<String><ID>IDS_MOIM_POLL_100005</ID><Data>Enter an option</Data></String>
+	<String><ID>IDS_MOIM_POLL_100006</ID><Data>ㆍ</Data></String>
+	<String><ID>IDS_MOIM_POLL_100007</ID><Data>Announcement</Data></String>
+	<String><ID>IDS_MOIM_POLL_100008</ID><Data>&#32;Read</Data></String>
+	<String><ID>IDS_MOIM_POLL_100009</ID><Data>Multi-select</Data></String>
+	<String><ID>IDS_MOIM_POLL_100010</ID><Data>Anonymous Responses</Data></String>
+	<String><ID>IDS_MOIM_POLL_100011</ID><Data>Ending on (__DATETIME__)</Data></String>
+	<String><ID>IDS_MOIM_POLL_100012</ID><Data>Be the first to like this.</Data></String>
+	
+	<String><ID>IDS_MOIM_POLL_100013</ID><Data>Close Poll</Data></String>
+	<String><ID>IDS_MOIM_POLL_100014</ID><Data>[Closed]</Data></String>
+	<String><ID>IDS_MOIM_POLL_100015</ID><Data>voted</Data></String>	
+	<String><ID>IDS_MOIM_POLL_100016</ID><Data>Do you want to close the poll?</Data></String>
+	<String><ID>IDS_MOIM_POLL_100017</ID><Data>Poll has been closed.</Data></String>
+	
+	<String><ID>IDS_MOIM_POLL_100018</ID><Data>Ended on (__DATETIME__)</Data></String>	
+	
+	
+	
+	<String><ID>IDS_MOIM_POST_100001</ID><Data>View more comments</Data></String>
+	<String><ID>IDS_MOIM_POST_100002</ID><Data>Download</Data></String>
+		
+	<String><ID>IDS_MOIM_POST_100003</ID><Data>Copy&#09;&#09;Ctrl+C</Data></String>
+	<String><ID>IDS_MOIM_POST_100004</ID><Data>Select All</Data></String>
+	<String><ID>IDS_MOIM_POST_100005</ID><Data>This post has been deleted.</Data></String>
+		
+	<String><ID>IDS_MOIM_POST_100010</ID><Data>Share via Current Chatroom</Data></String>
+	<String><ID>IDS_MOIM_POST_100011</ID><Data>Set as an Announcement</Data></String>
+	<String><ID>IDS_MOIM_POST_100012</ID><Data>Remove Announcement</Data></String>
+	<String><ID>IDS_MOIM_POST_100013</ID><Data>Delete</Data></String>
+		
+	<String><ID>IDS_MOIM_POST_100014</ID><Data>Deleted.</Data></String>
+	<String><ID>IDS_MOIM_POST_100015</ID><Data>Are you sure you want to delete this post?</Data></String>
+	
+	<String><ID>IDS_MOIM_POST_100017</ID><Data>You cannot use the Boards feature with this user because the user is on your Blocked Friends list.</Data></String>
+	
+	<String><ID>IDS_MOIM_POST_100018</ID><Data></Data></String>
+	
+	<String><ID>IDS_MOIM_POST_100019</ID><Data>You cannot upload photos that exceed 20MB.</Data></String>
+	
+	<String><ID>IDS_MOIM_POST_100020</ID><Data>The post has been set as an announcement.</Data></String>	
+	<String><ID>IDS_MOIM_POST_100021</ID><Data>The post has been removed from announcement.</Data></String>
+	<String><ID>IDS_MOIM_POST_100022</ID><Data>Successfully shared.</Data></String>
+	
+	
+	
+	
+	<String><ID>IDS_MOIM_SCHEDULE_100001</ID><Data>Mon</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100002</ID><Data>Tue</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100003</ID><Data>Wed</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100004</ID><Data>Thur</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100005</ID><Data>Fri</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100006</ID><Data>Sat</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100007</ID><Data>Sun</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100008</ID><Data>Jan</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100009</ID><Data>Feb</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100010</ID><Data>Mar</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100011</ID><Data>Apr</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100012</ID><Data>May</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100013</ID><Data>Jun</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100014</ID><Data>Jul</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100015</ID><Data>Aug</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100016</ID><Data>Sep</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100017</ID><Data>Oct</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100018</ID><Data>Nov</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100019</ID><Data>Dec</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100020</ID><Data>Attending</Data></String>
+	<String><ID>IDS_MOIM_SCHEDULE_100021</ID><Data>Not Attending</Data></String>
+  <String><ID>IDS_MOIM_SCHEDULE_100022</ID><Data>_MM_ _DD_. _YY_ (_WW_) _TT_</Data></String>
+  <String><ID>IDS_MOIM_SCHEDULE_100023</ID><Data>[Event Ended]</Data></String>
+  
+	<String><ID>IDS_MOIM_POST_BLIND_100001</ID><Data>This post has been hidden on __DATE__ due to violation of our Operation Policy.</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100002</ID><Data>KakaoTalk may remove your posts in compliance with our Operation Policy and child protection laws.</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100003</ID><Data>Posts may be hidden for the following reasons:</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100004</ID><Data>- Illegal content including obscenity or referencing gambling</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100005</ID><Data>- Harmful to minors</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100006</ID><Data>- Content containing libel/expletives</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100007</ID><Data>- Excessive friend requests or share requests</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100008</ID><Data>- Ads or promotional content</Data></String>
+	
+	<String><ID>IDS_MOIM_POST_BLIND_100009</ID><Data>This post has been temporarily removed on __DATE__.</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100010</ID><Data>- Claims of Rights Infringement</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100011</ID><Data>The Report of Claims of Rights Infringement is a service operated in accordance with Article 44.2 (Request for Information Deletion) of the ACT ON PROMOTION OF INFORMATION AND COMMUNICATIONS NETWORK UTILIZATION AND INFORMATION PROTECTION, ETC. and Article 103 (Suspension of Copy and Transmission) of the COPYRIGHT ACT of the Republic of Korea.</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100012</ID><Data>You may report posts with content that causes you any harm in terms of privacy/reputation or copyrights to be removed.</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100013</ID><Data></Data></String>	
+	<String><ID>IDS_MOIM_POST_BLIND_100014</ID><Data></Data></String>
+	
+	<String><ID>IDS_MOIM_POST_BLIND_100015</ID><Data>Report Infringement of Rights</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100016</ID><Data>http://www.kakao.com/policy/right</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100017</ID><Data>This post has been hidden.</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100018</ID><Data>This comment has been hidden.</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100019</ID><Data>This comment has been temporarily removed.</Data></String>
+	
+	<String><ID>IDS_MOIM_POST_BLIND_100020</ID><Data>Just now</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100021</ID><Data>1 minute before</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100022</ID><Data>&#32;minutes before</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100023</ID><Data>&#32;hour before</Data></String>
+	
+	<String><ID>IDS_MOIM_POST_BLIND_100024</ID><Data>There are duplicate options in your poll.</Data></String>
+	
+	<String><ID>IDS_MOIM_POST_BLIND_100025</ID><Data>Unstable network connection.</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100026</ID><Data>Please check your network connection and try again.</Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100027</ID><Data>An unexpected error has occurred. Please try again later. </Data></String>
+	<String><ID>IDS_MOIM_POST_BLIND_100028</ID><Data>This post is not available.</Data></String>
+	
+	<String><ID>IDS_PLUS_FRIEND_100001</ID><Data>Plus Friend</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100002</ID><Data>Home</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100003</ID><Data>Please check on your mobile.</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100004</ID><Data>You have a new message.</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100005</ID><Data>Add</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100006</ID><Data>Block</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100007</ID><Data>Unblock</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100008</ID><Data>Information on your orders, payments, and delivery will be sent to you via KakaoTalk. Note that data charges may apply if you receive a message while you are on a 3G/LTE network.
+If you prefer to receive such information via SMS or any other ways chosen by the sender, tap the “Block” button on the top.</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100009</ID><Data>By adding this Yellow ID, you are agreeing to receive updates on latest promotions and events.</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100010</ID><Data>By adding this Plus Friend, you are agreeing to receive updates on latest promotions and events.</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100011</ID><Data>Cancel</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100012</ID><Data>Agree</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100013</ID><Data>Plus Friends</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100014</ID><Data>Search Plus Friends/Yellow ID</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100015</ID><Data>Unable to chat with this Plus Friend.</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100016</ID><Data>Maps</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100017</ID><Data>Directions</Data></String>
+	<String><ID>IDS_PLUS_FRIEND_100018</ID><Data>Visit Home</Data></String>
+</Items>

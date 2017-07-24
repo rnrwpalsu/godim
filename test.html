@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>exam</title>
+    <script type="text/javascript">
+        // 숫자비교
+        function compNumber(a, b) {
+            return a - b;
+        }
+        // 6개의 로또 번호를 저장할 배열
+        var lotto = new Array(6);
+        var cnt = 0;
+        var flag = true; // 중복인지 아닌지 체크하는 플래그 변수
+        while(cnt < 6){
+            var number;
+            number = parseInt(Math.random()*45)+1 // 1~45 사이에서 랜덤
+            // 중복확인
+            for(var i=0; i<cnt; i++)
+                if(lotto[i] == number) flag = false;
+
+            if(flag){
+                lotto[cnt] = number;
+                cnt++;
+            }
+            flag = true;
+        }
+        // 숫자 크기 순으로 정렬하여 출력
+        document.write(lotto.sort(compNumber) + '<br />');
+
+    </script>
+</head>
+<body>
+</body>
+</html>
