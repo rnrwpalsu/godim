@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex17</title>
+</head>
+<body>
+<script>
+	function makeId(){
+		var lastId = 0;
+		return function() { return ++lastId; }; // 클로져
+	}
+
+	var id = makeId();
+	document.writeln("id = " + id() + "</br>");
+	document.writeln("id = " + id() + "</br>");
+	document.writeln("id = " + id() + "</br>");
+	document.writeln("id = " + id() + "</br>");
+	document.writeln("id = " + id() + "</br>");
+	document.writeln("id = " + id() + "</br>");
+</script>
+</body>
+</html>

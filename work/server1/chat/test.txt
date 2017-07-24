@@ -1,0 +1,4 @@
+$ npm i --save socket.io
+$ npm i
+
+var io = require('../..')(server); => var io = require('socket.io').listen(server);

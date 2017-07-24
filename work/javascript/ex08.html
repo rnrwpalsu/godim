@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex08</title>
+</head>
+<body>
+<script type="text/javascript">
+	var x = 'global x';
+	var y = 'global y';
+
+	function func(){
+		var x = 'local x';
+		y = "??????";
+		document.writeln("함수 호출</br>");
+		document.writeln("x : " + x +"</br>");
+		document.writeln("y : " + y +"</br>");
+	}
+	document.writeln("함수 호출 이전</br>");
+	document.writeln("x : " + x +"</br>");
+	document.writeln("y : " + y +"</br>");
+
+	func();
+
+	document.writeln("함수 호출 이후</br>");
+	document.writeln("x : " + x +"</br>");
+	document.writeln("y : " + y +"</br>");
+
+	var a = 10;
+	document.writeln("a : " + a +"</br>");
+	{
+		var b = 20;
+		document.writeln("b : " + b +"</br>");
+	}
+	document.writeln("b : " + b +"</br>");
+</script>
+</body>
+</html>

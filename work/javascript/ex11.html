@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex11</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function printf(format, var_args){
+			if(arguments.length < 1){
+				throw new Error("한 개 이상의 인자를 넘기세요.");
+			}
+			for(var i = 0; arguments.length; i++){
+				var pattern = new RegExp('\\{' + (i-1) + '\\}', 'gi');
+				format =format.replace(pattern, arguments[i]);
+			}
+			document.writeln(format + '</br>');
+		}
+
+		try{
+			printf('{0} + {1} = {2}',2,3,5);
+		}
+		catch(e){
+			document.writeln(format + '</br>');
+		}
+	</script>
+</body>
+</html>

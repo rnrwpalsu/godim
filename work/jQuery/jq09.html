@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jq09</title>
+    <style type="text/css">
+        .pink {
+            color: pink
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $("p:even").removeClass("pink");
+        });
+    </script>
+</head>
+
+<body>
+    <h1>test</h1>
+    <p class="pink">Hello</p>
+    <p class="pink">and</p>
+    <p class="pink">then</p>
+    <p class="pink">GoodBye</p>
+</body>
+
+</html>

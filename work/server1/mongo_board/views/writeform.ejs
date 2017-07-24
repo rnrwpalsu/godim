@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script>
+        $(function(){
+            $("#btn1").click(function(){
+                if($("#title").val() == ""){
+                    alert("제목 입력!!!!!!!!!!!!!!");
+                    $("#title").focus();
+                    return;
+                }
+                if($("#content").val() == ""){
+                    alert("내용 입력!!!!!!!!!!!!!!");
+                    $("#content").focus();
+                    return;
+                }
+                if($("#name").val() == ""){
+                    alert("이름 입력!!!!!!!!!!!!!!");
+                    $("#name").focus();
+                    return;
+                }
+                if($("#passwd").val() == ""){
+                    alert("비번 입력!!!!!!!!!!!!!!");
+                    $("#passwd").focus();
+                    return;
+                }
+                frm1.submit();              
+            });
+        });
+    </script>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <a href="/list">리스트</a><br>
+    <form name="frm1" action="/write" method="post">
+        <table width="400" border="1">
+            <tr>
+                <th>제목</th>
+                <td><input id="title" name="title" size="30" maxlength="50"></td>
+            </tr>
+            <tr>
+                <th>내용</th>
+                <td><textarea id="content" name="content" rows="5" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <th>이름</th>
+                <td><input id="name" name="name" size="30" maxlength="50"></td>
+            </tr>
+            <tr>
+                <th>비밀번호</th>
+                <td><input id="passwd" type="password" name="passwd" size="20" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" id="btn1" value="쓰기">
+                    <input type="reset" value="취소">
+                </td>
+            </tr>                      
+        </table>
+    </form>
+  </body>
+</html>

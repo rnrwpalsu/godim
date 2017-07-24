@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>프로토타입 예제</title>
+</head>
+<body>
+<script>
+	function Rectangle(x, y, w, h){
+		this.pointX = x;
+		this.pointY = y;
+		this.width = w;
+		this.height = h;
+	}
+	//프로토타입으로 메소드 추가
+	Rectangle.prototype.toString = function() {
+			return 'Rectangle : { pointX : ' + this.pointX + ', pointY : ' + this.pointY +
+			', width : ' + this.width + ', height : ' + this.height + '}';
+	}
+	Rectangle.prototype.area = function() {
+			return this.width * this.height;
+	}
+
+	var rec1 = new Rectangle(100, 120, 20, 30);
+	var rec2 = new Rectangle(250, 300, 30, 50);
+
+	document.writeln('rec1 =  ' + rec1 + '</br>');
+	document.writeln('rec1.area() =  ' + rec1.area() + '</br>');
+
+	document.writeln('rec2 =  ' + rec2 + '</br>');
+	document.writeln('rec2.area() =  ' + rec2.area() + '</br>');
+
+	var obj = {};
+	console.log(obj);
+		
+</script>
+</body>
+</html>

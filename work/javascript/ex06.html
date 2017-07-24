@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--주석-->
+<html>
+<head>
+	<title>ex06</title>
+	<script type="text/javascript">
+		function calc(){
+			var begin = document.getElementById("begin");
+			var end = document.getElementById("end");
+			alert(end.value);
+		}
+	</script>
+</head>
+<body>
+<h1>? ~ ? 합계 구하기</h1>
+<table width="400" border="1">
+	<tr>
+		<td>시작값</td>
+		<td><input type="text" id="begin"></td>
+	</tr>
+	<tr>
+		<td>종료값</td>
+		<td><input type="text" id="end"></td>
+	</tr>
+	<tr>
+		<td colspan="2"><input type="button" id="btn" value="계산하기" onclick="calc()"></td>
+	</tr>
+	<tr>
+		<td colspan="2">&nbsp;<span id="result"></span></td>
+	</tr>
+</table>
+</body>
+</html>

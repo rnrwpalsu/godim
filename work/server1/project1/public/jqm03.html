@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jq모바일</title>
+    <meta charset="utf-8">
+    <meta name="viewport" , content="width = device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+    <script>
+    </script>
+</head>
+
+<body>
+    <!-- #홈 -->
+    <article id="home" , data-role="page">
+        <!-- 해더 -->
+        <header data-role="header">
+            <a href="#home" data-icon="home" data-iconpos="notext">Cancel</a>
+            <h1>제이쿼리 모바일</h1>
+            <a href="#info" data-icon="info" data-iconpos="notext" data-rel="dialog"></a>
+        </header>
+        <!-- 바디 -->
+        <section data-role="content">
+            <a href="#info" data-rel="dialog" data-role="button">Info</a>
+        </section>
+        <!-- 푸터 -->
+        <footer data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#" data-role="button" data-icon="home">home</a></li>
+                    <li><a href="#" data-role="button" data-icon="gear">Vidio</a></li>
+                    <li><a href="#" data-role="button" data-icon="check">check</a></li>
+                </ul>
+            </div>
+        </footer>
+    </article>
+
+    <!-- #인포 -->
+    <article id="info" , data-role="page" data-theme="b">
+        <!-- 해더 -->
+        <header data-role="header" data-theme="b">
+            <h1>Info</h1>
+        </header>
+        <!-- 바디 -->
+        <section data-role="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" data-role="button" data-inline="true" data-rel="back" data-theme="a">
+                cancle
+            </a>
+            <a href="#home" data-role="button" data-inline="true" data-theme="b">
+                home
+            </a>
+        </section>
+
+    </article>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex12</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	function factorial(n){
+		if(n <= 1){
+			return 1;
+		}
+		return n * arguments.callee(n-1); // == return n * factorial(n-1);
+	}
+
+	document.writeln("factorial(5) : " + factorial(5) + "</br>");
+</script>
+</body>
+</html>

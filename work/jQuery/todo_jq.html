@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Todo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.core.min.js"></script>
+    <script>
+        $(function() {
+            var inputE1 = $("input");
+            var buttonE1 = $("button");
+            var ulE1 = $("ul");
+
+            var todo = [];
+
+            buttonE1.click(addTodo);
+
+            function addTodo() {
+                var userInput = inputE1.val();
+                if (userInput.trim() == "") {
+                    return;
+                }
+                var newTodo = {
+                    id: _.uniqueId(),
+                    value: userInput
+                };
+
+                todo.push(newTodo);
+                $('<li>' + userInput + '</li>')
+                    .appendTo(ulE1)
+                    .attr('dataset-id', newTodo.id)
+                    .click(removeTodo);
+                inputE1.val("");
+                console.log(todo);
+
+            }
+
+            function removeTodo(event) {
+                clickedLi = $(this);
+                var itemId = clickedLi.attr('dataset-id');
+                for (var i = 0; i < todo.length; i++) {
+                    if (todo[i].id == itemId) {
+                        todo.splice(i, 1);
+                        break;
+                    }
+                }
+                clickedLi.remove();
+                console.log(todo);
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <input type="text">
+    <button>Add Todo</button>
+    <ul></ul>
+</body>
+
+</html>

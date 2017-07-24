@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>exam</title>
+    <script type="text/javascript">
+        // 숫자비교
+        function compNumber(a, b) {
+            return a - b;
+        }
+        // 난수 발생하는 함수
+        function GetLotto(){
+            // 6개의 로또 번호를 저장할 배열
+            var lotto = new Array(6);
+            // 추첨된 로또번호의 갯수
+            var count = 0;
+            // 번호중복 방지용 변수
+            var mFlag = true;
+            // 6개의 로또번호를 얻을때까지 반복
+            while(count < 6){
+                var number;
+                // 랜덤번호 추출
+                number = parseInt(Math.random()*45)+1
+                // 중복확인
+                for(var i=0; i<count; i++)
+                    if(lotto[i] == number) mFlag = false;
+                // 중복된 번호가 아니면 로또 번호배열에 추가
+                if(mFlag){
+                    lotto[count] = number;
+                    count++;
+                }
+                mFlag = true;
+            } 
+
+            // 숫자 크기 순으로 정렬하여 출력
+            document.write(lotto.sort(compNumber) + '<br />');
+        }
+
+        GetLotto()
+    </script>
+</head>
+<body>
+</body>
+</html>

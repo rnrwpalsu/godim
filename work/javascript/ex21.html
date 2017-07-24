@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>비공개 멤버</title>
+</head>
+<body>
+<script>
+	function Rectangle(){
+		var pointX;
+		var pointY;
+		var width;
+		var height;
+		var isVaild = function(arg){
+			return (!isNaN(arg) && (arg > 0));
+		}
+		this.getPointX = function() {
+			return pointX;
+		}
+		this.setPointX = function(x) {
+			if(isVaild(x)) {
+				pointX = x;
+			}
+		}
+		this.getPointY = function() {
+			return pointY;
+		}
+		this.setPointY = function(y) {
+			if(isVaild(y)) {
+				pointY = y;
+			}
+		}
+		this.getWidth = function() {
+			return width;
+		}
+		this.setWidth = function(w) {
+			if(isVaild(w)) {
+				width = w;
+			}
+		}
+		this.getHeight = function() {
+			return height;
+		}
+		this.setHeight = function(h) {
+			if(isVaild(h)) {
+				height = h;
+			}
+		}
+	}
+	//프로토타입으로 메소드 추가
+	Rectangle.prototype.toString = function() {
+			return 'Rectangle : { pointX : ' + this.getPointX + ', pointY : ' + this.getPointY +
+			', width : ' + this.getWidth + ', height : ' + this.getHeight + '}';
+	}
+	Rectangle.prototype.area = function() {
+			return this.width * this.height;
+	}
+	var rect = new Rectangle();
+	rect.setPointX(100);
+	rect.setPointY(120);
+	rect.setWidth(20);
+	rect.setHeight(30);
+
+	document.writeln(rect + "</br>")
+	document.writeln("rect.area() = " + rect.area() + "</br>")		
+</script>
+</body>
+</html>

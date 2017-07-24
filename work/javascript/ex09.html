@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex09</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function swapByValue(x,y){
+			var temp = x;
+			x = y;
+			y = temp;
+		}
+		//  원본을 보호하고 싶을때
+		function swapByReference(o){
+			var temp = o.x;
+			o.x = o.y;
+			o.y = temp;
+		}
+		
+		function swapByReferenceSafe(o){
+			var obj2 = {x : o.y, y : o.x};
+			return obj2;
+		}
+
+		var a = 5;
+		var b = 8;
+		var obj = {x:5, y:8};
+
+		document.writeln("swap 함수 호출 전"+"</br>");
+		document.writeln("a: "+ a +", b: "+ b +"</br>");
+		document.writeln("obj.x: "+ obj.x +", obj.y : "+ obj.y +"</br>");
+		document.writeln("</br>");
+
+		swapByValue(a,b)
+		var o2 = swapByReferenceSafe(obj)
+
+		document.writeln("swap 함수 호출 후"+"</br>");
+		document.writeln("a: "+ a +", b: "+ b +"</br>");
+		document.writeln("obj.x: "+ obj.x +", obj.y : "+ obj.y +"</br>");
+		document.writeln("o2.x: "+ o2.x +", o2.y : "+ o2.y +"</br>");
+		document.writeln("</br>");
+
+	</script>
+</body>
+</html>

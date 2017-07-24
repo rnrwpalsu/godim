@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex13</title>
+</head>
+<body>
+<script>
+	function power(arg){
+		if(!arg.base){
+			arg.base = 1;
+		}
+		if(!arg.exponent){
+			arg.exponent = 0;
+		}
+		return Math.pow(arg.base, arg.exponent);
+	}
+
+	document.writeln("power({base : 3, exponent : 2}) = " + power({base : 3, exponent : 2}) + "</br>");
+	document.writeln("power({base : 3}) = " + power({base : 3}) + "</br>");
+	document.writeln("power({exponent : 2}) = " + power({exponent : 2}) + "</br>")
+</script>
+</body>
+</html>

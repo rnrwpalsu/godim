@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex04</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var p1 = {"x" : 300, "y" : 200};
+		var p2 = {"x" : 350, "y" : 280};
+
+		var rect = {
+			topLeft : p1,
+			bottomRight : p2,
+			size : function(){
+				return (this.bottomRight.x -this.topLeft.x) * (this.bottomRight.y -this.topLeft.y);
+			}
+
+		};
+
+		document.writeln("위치변경 전 사각형의 넓이 : " + rect.size() + '<br/>');
+		document.writeln('<br/>');
+
+		p1 = {"x" : 200, "y" : 300};
+		p2 = {"x" : 300, "y" : 400};
+		rect.topLeft = p1;
+		rect.bottomRight = p2;
+
+		document.writeln("위치변경 후 사각형의 넓이 : " + rect.size() + '<br/>');
+		document.writeln('<br/>');
+	</script>
+
+</body>
+</html>

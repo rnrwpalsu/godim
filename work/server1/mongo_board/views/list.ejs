@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>
+        <%= title %>
+    </h1>
+    <a href="/write">게시판 글 쓰기</a>
+    <table width="600", border="1">
+        <tr>
+            <th width="40">번호</th>
+            <th width="260">제목</th>
+            <th width="100">작성자</th>
+            <th width="160">날짜</th>
+            <th width="40">조회</th>
+        </tr>
+        <%for(var i = 0,len = docs.length; i < len, item = docs[i]; i++){%>
+        <tr>
+            <td><%= max-i %></td>
+            <td><a href="/read/<%=page%>/<%=item.num%>"><%= item.title %></td>
+            <td><%= item.name %></td>
+            <td><%= item.myregdate %></td>
+            <td><%= item.hit %></td>
+        </tr>
+        <% } %>
+    </table>
+    <div style="width : 46em; text-align : center; padding-top : 2px;">
+        <%if(page > 10){%>
+        [<a href="/list/1">◀◀</a>]
+        [<a href="/list/<%=startPage-1%>">◀</a>]
+        <%}%>
+        &nbsp;&nbsp;
+        <% for(var i = startPage; i <= endPage; i++){ %>
+            <% if(i == page) {%>
+                [<%=i%>]
+        <%}else{%>
+            [<a href="/list/<%=i%>"><%=i%></a>]
+            
+            <%}%>
+        <%}%>
+        &nbsp;&nbsp;
+        <%if(endPage < totalPage){%>
+            [<a href="/list/<%=endPage+1%>">▶</a>]
+            [<a href="/list/<%=totalPage%>">▶▶</a>]
+            
+        <%}%>
+    </div>
+    <p><%=totalPage%></p>
+    <p><%=endPage%></p>
+</body>
+
+</html>

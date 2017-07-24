@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Chat</title>
+    <style type="text/css">
+        #chat {
+            height: 300px;
+            max-height: 280px;
+            overflow: auto;
+        }
+        
+        #contentWrap {
+            display: none;
+        }
+        
+        #chatWrap {
+            float: left;
+            border: 1px #000 solid;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        $(function() {
+            var socket = io.connect();
+
+            $("#nickForm").submit(function(e) {
+                e.preventDefault(); // 페이지 넘어가지 않도록
+                var nick = $("#nickname");
+                var nickValue = $("#nickname").val();
+                if (nickValue == "") {
+                    alert("닉네임을 꼭 입력해주세요!");
+                    nick.focus();
+                    return;
+                }
+                socket.emit("new user", nickValue, function(data) {
+                    if (data) {
+                        var output = "<b>" + "My nickname : " + nickValue + "</b>";
+                        $("#nickView").html(output);
+                        $("#nickWrap").hide();
+                        $("#contentWrap").show();
+                    } else {
+                        $("#nickError").html("username is already taken!");
+                    }
+                })
+
+            });
+            socket.on("usernames", function(data) {
+                var output = "";
+                for (var i = 0; i < data.length; i++) {
+                    output += data[i] + "<br>";
+                    console.log("output : ", output);
+                }
+                $("#users").html(output);
+            });
+
+            $("#sendForm").submit(function(e) {
+                e.preventDefault(); // 페이지 넘어가지 않도록
+                socket.emit("send message", $("#message").val()); // 메세지 전송
+                $("#message").val(""); //전송후 내용 삭제
+            });
+            socket.on('new message', function(data) {
+                var output = "<b>" + data.nick + ": " + data.msg + "<br>";
+                $("#chat").append(output);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="nickWrap">
+        <p>Enter a username : </p>
+        <p id="nickError"></p>
+        <form id="nickForm">
+            <input type="text" id="nickname">
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <div id=contentWrap>
+        <div id="nickView"></div>
+        <div id="chatWrap">
+            <div id="chat"></div>
+            <form id="sendForm">
+                <input type="text" id="message">
+                <input type="submit" value="send">
+            </form>
+        </div>
+        <div id="users"></div>
+
+    </div>
+</body>
+
+</html>

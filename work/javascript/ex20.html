@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>프로토타입 멤버</title>
+</head>
+<body>
+<script type="text/javascript">
+	function Rectangle(x, y, w, h){
+		this.pointX = x;
+		this.pointY = y;
+		this.width = w;
+		this.height = h;
+	}
+	//프로토타입으로 메소드 추가
+	Rectangle.prototype.toString = function() {
+			return 'Rectangle : { pointX : ' + this.pointX + ', pointY : ' + this.pointY +
+			', width : ' + this.width + ', height : ' + this.height + '}';
+	}
+	Rectangle.prototype.area = function() {
+			return this.width * this.height;
+	}
+
+	for(var prop in Rectangle.prototype){
+		document.writeln(prop + "</br>")
+	}
+	document.writeln("</br>") 
+	var rec1 = new Rectangle(100, 120, 20, 30);
+	for(var prop in rec1){
+		document.writeln(prop + "</br>") 
+	// area
+	//pointX
+	//pointY
+	//width
+	//height
+	//toString
+	//area
+}
+
+document.writeln("Rectangle.prototype.constructor : ", "<br>", Rectangle.prototype.constructor, "<br>");
+document.writeln("rec1.constructor : ", "<br>", rec1.constructor, "<br>");
+console.log(rec1);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex14</title>
+</head>
+<body>
+<script>
+	var calculator = { // 객체
+		add : function(x,y){return x + y},
+		sub : function(x,y){return x - y},
+		mul : function(x,y){return x * y},
+		div : function(x,y){return x / y},
+	};
+
+	function operate1(operator, op1, op2){ // 메소드를 호출
+		return operator(op1, op2);
+	}
+	function operate2(operateName, op1, op2){ // 이름
+		if((typeof calculator[operateName]) == 'function'){
+			return calculator[operateName](op1, op2);
+		}
+		else{
+			throw new Error("operate2() : " + operateName + "은 정의되지 않은 연산자입니다.");
+		}
+	}
+
+	var result1 =operate1(calculator.add, operate1(calculator.sub, 3, 8), operate1(calculator.mul, 2, 5));
+	document.writeln("result1 = " + result1 + "</br>");
+	try{
+		var result2 =operate2('add', operate2('sub', 3, 8), operate2('mul', 2, 5));
+		document.writeln("result2 = " + result2 + "</br>");
+	}
+	catch(e){
+		document.writeln(e + "</br>");
+	}
+
+	var obj = {};
+	console.log(obj);
+</script>
+</body>
+</html>

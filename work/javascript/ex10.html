@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex10</title>
+</head>
+<body>
+	<script type="text/javascript">
+	    function sum(array, start, end){
+			//밑의 if문과 같은 코드
+			//array = array || [];
+			if(!array){
+				array = [];
+			}
+			start = start || 0;
+			end = end || array.length;
+
+			if(array instanceof Array){
+				if((typeof start) != 'number' || (typeof end) != 'number'){
+					throw new Error("sum() : 2~3번째 인자는 숫자여야 합니다.");
+				}
+				var result = 0;
+				for(var i = start; i < end; i++){
+					if((typeof array[i]) != 'number'){
+						throw new Error("sum() : array["+ i +"]에 저장된 값"+ array[i] +"는 숫자가 아닙니다!");
+					}
+					result +=array[i];
+				}
+				return result;
+			}
+			else {
+				throw new Error("sum() : 함수의 1번째 인자는 배열이어야합니다.")
+			}
+		}
+
+		var arr1 = [1,2,3,4,5];
+		var obj = {name : "홍길동", phone : "0101234567"};
+		var arr2 = [1,2,"3rd",4,5];
+
+		try{
+			document.writeln("sum(arr1, 0, arr1.length) : " + sum(arr1, 0, arr1.length) + "</br>");
+			document.writeln("sum(arr1, 0, 4) : " + sum(arr1, 0, 4) + "</br>");
+			document.writeln("sum(arr1, 0) : " + sum(arr1, 0) + "</br>");
+			document.writeln("sum(arr1, 2) : " + sum(arr1, 2) + "</br>");
+			document.writeln("sum(arr1) : " + sum(arr1) + "</br>");
+			document.writeln("sum(obj) : " + sum(obj) + "</br>");
+		}
+		catch(e){
+			document.writeln(e+"</br>");
+		}
+		try{
+			document.writeln("sum(arr2) : " + sum(arr2) + "</br>");
+		}
+		catch(e){
+			document.writeln(e+"</br>");
+		}		
+	</script>
+</body>
+</html>

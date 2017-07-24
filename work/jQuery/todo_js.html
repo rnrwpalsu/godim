@@ -1,0 +1,44 @@
+<input>
+<button>Add Todo</button>
+<ul></ul>
+
+<script>
+    var inputE1 = document.querySelector("input");
+    var buttonE1 = document.querySelector("button");
+    var ulE1 = document.querySelector("ul");
+
+    var todo = [];
+
+    buttonE1.addEventListener("click", addTodo);
+
+    function addTodo() {
+        var userInput = inputE1.value;
+        if (userInput.trim() == "") {
+            return;
+        }
+        var newTodo = {
+            id: Math.random(),
+            value: userInput
+        };
+        todo.push(newTodo);
+
+        var toLi = document.createElement("LI") //<li></li>
+        toLi.textContent = userInput;
+        toLi.addEventListener("click", removeTodo);
+        toLi.dataset.id = newTodo.id;
+        ulE1.appendChild(toLi);
+        inputE1.value = "";
+        console.log(todo)
+
+    }
+    function removeTodo(event) {
+        var clickedLi = event.target;
+        var itemId = clickedLi.dataset.id;
+        for (var i = 0; i < todo.length; i++) {
+            todo.splice(i, 1);
+            break;
+        }
+        clickedLi.parentNode.removeChild(clickedLi); // 화면에서 지우는 코드
+        console.log(todo);
+    }
+</script>

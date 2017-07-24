@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form action="/upload3" method="post" enctype="multipart/form-data">
+        <table width="400" border="1">
+            <tr>
+                <th>제목</th>
+                <td><input type="text" name="title" value="제목1"></td>
+            </tr>
+            <tr>
+                <th>대표 이미지</th>
+                <td><input type="file" name="leader"></td>
+            </tr>
+            <tr>
+                <th>이미지</th>
+                <td><!--배열이므로 이름 똑같이!-->
+                    <input type="file" name="etcs">
+                    <input type="file" name="etcs">
+                    <input type="file" name="etcs">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="upload">
+                    <input type="reset" value="cancel">
+                </td>
+            </tr>
+        </table>
+    </form>
+  </body>
+</html>

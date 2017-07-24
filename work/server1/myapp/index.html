@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jqtest</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(function() {
+            //http://localhost:3000/api1
+            $.get("/api1", function(data) {
+                alert("Data Loaded : " + data);
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <h1>test</h1>
+</body>
+
+</html>

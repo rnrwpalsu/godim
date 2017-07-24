@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lodash1</title>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+</head>
+<body>
+
+<script>
+	var balls = _.range(1, 46);
+	var myballs = _.sampleSize(balls, 6);
+	myballs = _.sortBy(myballs)
+	console.log(myballs);
+
+	document.writeln(_.sortBy(_.sampleSize(_.range(1,46), 6)));
+</script>
+</body>
+</html>
