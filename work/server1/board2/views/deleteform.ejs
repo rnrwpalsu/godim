@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+	    $(function(){
+			$("#btnDelete").click(function(){
+                if($("#passwd").val() == ""){
+                    alert("비밀번호를 꼭 입력하세요!");
+                    $("#passwd").focus();
+                    return;
+                }
+                frm1.submit();
+            });
+		});
+	</script>
+</head>
+
+<body>
+    <h1>
+        <%= title %>
+    </h1>
+    <a href="/list">글 리스트</a><br>
+    <form name="frm1" action="/delete" method="post">
+    <input type="hidden" name="num" value="<%=num%>">
+        비밀번호 : <input type="password" name="passwd" id="passwd">
+        <input type="submit" value="확인" id="btnDelete">
+        <input type="reset" value="취소">
+    </form>
+</body>
+
+</html>

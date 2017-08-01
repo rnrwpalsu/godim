@@ -1,4 +1,4 @@
-LastSessions<|||>1<|||>
+LastSessions<|||>1<|||>mydb
 LastActiveSession<|||>1<|||>mydb
 ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,53
 ColsVisible_connform.ListSessions<|||>1<|||>0
@@ -6,10 +6,10 @@ ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
 ColSort_connform.ListSessions<|||>1<|||>0,0
 CoolBand0Index<|||>3<|||>0
 CoolBand0Break<|||>3<|||>1
-CoolBand0Width<|||>3<|||>928
+CoolBand0Width<|||>3<|||>1914
 CoolBand1Index<|||>3<|||>1
 CoolBand1Break<|||>3<|||>1
-CoolBand1Width<|||>3<|||>928
+CoolBand1Width<|||>3<|||>1914
 MainWinOnMonitor<|||>3<|||>0
 MainWinLeft<|||>3<|||>614
 MainWinTop<|||>3<|||>219
@@ -107,10 +107,10 @@ ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>114,80,100,80,80,80
 ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
 ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
 ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
-querymemoheight<|||>3<|||>116
+querymemoheight<|||>3<|||>380
 dbtreewidth<|||>3<|||>247
 sqloutheight<|||>3<|||>281
-MainWinMaximized<|||>3<|||>0
+MainWinMaximized<|||>3<|||>1
 Servers\mydb\SessionCreated<|||>1<|||>2017-07-06 14:44:30
 Servers\mydb\Host<|||>1<|||>127.0.0.1
 Servers\mydb\WindowsAuth<|||>3<|||>0
@@ -140,9 +140,9 @@ Servers\mydb\SSL_Cert<|||>1<|||>
 Servers\mydb\SSL_CA<|||>1<|||>
 Servers\mydb\SSL_Cipher<|||>1<|||>
 Servers\mydb\ServerVersionFull<|||>1<|||>5.7.18-log - MySQL Community Server (GPL)
-Servers\mydb\ConnectCount<|||>3<|||>7
+Servers\mydb\ConnectCount<|||>3<|||>8
 Servers\mydb\ServerVersion<|||>3<|||>50718
-Servers\mydb\LastConnect<|||>1<|||>2017-07-24 13:50:40
+Servers\mydb\LastConnect<|||>1<|||>2017-07-26 10:21:13
 Servers\mydb\lastUsedDB<|||>1<|||>mserverdb
 Servers\mydb\QueryHistory\1<|||>1<|||>2017-07-06 15:22:22|mserverdb|234|CREATE TABLE guestbook(<{{{><}}}>	no int AUTO_INCREMENT,<{{{><}}}>	name varchar(10) not null,<{{{><}}}>	title varchar(50) not null,<{{{><}}}>	content varchar(2000) not null,<{{{><}}}>	regdate datetime default now(),<{{{><}}}>	PRIMARY key(no)<{{{><}}}><{{{><}}}>);
 Servers\mydb\QueryHistory\3<|||>1<|||>2017-07-06 16:24:44|mserverdb|15|SELECT 1+1 AS SOLUTION
@@ -151,3 +151,8 @@ Servers\mydb\QueryHistory\2<|||>1<|||>2017-07-07 13:42:36|mserverdb|640|CREATE T
 Servers\mydb\QueryHistory\5<|||>1<|||>2017-07-10 10:48:52|mserverdb|0|SELECT hit from board where hit>5
 Servers\mydb\QueryHistory\7<|||>1<|||>2017-07-10 10:49:03|mserverdb|0|SELECT * from board where hit>5
 Servers\mydb\QueryHistory\8<|||>1<|||>2017-07-10 13:45:54|mserverdb|0|SELECT * from board
+Servers\mydb\QueryHistory\6<|||>1<|||>2017-07-24 13:52:34|mserverdb|5897|create table memo(<{{{><}}}>	num int auto_increment,<{{{><}}}>	category varchar(100) not null,<{{{><}}}>	todo varchar(200) not null,<{{{><}}}>	primary key(num)<{{{><}}}>);
+Servers\mydb\QueryHistory\9<|||>1<|||>2017-07-24 13:57:34|mserverdb|468|create table memo(<{{{><}}}>	num int auto_increment,<{{{><}}}>	item varchar(100) not null,<{{{><}}}>	todo varchar(200) not null,<{{{><}}}>	primary key(num)<{{{><}}}>);
+Servers\mydb\QueryHistory\10<|||>1<|||>2017-07-24 13:58:15|mserverdb|16|select * from memo
+Servers\mydb\QueryHistory\11<|||>1<|||>2017-07-24 14:25:14|mserverdb|47|select distinct(item) from memo order by item
+Servers\mydb\QueryHistory\12<|||>1<|||>2017-07-26 10:31:46|mserverdb|0|select * from board
