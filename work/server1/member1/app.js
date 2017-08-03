@@ -54,7 +54,14 @@ app.use(function(err, req, res, next) {
     res.render('error');
 });
 
-app.listen(3000);
+//app.listen(3000);
+//console.log("Server started 3000!!");
+//module.exports = app;
+
+//zombie는 express 모듈에 적용 불가!
+
+var http = require('http').createServer(app);
+http.listen(3000);
 console.log("Server started 3000!!");
 
-module.exports = app;
+module.exports = http;
