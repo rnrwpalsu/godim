@@ -1,6 +1,42 @@
+…or create a new repository on the command line
+
+echo "# ex2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/rnrwpalsu/ex2.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/rnrwpalsu/ex2.git
+git push -u origin master
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+=========================================================================================================================
+새 레파지토리(ex2) 만든다.
+
+//pc
+
 echo "# godim" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/rnrwpalsu/godim.git
+
+
+git remote add origin https://github.com/rnrwpalsu/ex2.git
 git push -u origin master
+
+// 소스 수정 후 명령어
+
+git add README.md
+git commit -m "commit"
+
+git push -u origin master
+
+//aws : 처음
+git clone https://github.com/rnrwpalsu/ex2.git
+// 두번째 부터
+git pull https://github.com/rnrwpalsu/ex2.git
